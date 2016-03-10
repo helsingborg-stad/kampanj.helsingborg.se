@@ -1,3 +1,5 @@
+# Secutiry rules & Wordpress default configuration.
+
 # Admin redirect
 RedirectMatch 301 /admin/(.*) /wp/wp-admin/$1
 
