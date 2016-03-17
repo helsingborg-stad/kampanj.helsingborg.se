@@ -3,7 +3,7 @@
 # Admin redirect
 RedirectMatch 301 /admin/(.*) /wp/wp-admin/$1
 
-# Rewrite rules
+# Rewrite rules -
 <IfModule mod_rewrite.c>
     RewriteEngine On
     RewriteBase /
@@ -22,7 +22,8 @@ RedirectMatch 301 /admin/(.*) /wp/wp-admin/$1
     RewriteEngine On
     RewriteCond %{REQUEST_METHOD} POST
     RewriteCond %{REQUEST_URI} .(wp-comments-post|wp-login)\.php*
-    RewriteCond %{HTTP_REFERER} !.*example.com.* [OR]
+    RewriteCond %{HTTP_REFERER} !.*helsingborg.se.* [OR]
+    # RewriteCond %{HTTP_REFERER} !.*helsingborg.se.* [OR] More example domains
     RewriteCond %{HTTP_USER_AGENT} ^$
     RewriteRule (.*) http://%{REMOTE_ADDR}/$1 [R=301,L]
 </ifModule>
