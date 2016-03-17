@@ -13,8 +13,17 @@ class ComposerNetworkAdmin
 {
     public function __construct()
     {
-        add_filter('network_admin_url', array($this, 'sanitizeNetworkAdminUrl'), 50, 2);
+        if (is_multisite()) {
+            add_filter('network_admin_url', array($this, 'sanitizeNetworkAdminUrl'), 50, 2);
+        }
+
         add_filter('admin_url', array($this, 'sanitizeAdminUrl'), 50, 3);
+        add_filter('login_url', array($this, 'sanitizeLoginUrl'), 10, 2);
+    }
+
+    public function sanitizeLoginUrl($login_url, $redirect)
+    {
+        return home_url('/wp/wp-login.php?redirect_to=' . $redirect);
     }
 
     public function sanitizeAdminUrl($url, $path, $blog_id)
