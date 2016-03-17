@@ -18,7 +18,7 @@ class ComposerNetworkAdmin
         }
 
         add_filter('admin_url', array($this, 'sanitizeAdminUrl'), 50, 3);
-        add_filter('login_url', array($this, 'sanitizeLoginUrl'), 10, 2);
+        //add_filter('login_url', array($this, 'sanitizeLoginUrl'), 10, 2);
     }
 
     public function sanitizeLoginUrl($login_url, $redirect)
