@@ -2,7 +2,6 @@
 
 # Admin redirect
 RedirectMatch 301 /admin/(.*) /wp/wp-admin/$1
-#RedirectMatch 301 /wp-admin/(.*) /admin/$1
 
 # Rewrite rules -
 <IfModule mod_rewrite.c>
