@@ -33,7 +33,7 @@
 
     "require": {
         "composer/installers": "~1.0",
-        "johnpbloch/wordpress": "^4.5",
+        "johnpbloch/wordpress": "^4.5.0",
         "helsingborg-stad/Modularity": "dev-develop",
         "helsingborg-stad/Bootstrap-Theme": "dev-develop",
         "helsingborg-stad/lix-calculator": "^1.0.1",
