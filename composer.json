@@ -34,14 +34,13 @@
     "require": {
         "composer/installers": "~1.0",
         "johnpbloch/wordpress": "^4.5.0",
-        "helsingborg-stad/Modularity": "dev-develop",
-        "helsingborg-stad/Bootstrap-Theme": "dev-develop",
+        "helsingborg-stad/Modularity": ">=1.0.0",
+        "helsingborg-stad/Bootstrap-Theme": ">=1.0.0",
         "helsingborg-stad/lix-calculator": "^1.0.1",
         "wpackagist-plugin/wp-editor-widget": "0.5.5",
         "wpackagist-plugin/all-in-one-seo-pack": "2.2.7.5",
-        "wpackagist-plugin/varnish-http-purge": "3.7.2",
-        "wpackagist-plugin/stream": "3.0.4",
-        "helsingborg-stad/open-hours": "dev-develop"
+        "wpackagist-plugin/varnish-http-purge": "^3.7.2",
+        "wpackagist-plugin/stream": "3.0.4"
     },
 
     "extra": {
