@@ -44,6 +44,9 @@
         {
             "type": "vcs",
             "url": "https://github.com/helsingborg-stad/readspeaker-helper.git"
+        },
+        {
+            "type": "vcs",
             "url": "https://github.com/helsingborg-stad/broken-link-detector.git"
         },
         {
@@ -63,6 +66,8 @@
         "helsingborg-stad/modularity-dictionary": ">=1.0.0",
         "helsingborg-stad/modularity-guides": ">=0.1.0",
         "helsingborg-stad/force-ssl": ">=1.0.0",
+        "helsingborg-stad/readspeaker-helper": ">=1.0.0",
+        "helsingborg-stad/broken-link-detector": ">=1.0.0",
         "wpackagist-plugin/wp-editor-widget": "0.5.5",
         "wpackagist-plugin/all-in-one-seo-pack": "2.2.7.5",
         "wpackagist-plugin/varnish-http-purge": "^3.7.2",
