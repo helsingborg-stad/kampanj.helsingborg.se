@@ -74,7 +74,7 @@
         "wpackagist-plugin/stream": "3.0.4",
         "wpackagist-plugin/wp-nested-pages": "1.5.4",
         "wpackagist-plugin/tablepress": "1.7",
-        "wpackagist-plugin/visualizer": "1.5.5",
+        "wpackagist-plugin/visualizer": "1.6.0",
         "wpackagist-plugin/rest-api": "2.0-beta13"
     },
 
