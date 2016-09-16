@@ -50,9 +50,21 @@
             "url": "https://github.com/helsingborg-stad/broken-link-detector.git"
         },
         {
+            "type": "vcs",
+            "url": "https://github.com/helsingborg-stad/attachment-revisions.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/helsingborg-stad/Customer-feedback.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/helsingborg-stad/larm.git"
+        },
+        {
             "type":"composer",
             "url":"https://wpackagist.org"
-        }
+        },
 
     ],
 
