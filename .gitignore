@@ -1,6 +1,10 @@
 # Config
 wp-config.php
 
+#Datasets
+!/datasets/*
+!/datasets/dcat/*
+
 # Plugins
 /wp-content/plugins/*
 
