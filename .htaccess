@@ -1,7 +1,7 @@
 # Secutiry rules & Wordpress default configuration.
 
 # Admin redirect
-RedirectMatch 301 /admin/(.*) /wp/wp-admin/$1
+#RedirectMatch 301 /admin/(.*) /wp/wp-admin/$1 (Creates a table press error)
 
 # Rewrite rules -
 <IfModule mod_rewrite.c>
