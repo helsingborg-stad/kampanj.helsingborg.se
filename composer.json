@@ -65,6 +65,11 @@
             "type": "vcs",
             "url": "https://github.com/helsingborg-stad/ACF-UX-collapse.git"
         },
+        ,
+        {
+            "type": "vcs",
+            "url": "https://github.com/TobiasBg/TablePress.git"
+        },
         {
             "type":"composer",
             "url":"https://wpackagist.org"
@@ -87,12 +92,12 @@
         "helsingborg-stad/Customer-feedback": ">=1.0.0",
         "helsingborg-stad/larm": ">=1.0.0",
         "helsingborg-stad/acf-ux-collapse": ">=1.0.0",
+        "tobiasbg/tablepress": "dev-master",
         "wpackagist-plugin/wp-editor-widget": "0.5.5",
         "wpackagist-plugin/all-in-one-seo-pack": "2.2.7.5",
         "wpackagist-plugin/varnish-http-purge": "^3.7.2",
         "wpackagist-plugin/stream": "3.0.4",
         "wpackagist-plugin/wp-nested-pages": "1.5.4",
-        "wpackagist-plugin/tablepress": "1.7",
         "wpackagist-plugin/rest-api": "2.0-beta13",
         "wpackagist-plugin/awesome-support": "3.3.1"
     },
