@@ -65,7 +65,6 @@
             "type": "vcs",
             "url": "https://github.com/helsingborg-stad/ACF-UX-collapse.git"
         },
-        ,
         {
             "type": "vcs",
             "url": "https://github.com/TobiasBg/TablePress.git"
