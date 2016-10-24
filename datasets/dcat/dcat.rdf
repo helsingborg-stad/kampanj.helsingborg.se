@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:adms="http://www.w3.org/ns/adms#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dcat="http://www.w3.org/ns/dcat#"
+	xmlns:store="https://dcat-editor.com/store/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:odrs="http://schema.theodi.org/odrs#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:es="http://entrystore.org/terms/"
+	xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/">
+<dcat:Catalog rdf:nodeID="hbgCatalog">
+	<dcterms:modified>2015-12-16</dcterms:modified>
+	<dcterms:title xml:lang="en">City of Helsingborg</dcterms:title>
+	<dcterms:title xml:lang="sv">Helsingborg stad</dcterms:title>
+	<dcterms:description xml:lang="sv">Öppna data från Helsingborgs stad</dcterms:description>
+	<dcterms:description xml:lang="en">Open data from the City of Helsingborg, Sweden</dcterms:description>
+	<dcat:dataset rdf:nodeID="dataset2"/>
+	<dcat:dataset rdf:nodeID="dataset7"/>
+	<dcat:dataset rdf:nodeID="dataset10"/>
+	<dcat:dataset rdf:nodeID="dataset13"/>
+	<dcat:dataset rdf:nodeID="dataset15"/>
+	<dcat:dataset rdf:nodeID="dataset18"/>
+	<dcat:dataset rdf:nodeID="dataset20"/>
+	<dcat:dataset rdf:nodeID="dataset22"/>
+	<dcat:dataset rdf:nodeID="dataset24"/>
+	<dcat:dataset rdf:nodeID="dataset30"/>
+	<dcat:dataset rdf:nodeID="dataset32"/>
+	<dcat:dataset rdf:nodeID="dataset34"/>
+	<dcat:dataset rdf:nodeID="dataset36"/>
+	<dcterms:publisher rdf:resource="https://oppna.helsingborg.se/datasets/dcat/publisher.rdf"/>
+	<foaf:homepage>http://oppna.helsingborg.se</foaf:homepage>
+	<dcterms:issued>2015-12-16</dcterms:issued>
+	<dcterms:modified>2016-10-24</dcterms:modified>
+	<dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+	<dcterms:spatial rdf:resource="http://sws.geonames.org/2706766/"/>
+	<dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
+	<dcterms:rights rdf:nodeID="node1au7bkii4x1"/>
+</dcat:Catalog>
+<rdf:Description rdf:about="http://sws.geonames.org/2706766/">
+	<rdfs:label xml:lang="sv">Helsingborgs stad</rdfs:label>
+	<rdfs:label xml:lang="en">Helsingborg Municipality</rdfs:label>	
+</rdf:Description>
+<odrs:RightsStatement rdf:nodeID="node1au7bkii4x1">
+	<odrs:copyrightHolder rdf:nodeID="https://oppna.helsingborg.se/datasets/dcat/publisher.rdf"/>
+</odrs:RightsStatement>
+<dcat:Dataset rdf:nodeID="dataset32">
+	<dcterms:title xml:lang="sv">Stadsarkivet</dcterms:title>
+	<dcterms:description xml:lang="sv">Sajt om Helsingborgs stads stadsarkiv</dcterms:description>
+	<dcat:distribution rdf:nodeID="distribution36"/>
+	<dcterms:publisher rdf:resource="https://oppna.helsingborg.se/datasets/dcat/publisher.rdf"/>
+	<dcat:keyword>skåne</dcat:keyword>
+	<dcat:keyword>helsingborg</dcat:keyword>
+	<dcat:keyword>wordpress</dcat:keyword>
+	<dcat:keyword xml:lang="sv">arkiv</dcat:keyword>
+	<dcat:contactPoint rdf:nodeID="contactpoint1"/>
+	<dcterms:spatial rdf:resource="http://sws.geonames.org/2706766/"/>
+	<dcat:landingPage rdf:resource="https://stadsarkivet.helsingborg.se/"/>
+	<dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
+	<dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequencyCONT"/>
+</dcat:Dataset>
+<foaf:Agent rdf:about="https://oppna.helsingborg.se/datasets/dcat/publisher.rdf">
+	<foaf:name>Helsingborgs stad</foaf:name>
+	<foaf:homepage>http://oppna.helsingborg.se</foaf:homepage>
+	<dcterms:type rdf:resource="http://purl.org/adms/publishertype/LocalAuthority"/>
+</foaf:Agent>
+<dcat:Distribution rdf:nodeID="distribution36">
+	<dcterms:title>API</dcterms:title>
+	<dcterms:description xml:lang="sv">Allt material publicerat på saken är tillgängligt via detta Wordpress REST API v2. Notera att licensen CC-By endast gäller textmaterialet på sajten, ej bilderna.</dcterms:description>
+	<dcat:accessURL rdf:resource="https://stadsarkivet.helsingborg.se/wp-json/wp/v2/"/>
+	<dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+	<dcterms:format>application/json</dcterms:format>
+	<dcterms:rights>
+		<odrs:RightsStatement rdf:nodeID="node1atnvuuoux1">
+			<odrs:copyrightHolder rdf:nodeID="https://oppna.helsingborg.se/datasets/dcat/publisher.rdf"/>
+		</odrs:RightsStatement>
+	</dcterms:rights>
+</dcat:Distribution>
+<vcard:Individual rdf:nodeID="contactpoint1">	
+	<vcard:fn>Andreas Krohn</vcard:fn>
+	<vcard:hasEmail rdf:resource="mailto:andreas.krohn@helsingborg.se"/>
+	<vcard:hasAddress>
+		<vcard:Address rdf:nodeID="node1a6kuhkjix1">
+			<vcard:locality>Helsingborg</vcard:locality>
+			<vcard:country-name>Sweden</vcard:country-name>
+		</vcard:Address>
+	</vcard:hasAddress>
+</vcard:Individual>
+<dcat:Dataset rdf:nodeID="dataset20">
+	<dcterms:title>Helsingborg 2035</dcterms:title>
+	<dcterms:description xml:lang="sv">Blogg om det pågående och genomförda aktiviteter, projekt och trendspaningar som påverkar och leder arbetet mot vision Helsingborg 2035.</dcterms:description>
+	<dcat:distribution rdf:nodeID="distribution21"/>
+	<dcterms:publisher rdf:resource="https://oppna.helsingborg.se/datasets/dcat/publisher.rdf"/>
+	<dcat:keyword xml:lang="sv">helsingborg</dcat:keyword>
+	<dcat:keyword xml:lang="sv">skåne</dcat:keyword>
+	<dcat:contactPoint rdf:nodeID="contactpoint1"/>
+	<dcterms:spatial rdf:resource="http://sws.geonames.org/2706766/"/>
+	<dcat:landingPage rdf:resource="http://www.helsingborg2035.se/"/>
+	<dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
+	<dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequencyCONT"/>
+</dcat:Dataset>
+<dcat:Distribution rdf:nodeID="distribution21">
+	<dcterms:title>API</dcterms:title>
+	<dcterms:description xml:lang="sv">Wordpress v 1.1 REST API för sajten Helsingborg 2035. Allt material publicerat i bloggen är tillgängligt via detta API. Notera att licensen CC-By endast gäller textmaterialet på sajten, ej bilderna.</dcterms:description>
+	<dcat:accessURL rdf:resource="http://www.helsingborg2035.se/api/"/>
+	<dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+	<dcterms:format>application/json</dcterms:format>
+	<dcterms:rights>
+		<odrs:RightsStatement rdf:nodeID="node1aaj6936bx1">
+			<odrs:copyrightHolder rdf:nodeID="https://oppna.helsingborg.se/datasets/dcat/publisher.rdf"/>
+		</odrs:RightsStatement>
+	</dcterms:rights>
+</dcat:Distribution>
+<dcat:Dataset rdf:nodeID="dataset30">
+	<dcterms:title xml:lang="sv">Planteringar utan gränser</dcterms:title>
+	<dcterms:description xml:lang="sv">Sajt om att odla grönsaker och blommor i ditt bostadsområde i Helsingborgs stad</dcterms:description>
+	<dcat:distribution rdf:nodeID="distribution31"/>
+	<dcterms:publisher rdf:resource="https://oppna.helsingborg.se/datasets/dcat/publisher.rdf"/>
+	<dcat:keyword>skåne</dcat:keyword>
+	<dcat:keyword>helsingborg</dcat:keyword>
+	<dcat:keyword>wordpress</dcat:keyword>
+	<dcat:contactPoint rdf:nodeID="contactpoint1"/>
+	<dcterms:spatial rdf:resource="http://sws.geonames.org/2706766/"/>
+	<dcat:landingPage rdf:resource="https://planteringarutangranser.helsingborg.se/"/>
+	<dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
+	<dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequencyCONT"/>
+</dcat:Dataset>
+<dcat:Distribution rdf:nodeID="distribution31">
+	<dcterms:title>API</dcterms:title>
+	<dcterms:description>Allt material publicerat på saken är tillgängligt via detta Wordpress REST API v2. Notera att licensen CC-By endast gäller textmaterialet på sajten, ej bilderna.</dcterms:description>
+	<dcat:accessURL rdf:resource="https://planteringarutangranser.helsingborg.se/wp-json/wp/v2/"/>
+	<dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+	<dcterms:format>application/json</dcterms:format>
+	<dcterms:rights>
+		<odrs:RightsStatement rdf:nodeID="node1atnvq23px1">
+			<odrs:copyrightHolder rdf:nodeID="https://oppna.helsingborg.se/datasets/dcat/publisher.rdf"/>
+		</odrs:RightsStatement>
+	</dcterms:rights>
+</dcat:Distribution>
+<dcat:Dataset rdf:nodeID="dataset22">
+	<dcterms:title xml:lang="sv">Öppna Helsingborg</dcterms:title>
+	<dcterms:description xml:lang="sv">Sajt om arbetet med öppna data i Helsingborgs stad, inklusive listor på alla öppna datamängder.</dcterms:description>
+	<dcat:distribution rdf:nodeID="distribution23"/>
+	<dcterms:publisher rdf:resource="https://oppna.helsingborg.se/datasets/dcat/publisher.rdf"/>
+	<dcat:keyword xml:lang="sv">helsingborg</dcat:keyword>
+	<dcat:keyword xml:lang="sv">skåne</dcat:keyword>
+	<dcat:keyword xml:lang="en">open data</dcat:keyword>
+	<dcat:keyword xml:lang="sv">öppna data</dcat:keyword>
+	<dcat:keyword>WP REST API</dcat:keyword>
+	<dcat:keyword>wordpress</dcat:keyword>
+	<dcat:contactPoint rdf:nodeID="contactpoint1"/> 
+	<dcterms:spatial rdf:resource="http://sws.geonames.org/2706766/"/>
+	<dcat:landingPage rdf:resource="https://oppna.helsingborg.se"/>
+	<dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequencyCONT"/>
+</dcat:Dataset>
+<dcat:Distribution rdf:nodeID="distribution23">
+	<dcterms:title>API</dcterms:title>
+	<dcterms:description xml:lang="sv">Wordpress REST API v2 för sajten Öppna Helsingborg. Allt material publicerat i bloggen är tillgängligt via detta API. Notera att licensen CC-By endast gäller textmaterialet på sajten, ej bilderna.</dcterms:description>
+	<dcat:accessURL rdf:resource="https://oppna.helsingborg.se/api/"/>
+	<dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+	<dcterms:format>application/json</dcterms:format>
+	<dcterms:rights>
+		<odrs:RightsStatement rdf:nodeID="node1atnvh15jx1">
+			<odrs:copyrightHolder rdf:nodeID="https://oppna.helsingborg.se/datasets/dcat/publisher.rdf"/>
+		</odrs:RightsStatement>
+	</dcterms:rights>
+</dcat:Distribution>
+<dcat:Dataset rdf:nodeID="dataset18">
+	<dcterms:title xml:lang="sv">Helsingborgs händelsedata</dcterms:title>
+	<dcterms:description>Detta är data om över 97.000 händelser som har rapporterats av Helsingborg stads anställda, väktare, polis och brandförsvaret från 2008-02-05. Det handlar om allt från översvämningar och trafikolyckor till inbrott och skadegörelse.</dcterms:description>
+	<dcat:distribution rdf:nodeID="distribution19"/>
+	<dcterms:publisher rdf:resource="https://oppna.helsingborg.se/datasets/dcat/publisher.rdf"/>
+	<dcat:keyword xml:lang="sv">statistik</dcat:keyword>
+	<dcat:keyword xml:lang="sv">helsingborg</dcat:keyword>
+	<dcat:keyword xml:lang="sv">skåne</dcat:keyword>
+	<dcat:keyword xml:lang="sv">brott</dcat:keyword>
+	<dcat:keyword xml:lang="sv">händelser</dcat:keyword>
+	<dcat:keyword xml:lang="sv">räddningstjänst</dcat:keyword>
+	<dcat:keyword xml:lang="sv">brandförsvar</dcat:keyword>
+	<dcat:keyword xml:lang="sv">väktare</dcat:keyword>
+	<dcat:keyword xml:lang="sv">polis</dcat:keyword>
+	<dcat:contactPoint rdf:nodeID="contactpoint1"/>	
+	<dcterms:spatial rdf:resource="http://sws.geonames.org/2706766/"/>
+	<dcat:landingPage rdf:resource="https://oppna.helsingborg.se/datakallor/handelsedata/"/>
+	<dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/JUST"/>
+</dcat:Dataset>
+<dcat:Distribution rdf:nodeID="distribution19">
+	<dcterms:title>CSV</dcterms:title>
+	<dcterms:description xml:lang="sv">Alla tillgängliga händelser i Helsingborgs stad i CSV format</dcterms:description>
+	<dcat:accessURL rdf:resource="https://github.com/Helsingborg/Handelsedata"/>
+	<dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+	<dcterms:format>text/csv</dcterms:format>
+	<dcat:downloadURL rdf:resource="https://github.com/Helsingborg/Handelsedata/blob/master/handelsedata.csv"/>
+	<dcterms:rights>
+		<odrs:RightsStatement rdf:nodeID="node1aaj619ftx1">
+			<odrs:copyrightHolder rdf:nodeID="https://oppna.helsingborg.se/datasets/dcat/publisher.rdf"/>
+		</odrs:RightsStatement>
+	</dcterms:rights>
+</dcat:Distribution>
+<dcat:Dataset rdf:nodeID="dataset36">
+	<dcterms:title>Erövrarna</dcterms:title>
+	<dcterms:description xml:lang="sv">En sajt om de unga människor som kommer från andra länder hit till oss i Helsingborg. En del har mot sin vilja tvingats lämna sina hem för att undkomma fattigdom, förföljelse, förtryck och krig. Andra har flyttat hit av andra orsaker. Här i vår stad föds deras drömmar om en ny framtid.</dcterms:description>
+	<dcat:distribution rdf:nodeID="distribution37"/>
+	<dcterms:publisher rdf:resource="https://oppna.helsingborg.se/datasets/dcat/publisher.rdf"/>
+	<dcat:keyword>skåne</dcat:keyword>
+	<dcat:keyword>helsingborg</dcat:keyword>
+	<dcat:keyword>wordpress</dcat:keyword>
+	<dcat:contactPoint rdf:nodeID="contactpoint1"/>
+	<dcat:landingPage rdf:resource="https://erovrarna.helsingborg.se"/>
+	<dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
+	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequencyCONT"/>
+</dcat:Dataset>
+<dcat:Distribution rdf:nodeID="distribution37">
+	<dcterms:title>API</dcterms:title>
+	<dcterms:description xml:lang="sv">Allt material publicerat på saken är tillgängligt via detta Wordpress REST API v2. Notera att licensen CC-By endast gäller textmaterialet på sajten, ej bilderna.</dcterms:description>
+	<dcat:accessURL rdf:resource="https://erovrarna.helsingborg.se/wp-json/wp/v2/"/>
+	<dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+	<dcterms:format>application/json</dcterms:format>
+	<dcterms:rights>
+		<odrs:RightsStatement rdf:nodeID="node1au7bm03ax1">
+			<odrs:copyrightHolder rdf:nodeID="https://oppna.helsingborg.se/datasets/dcat/publisher.rdf"/>
+		</odrs:RightsStatement>
+	</dcterms:rights>
+</dcat:Distribution>
+<dcat:Dataset rdf:nodeID="dataset24">
+	<dcterms:title>Helsingborg arena</dcterms:title>
+	<dcterms:description xml:lang="sv">På Helsingborg arena arrangeras dagligen konferenser, konserter, utställningar och andra evenemang. Det handlar om allt från Melodifestivalen till EM i Handboll. Nu har Helsingborg arena information om alla sina evenemang och mycket mer tillgängligt via ett öppet API. Jobbar du med evenemang så är detta API ett enkelt sätt att automatiskt lista vad som händer på arenan.</dcterms:description>
+	<dcat:distribution rdf:nodeID="distribution26"/>
+	<dcterms:publisher rdf:resource="https://oppna.helsingborg.se/datasets/dcat/arena_publisher.rdf"/>
+	<dcat:keyword xml:lang="sv">helsingborg</dcat:keyword>
+	<dcat:keyword xml:lang="sv">skåne</dcat:keyword>
+	<dcat:keyword xml:lang="sv">arena</dcat:keyword>
+	<dcat:keyword xml:lang="sv">mässa</dcat:keyword>
+	<dcat:keyword xml:lang="sv">konferens</dcat:keyword>
+	<dcat:keyword xml:lang="sv">utställning</dcat:keyword>
+	<dcat:keyword xml:lang="sv">konsert</dcat:keyword>
+	<dcat:keyword xml:lang="sv">evenemang</dcat:keyword>
+	<dcat:keyword xml:lang="sv">helsingborg arena</dcat:keyword>
+	<dcat:contactPoint rdf:nodeID="contactpoint1"/>	
+	<dcterms:spatial rdf:resource="http://sws.geonames.org/2706766/"/>
+	<dcat:landingPage rdf:resource="http://www.hbgarena.se/"/>
+	<dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
+	<dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequencyCONT"/>
+</dcat:Dataset>
+<foaf:Agent rdf:about="https://oppna.helsingborg.se/datasets/dcat/arena_publisher.rdf">
+	<foaf:name>Helsingborg arena</foaf:name>
+	<foaf:homepage>http://www.hbgarena.se/</foaf:homepage>
+	<dcterms:type rdf:resource="http://purl.org/adms/publishertype/Company"/>
+</foaf:Agent>
+<dcat:Distribution rdf:nodeID="distribution26">
+	<dcterms:title>API</dcterms:title>
+	<dcterms:description xml:lang="sv">Wordpress v2.0 REST API för Helsingborg arena som gör det möjligt att hämta data om evenemang, blogginlägg etc.</dcterms:description>
+	<dcat:accessURL rdf:resource="http://www.hbgarena.se/oppna-data/"/>
+	<dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+	<dcterms:format>application/json</dcterms:format>
+	<dcterms:rights>
+		<odrs:RightsStatement rdf:nodeID="node1aaj8mc8cx1">
+			<odrs:copyrightHolder rdf:resource="https://oppna.helsingborg.se/datasets/dcat/arena_publisher.rdf"/>
+		</odrs:RightsStatement>
+	</dcterms:rights>
+</dcat:Distribution>
+<dcat:Dataset rdf:nodeID="dataset34">
+	<dcterms:title xml:lang="sv">Äbrädden</dcterms:title>
+	<dcterms:description xml:lang="sv">Sajt om Åbräddens äldreboende i Råå utanför Helsingborg.</dcterms:description>
+	<dcat:distribution rdf:nodeID="distribution35"/>
+	<dcterms:publisher rdf:resource="https://oppna.helsingborg.se/datasets/dcat/publisher.rdf"/>
+	<dcat:keyword>skåne</dcat:keyword>
+	<dcat:keyword>helsingborg</dcat:keyword>
+	<dcat:keyword>wordpress</dcat:keyword>
+	<dcat:keyword xml:lang="sv">äldreboende</dcat:keyword>
+	<dcat:contactPoint rdf:nodeID="contactpoint1"/>
+	<dcterms:spatial rdf:resource="http://sws.geonames.org/2706766/"/>
+	<dcat:landingPage rdf:resource="https://abradden.helsingborg.se"/>
+	<dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
+	<dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequencyCONT"/>
+</dcat:Dataset>
+<dcat:Distribution rdf:nodeID="distribution35">
+	<dcterms:title>API</dcterms:title>
+	<dcterms:description xml:lang="sv">Allt material publicerat på saken är tillgängligt via detta Wordpress REST API v2. Notera att licensen CC-By endast gäller textmaterialet på sajten, ej bilderna.</dcterms:description>
+	<dcat:accessURL rdf:resource="https://abradden.helsingborg.se/wp-json/wp/v2/"/>
+	<dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+	<dcterms:format>application/json</dcterms:format>
+	<dcterms:rights>
+		<odrs:RightsStatement rdf:nodeID="node1au7bg1ckx1">
+			<odrs:copyrightHolder rdf:nodeID="https://oppna.helsingborg.se/datasets/dcat/publisher.rdf"/>
+		</odrs:RightsStatement>
+	</dcterms:rights>
+</dcat:Distribution>
+<dcat:Dataset rdf:nodeID="dataset15">
+	<dcterms:title xml:lang="en">Aerial photos of Helsingborg, Sweden</dcterms:title>
+	<dcterms:title xml:lang="sv">Helsingborgs flygfotografier</dcterms:title>
+	<dcterms:description xml:lang="sv">Högupplösta flygfoton över hela Helsingborgs stad.</dcterms:description>
+	<dcat:distribution rdf:nodeID="distribution16"/>
+	<dcat:distribution rdf:nodeID="distribution17"/>
+	<dcterms:publisher rdf:resource="https://oppna.helsingborg.se/datasets/dcat/publisher.rdf"/>
+	<dcat:keyword xml:lang="sv">helsingborg</dcat:keyword>
+	<dcat:keyword xml:lang="sv">skåne</dcat:keyword>
+	<dcat:keyword xml:lang="sv">bilder</dcat:keyword>
+	<dcat:keyword xml:lang="sv">fotografier</dcat:keyword>
+	<dcat:keyword xml:lang="en">aerial photos</dcat:keyword>
+	<dcat:keyword xml:lang="sv">flygfotografier</dcat:keyword>
+	<dcat:contactPoint rdf:nodeID="contactpoint1"/>	
+	<dcterms:spatial rdf:resource="http://sws.geonames.org/2706766/"/>
+	<dcat:landingPage rdf:resource="https://oppna.helsingborg.se/datakallor/flygfoto-api/"/>
+	<dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+</dcat:Dataset>
+<dcat:Distribution rdf:nodeID="distribution17">
+	<dcterms:title xml:lang="en">Map</dcterms:title>
+	<dcterms:title xml:lang="sv">Karta</dcterms:title>
+	<dcterms:description>På denna flygfotokartan så kan man klicka på den del av staden man är intresserad av för att ladda ner ett fotografi som en .tif bild.</dcterms:description>
+	<dcat:accessURL rdf:resource="http://kartor.helsingborg.se/oppnageodata/flygfoto.html"/>
+	<dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+	<dcterms:format>image/tiff</dcterms:format>
+	<dcterms:rights>
+		<odrs:RightsStatement rdf:nodeID="node1atj7f2flx1">
+			<odrs:copyrightHolder rdf:nodeID="https://oppna.helsingborg.se/datasets/dcat/publisher.rdf"/>
+		</odrs:RightsStatement>
+	</dcterms:rights>
+</dcat:Distribution>
+<dcat:Distribution rdf:nodeID="distribution16">
+	<dcterms:title>API</dcterms:title>
+	<dcterms:description>Med detta API från Helsingborgs stads Stadsbyggnadsförvaltning så kan man hämta flygfoton av Helsingborg. Skickar in koordinater på den position man vill ha en bild för för att få en länk till flygfotot i .tif format.</dcterms:description>
+	<dcat:accessURL rdf:resource="https://oppna.helsingborg.se/datakallor/flygfoto-api/"/>
+	<dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+	<dcterms:format>application/json</dcterms:format>
+	<dcterms:rights>
+		<odrs:RightsStatement rdf:nodeID="node1atj7gfrux1">
+			<odrs:copyrightHolder rdf:nodeID="https://oppna.helsingborg.se/datasets/dcat/publisher.rdf"/>
+		</odrs:RightsStatement>
+	</dcterms:rights>
+</dcat:Distribution>
+<dcat:Dataset rdf:nodeID="dataset13">
+	<dcterms:title xml:lang="sv">Helsingborgs 3D-byggnader</dcterms:title>
+	<dcterms:description xml:lang="sv">3D-modeller av byggnader i Helsingborgs stad. Dessa 3d-modeller har tidigare används för att skapa Helsingborg i Minecraft och kan nu användas för att skapa vilka tredimensionella visualiseringar av Helsingborg som helst</dcterms:description>
+	<dcat:distribution rdf:nodeID="distribution14"/>
+	<dcterms:publisher rdf:resource="https://oppna.helsingborg.se/datasets/dcat/publisher.rdf"/>
+	<dcat:keyword xml:lang="sv">helsingborg</dcat:keyword>
+	<dcat:keyword xml:lang="sv">skåne</dcat:keyword>
+	<dcat:keyword xml:lang="en">3D-buildings</dcat:keyword>
+	<dcat:keyword xml:lang="sv">visualiseringar</dcat:keyword>
+	<dcat:keyword xml:lang="sv">modeller</dcat:keyword>
+	<dcat:keyword xml:lang="sv">byggnader</dcat:keyword>
+	<dcat:keyword xml:lang="sv">3D</dcat:keyword>
+	<dcat:contactPoint rdf:nodeID="contactpoint1"/>	
+	<dcterms:spatial rdf:resource="http://sws.geonames.org/2706766/"/>
+	<dcat:landingPage rdf:resource="https://oppna.helsingborg.se/datakallor/3d-byggnader/"/>
+	<dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+</dcat:Dataset>
+<dcat:Distribution rdf:nodeID="distribution14">
+	<dcterms:title>DWG</dcterms:title>
+	<dcterms:description xml:lang="sv">En karta över Helsingborg. Klicka på det område som man vill ha 3D-modeller för och välj "ladda hem" för att hämta ner en .dwg fil med 3D-versioner av alla områdets byggnader</dcterms:description>
+	<dcat:accessURL rdf:resource="http://helsingborg.maps.arcgis.com/apps/webappviewer/index.html?id=fc521109236044e39f72493136fd60f5"/>
+	<dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+	<dcterms:format>application/dwg</dcterms:format>
+	<dcterms:rights>
+		<odrs:RightsStatement rdf:nodeID="node1aaj5958cx1">
+			<odrs:copyrightHolder rdf:nodeID="https://oppna.helsingborg.se/datasets/dcat/publisher.rdf"/>
+		</odrs:RightsStatement>
+	</dcterms:rights>
+</dcat:Distribution>
+<dcat:Dataset rdf:nodeID="dataset10">
+	<dcterms:title xml:lang="sv">Helsingborgs gatufotografier </dcterms:title>
+	<dcterms:title>Street photos of Helsingborg, Sweden</dcterms:title>
+	<dcterms:description>Over 1 million street photos from Helsingborg, Sweden. The photos are taken every 10 meters all through the city 2013 and are available via Mapillary.</dcterms:description>
+	<dcterms:description xml:lang="sv">Över 1 miljoner gatubilder som öppna data. Det handlar om fotografier som togs under en asfaltinventering var 10e meter på nästan varenda gata i hela kommunen under en asfaltinventering 2013. Fotografierna kan ses på Mapillary.com och kommas åt via Mapillarys API. Finns behov att ladda ner alla fotografier på ett bräde så kontakta bara Helsingborgs stad. </dcterms:description>
+	<dcat:distribution rdf:nodeID="distribution11"/>
+	<dcat:distribution rdf:nodeID="distribution12"/>
+	<dcterms:publisher rdf:resource="https://oppna.helsingborg.se/datasets/dcat/publisher.rdf"/>
+	<dcat:keyword xml:lang="sv">helsingborg</dcat:keyword>
+	<dcat:keyword xml:lang="sv">skåne</dcat:keyword>
+	<dcat:keyword xml:lang="sv">bilder</dcat:keyword>
+	<dcat:keyword xml:lang="sv">vägar</dcat:keyword>
+	<dcat:keyword xml:lang="sv">gatufotografier</dcat:keyword>
+	<dcat:keyword xml:lang="sv">gator</dcat:keyword>
+	<dcat:keyword xml:lang="sv">asfaltinventering</dcat:keyword>
+	<dcat:keyword xml:lang="sv">fotografier</dcat:keyword>
+	<dcat:keyword xml:lang="en">photos</dcat:keyword>
+	<dcat:keyword xml:lang="en">street photos</dcat:keyword>
+	<dcat:contactPoint rdf:nodeID="contactpoint1"/>	
+	<dcterms:spatial rdf:resource="http://sws.geonames.org/2706766/"/>
+	<dcat:landingPage rdf:resource="https://oppna.helsingborg.se/datakallor/gatubilder/"/>
+	<dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TRAN"/>
+</dcat:Dataset>
+<dcat:Distribution rdf:nodeID="distribution12">
+	<dcterms:title>Mapillarys API</dcterms:title>
+	<dcterms:description>Alla gatufotografier från Helsingborgs stad som finns uppladdade på Mapillary finns tillgängliga via Mapillarys JSON API. </dcterms:description>
+	<dcat:accessURL rdf:resource="https://a.mapillary.com/"/>
+	<dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+	<dcterms:format>application/json</dcterms:format>
+	<dcterms:rights>
+		<odrs:RightsStatement rdf:nodeID="node1aaj4kgmlx1">
+			<odrs:copyrightHolder rdf:nodeID="https://oppna.helsingborg.se/datasets/dcat/publisher.rdf"/>
+		</odrs:RightsStatement>
+	</dcterms:rights>
+</dcat:Distribution>
+<dcat:Distribution rdf:nodeID="distribution11">
+	<dcterms:title>Mapillary</dcterms:title>
+	<dcterms:description>Gatufotografierna har gjorts tillgängliga via tjänsten Mapillary. Där är det möjligt att klicka sig igenom Helsingborg och se både bilder från Helsingborgs stad och andara Mapillaryanvändare.</dcterms:description>
+	<dcat:accessURL rdf:resource="http://www.mapillary.com/profile/helsingborg"/>
+	<dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+	<dcterms:format>text/html</dcterms:format>
+	<dcterms:rights>
+		<odrs:RightsStatement rdf:nodeID="node1aaj4hseex1">
+			<odrs:copyrightHolder rdf:nodeID="https://oppna.helsingborg.se/datasets/dcat/publisher.rdf"/>
+		</odrs:RightsStatement>
+	</dcterms:rights>
+</dcat:Distribution>
+<dcat:Dataset rdf:nodeID="dataset7">
+	<dcterms:title xml:lang="sv">Helsingborgs statistikdatabas</dcterms:title>
+	<dcterms:description xml:lang="sv">Statistik om befolkning, arbetsmarknad, näringsliv,  inkomster, ohälsotal, socialtjänst, trafik, utbildning, val och mycket mer från Helsingborgs stad. Detaljerad statistik ner på områdesnivå.</dcterms:description>
+	<dcat:distribution rdf:nodeID="distribution8"/>
+	<dcat:distribution rdf:nodeID="distribution9"/>
+	<dcterms:publisher rdf:resource="https://oppna.helsingborg.se/datasets/dcat/publisher.rdf"/>
+	<dcat:keyword xml:lang="sv">kommun</dcat:keyword>
+	<dcat:keyword xml:lang="sv">val</dcat:keyword>
+	<dcat:keyword xml:lang="sv">utbildning</dcat:keyword>
+	<dcat:keyword xml:lang="sv">trafik</dcat:keyword>
+	<dcat:keyword xml:lang="sv">socialtjänst</dcat:keyword>
+	<dcat:keyword xml:lang="sv">områdesbeskrining</dcat:keyword>
+	<dcat:keyword xml:lang="sv">ohälsotal</dcat:keyword>
+	<dcat:keyword xml:lang="sv">inkomster</dcat:keyword>
+	<dcat:keyword xml:lang="sv">befolkning</dcat:keyword>
+	<dcat:keyword xml:lang="sv">arbetsmarknad</dcat:keyword>
+	<dcat:keyword xml:lang="sv">statistik</dcat:keyword>
+	<dcat:keyword xml:lang="sv">helsingborg</dcat:keyword>
+	<dcat:keyword xml:lang="sv">skåne</dcat:keyword>
+	<dcat:contactPoint rdf:nodeID="contactpoint1"/>
+	<dcterms:spatial rdf:resource="http://sws.geonames.org/2706766/"/>
+	<dcat:landingPage rdf:resource="https://oppna.helsingborg.se/datakallor/statistikdatabasens-api/"/>
+	<dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TRAN"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENER"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequencyCONT"/>
+</dcat:Dataset>
+<dcat:Distribution rdf:nodeID="distribution9">
+	<dcterms:title>API</dcterms:title>
+	<dcterms:description>API för Helsingborgs stads statistikdatabas.</dcterms:description>
+	<dcat:accessURL rdf:resource="https://oppna.helsingborg.se/datakallor/statistikdatabasens-api/"/>
+	<dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+	<dcterms:format>application/json</dcterms:format>
+	<dcterms:rights>
+		<odrs:RightsStatement rdf:nodeID="node1a9rurqkix1">
+			<odrs:copyrightHolder rdf:nodeID="https://oppna.helsingborg.se/datasets/dcat/publisher.rdf"/>
+		</odrs:RightsStatement>
+	</dcterms:rights>
+</dcat:Distribution>
+<dcat:Distribution rdf:nodeID="distribution8">
+	<dcterms:title>Webbsida</dcterms:title>
+	<dcterms:description>Webbversion av statistikdatabasen. Sök, filtrera och ta fram statistikdata från Helsingborgs stad.</dcterms:description>
+	<dcat:accessURL rdf:resource="http://statistik.helsingborg.se/PXWeb/pxweb/sv/helsingborg/?rxid=7d68df09-e382-47f8-aebb-62cea6ee6812"/>
+	<dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+	<dcterms:format>text/html</dcterms:format>
+</dcat:Distribution>
+<dcat:Dataset rdf:nodeID="dataset2">
+	<dcterms:title xml:lang="sv">Helsingborgs systemlista</dcterms:title>
+	<dcterms:description xml:lang="sv">En lista på de datasystem Helsingborgs stad använder sig av.</dcterms:description>
+	<dcat:distribution rdf:nodeID="distribution3"/>
+	<dcat:distribution rdf:nodeID="distribution4"/>
+	<dcterms:publisher rdf:resource="https://oppna.helsingborg.se/datasets/dcat/publisher.rdf"/>
+	<dcat:keyword>skåne</dcat:keyword>
+	<dcat:keyword>helsingborg</dcat:keyword>
+	<dcat:keyword>datasystem</dcat:keyword>
+	<dcat:keyword>kommun</dcat:keyword>
+	<dcat:keyword>systeminventering</dcat:keyword>
+	<dcat:keyword xml:lang="sv">systemlista</dcat:keyword>
+	<dcat:contactPoint rdf:nodeID="contactpoint1"/>	
+	<dcterms:spatial rdf:resource="http://sws.geonames.org/2706766/"/>
+	<dcat:landingPage rdf:resource="https://oppna.helsingborg.se/datakallor/systemlista/"/>
+	<dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
+	<dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+</dcat:Dataset>
+<dcat:Distribution rdf:nodeID="distribution3">
+	<dcterms:title>XML</dcterms:title>
+	<dcterms:description xml:lang="sv">Nerladdningsbar XML-version av systemlistan</dcterms:description>
+	<dcat:accessURL rdf:resource="https://github.com/Helsingborg/systemlista/blob/master/Systeminventering.xml"/>
+	<dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+	<dcterms:format>application/xml</dcterms:format>
+	<dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/Helsingborg/systemlista/master/Systeminventering.xml"/>
+	<dcterms:rights>
+		<odrs:RightsStatement rdf:nodeID="node1a9rusi9ox1">
+			<odrs:copyrightHolder rdf:nodeID="https://oppna.helsingborg.se/datasets/dcat/publisher.rdf"/>
+		</odrs:RightsStatement>
+	</dcterms:rights>
+</dcat:Distribution>
+<dcat:Distribution rdf:nodeID="distribution4">
+	<dcterms:title xml:lang="sv">Webbsida</dcterms:title>
+	<dcterms:description xml:lang="sv">Webbsida med sökbar systemlista</dcterms:description>
+	<dcat:accessURL rdf:resource="https://oppna.helsingborg.se/datakallor/systemlista/"/>
+	<dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+	<dcterms:format>text/html</dcterms:format>
+	<dcterms:rights>
+		<odrs:RightsStatement rdf:nodeID="node1a9rus99rx1">
+			<odrs:copyrightHolder rdf:nodeID="https://oppna.helsingborg.se/datasets/dcat/publisher.rdf"/>
+		</odrs:RightsStatement>
+	</dcterms:rights>
+</dcat:Distribution>
+
+</rdf:RDF>
