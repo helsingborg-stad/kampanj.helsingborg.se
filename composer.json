@@ -51,10 +51,6 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/helsingborg-stad/attachment-revisions.git"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/helsingborg-stad/Customer-feedback.git"
         },
         {
@@ -99,7 +95,6 @@
         "helsingborg-stad/force-ssl": ">=1.0.0",
         "helsingborg-stad/readspeaker-helper": ">=1.0.0",
         "helsingborg-stad/broken-link-detector": ">=1.0.0",
-        "helsingborg-stad/attachment-revisions": ">=1.0.0",
         "helsingborg-stad/Customer-feedback": ">=1.0.0",
         "helsingborg-stad/larm": ">=1.0.0",
         "helsingborg-stad/acf-ux-collapse": ">=1.0.0",
