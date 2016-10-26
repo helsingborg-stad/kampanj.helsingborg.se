@@ -103,10 +103,10 @@
         "helsingborg-stad/custom-short-links": ">=1.0.0",
         "tobiasbg/tablepress": "dev-master",
         "wpackagist-plugin/wp-editor-widget": "0.5.5",
-        "wpackagist-plugin/all-in-one-seo-pack": "2.2.7.5",
+        "wpackagist-plugin/all-in-one-seo-pack": "2.3.10.2",
         "wpackagist-plugin/varnish-http-purge": "^3.7.2",
-        "wpackagist-plugin/stream": "3.0.4",
-        "wpackagist-plugin/wp-nested-pages": "1.5.4",
+        "wpackagist-plugin/stream": "3.0.7",
+        "wpackagist-plugin/wp-nested-pages": "1.6.3",
         "wpackagist-plugin/rest-api": "2.0-beta13",
         "wpackagist-plugin/mce-table-buttons": "^3.0.0",
         "wpackagist-plugin/wordpress-importer": "0.6.3"
