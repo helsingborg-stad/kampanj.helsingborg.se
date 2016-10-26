@@ -107,7 +107,7 @@
         "wpackagist-plugin/varnish-http-purge": "^3.7.2",
         "wpackagist-plugin/stream": "3.0.7",
         "wpackagist-plugin/wp-nested-pages": "1.6.3",
-        "wpackagist-plugin/rest-api": "2.0-beta13",
+        "wpackagist-plugin/rest-api": "2.0-beta15",
         "wpackagist-plugin/mce-table-buttons": "^3.0.0",
         "wpackagist-plugin/wordpress-importer": "0.6.3"
     },
