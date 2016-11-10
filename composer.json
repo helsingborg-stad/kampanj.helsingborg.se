@@ -109,7 +109,8 @@
         "wpackagist-plugin/wp-nested-pages": "1.6.3",
         "wpackagist-plugin/rest-api": "2.0-beta15",
         "wpackagist-plugin/mce-table-buttons": "^3.0.0",
-        "wpackagist-plugin/wordpress-importer": "0.6.3"
+        "wpackagist-plugin/wordpress-importer": "0.6.3",
+        "wpackagist-plugin/autodescription": "2.7.0"
     },
 
     "extra": {
