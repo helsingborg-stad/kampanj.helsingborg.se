@@ -12,6 +12,11 @@
     RewriteRule . index.php [L]
 </ifModule>
 
+# Spelling support
+<IfModule mod_speling.c>
+    CheckSpelling On
+</IfModule>
+
 # Prevent spam form submit
 <IfModule mod_rewrite.c>
     RewriteEngine On
