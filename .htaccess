@@ -14,7 +14,7 @@
 
 # Spelling support
 <IfModule mod_speling.c>
-    CheckSpelling On
+    checkspelling on
 </IfModule>
 
 # Prevent spam form submit
