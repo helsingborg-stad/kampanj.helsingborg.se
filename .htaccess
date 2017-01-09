@@ -1,13 +1,12 @@
 # Underscore to hypen fix
 <IfModule mod_rewrite.c>
     RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteRule ^([^_]*)_([^_]*)$ /$1-$2 [L,R=302]
-
-    RewriteRule ^([^_]*)_([^_]*)_(.*) $1-$2-$3 [E=USCORE:1]
-
-    RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteCond %{ENV:REDIRECT_USCORE} =1
-    RewriteRule ^([^_]+)$ /$1 [L,R=302]
+    RewriteRule ^(.*)_(.*)_(.*)_(.*)_(.*)_(.*)_(.*)$ /$1-$2-$3-$4-$5-$6-$7 [R=301,L]
+    RewriteRule ^(.*)_(.*)_(.*)_(.*)_(.*)_(.*)$ /$1-$2-$3-$4-$5-$6 [R=301,L]
+    RewriteRule ^(.*)_(.*)_(.*)_(.*)_(.*)$ /$1-$2-$3-$4-$5 [R=301,L]
+    RewriteRule ^(.*)_(.*)_(.*)_(.*)$ /$1-$2-$3-$4 [R=301,L]
+    RewriteRule ^(.*)_(.*)_(.*)$ /$1-$2-$3 [R=301,L]
+    RewriteRule ^(.*)_(.*)$ /$1-$2 [R=301,L]
 </ifModule>
 
 # Rewrite rules -
