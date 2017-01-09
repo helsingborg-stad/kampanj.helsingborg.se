@@ -1,3 +1,17 @@
+# Underscore to hypen fix
+<IfModule mod_rewrite.c>
+    # if there is only one underscore then repalce it by - and redirect
+    RewriteRule ^([^_]*)_([^_]*)$ /$1-$2 [L,R=302]
+
+    # if there are more than one underscores then "repeatedly" repalce it by -
+    # and set env var USCORE
+    RewriteRule ^([^_]*)_([^_]*)_(.*) $1-$2-$3 [E=USCORE:1]
+
+    # if USCORE env var is set then redirect
+    RewriteCond %{ENV:REDIRECT_USCORE} =1
+    RewriteRule ^([^_]+)$ /$1 [L,R=302]
+</ifModule>
+
 # Rewrite rules -
 <IfModule mod_rewrite.c>
     RewriteEngine On
