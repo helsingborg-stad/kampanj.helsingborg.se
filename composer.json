@@ -78,6 +78,10 @@
             "url": "https://github.com/helsingborg-stad/Search-notices.git"
         },
         {
+            "type": "vcs",
+            "url": "https://github.com/helsingborg-stad/wp-listings.git"
+        },
+        {
             "type":"composer",
             "url":"https://wpackagist.org"
         }
@@ -101,6 +105,7 @@
         "helsingborg-stad/search-notices": ">=1.0.0",
         "helsingborg-stad/better-post-ui": ">=1.0.0",
         "helsingborg-stad/custom-short-links": ">=1.0.0",
+        "helsingborg-stad/wp-listings": ">=1.0.0",
         "tobiasbg/tablepress": "dev-master",
         "wpackagist-plugin/wp-editor-widget": "0.5.5",
         "wpackagist-plugin/all-in-one-seo-pack": "2.3.10.2",
