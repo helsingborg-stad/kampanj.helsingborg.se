@@ -3,8 +3,11 @@
     RewriteCond %{HTTP_HOST} tempkampanj\.helsingborg\.se [NC]
     RewriteRule ^([^_]*)_([^_]*)$ /$1-$2 [L,R=302]
     RewriteRule ^([^_]*)_([^_]*)_(.*) $1-$2-$3 [E=USCORE:1]
+
+    RewriteCond %{HTTP_HOST} tempkampanj\.helsingborg\.se [NC]
     RewriteCond %{ENV:REDIRECT_USCORE} =1
     RewriteRule ^([^_]+)$ /$1 [L,R=302]
+
 </ifModule>
 
 # Rewrite rules -
