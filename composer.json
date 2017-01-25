@@ -11,7 +11,11 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/helsingborg-stad/Modularity.git"
+            "url": "https://github.com/helsingborg-stad/familjenhelsingborg.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/helsingborg-stad/municipio.git"
         },
         {
             "type": "vcs",
@@ -92,6 +96,7 @@
         "johnpbloch/wordpress": "4.7.1",
         "helsingborg-stad/Modularity": ">=1.0.0",
         "helsingborg-stad/municipio": ">=1.0.0",
+        "helsingborg-stad/familjenhelsingborg": ">=1.0.0",
         "helsingborg-stad/lix-calculator": "^1.0.1",
         "helsingborg-stad/content-scheduler": ">=1.0.0",
         "helsingborg-stad/modularity-dictionary": ">=1.0.0",
