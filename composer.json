@@ -7,7 +7,7 @@
             "email": "webbredaktionen@helsingborg.se"
         }
     ],
-    "minimum-stability" : "dev",
+    "minimum-stability" : "stable",
     "repositories": [
         {
             "type": "vcs",
@@ -111,7 +111,7 @@
         "helsingborg-stad/better-post-ui": ">=1.0.0",
         "helsingborg-stad/custom-short-links": ">=1.0.0",
         "helsingborg-stad/wp-listings": ">=1.0.0",
-        "tobiasbg/tablepress": "dev-master",
+        "wpackagist-plugin/tablepress": "1.7",
         "wpackagist-plugin/wp-editor-widget": "0.5.5",
         "wpackagist-plugin/all-in-one-seo-pack": "2.3.10.2",
         "wpackagist-plugin/varnish-http-purge": "^3.7.2",
