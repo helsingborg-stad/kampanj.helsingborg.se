@@ -59,10 +59,6 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/helsingborg-stad/larm.git"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/helsingborg-stad/ACF-UX-collapse.git"
         },
         {
@@ -105,7 +101,6 @@
         "helsingborg-stad/readspeaker-helper": ">=1.0.0",
         "helsingborg-stad/broken-link-detector": ">=1.0.0",
         "helsingborg-stad/Customer-feedback": ">=1.0.0",
-        "helsingborg-stad/larm": ">=1.0.0",
         "helsingborg-stad/acf-ux-collapse": ">=1.0.0",
         "helsingborg-stad/search-notices": ">=1.0.0",
         "helsingborg-stad/better-post-ui": ">=1.0.0",
