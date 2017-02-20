@@ -86,6 +86,10 @@
             "url": "https://github.com/helsingborg-stad/api-event-manager-integration.git"
         },
         {
+            "type": "vcs",
+            "url": "https://github.com/helsingborg-stad/wp-content-translator.git"
+        },
+        {
             "type":"composer",
             "url":"https://wpackagist.org"
         }
@@ -111,6 +115,7 @@
         "helsingborg-stad/custom-short-links": ">=1.0.0",
         "helsingborg-stad/wp-listings": ">=1.0.0",
         "helsingborg-stad/api-event-manager-integration": ">=0.1.0",
+        "helsingborg-stad/wp-content-translator": ">=1.0.0",
         "wpackagist-plugin/tablepress": ">=1.0.0",
         "wpackagist-plugin/wp-editor-widget": "0.5.5",
         "wpackagist-plugin/all-in-one-seo-pack": "2.3.10.2",
