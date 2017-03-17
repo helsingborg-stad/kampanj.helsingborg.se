@@ -90,6 +90,7 @@ class Elasticsearch
      */
     public function searchArgs($args, $scope, $query_args)
     {
+
         $q = trim($query_args['s']);
 
         $args['min_score'] = 0.03;
@@ -170,8 +171,8 @@ class Elasticsearch
      */
     public function fuzzynessSize($query = '')
     {
-        $max_fuzzyness = 5;
-        $min_fuzzyness = 2;
+        $max_fuzzyness = 4;
+        $min_fuzzyness = 1;
         $division_by = 3;
 
         if (strlen($query) === $division_by) {
