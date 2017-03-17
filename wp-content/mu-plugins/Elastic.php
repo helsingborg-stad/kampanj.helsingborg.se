@@ -2,7 +2,7 @@
 
 namespace Municipio\Search;
 
-class Elastic
+class Elasticsearch
 {
     public static $postTypeFilter = null;
 
@@ -92,7 +92,7 @@ class Elastic
     {
         $q = trim($query_args['s']);
 
-        $args['min_score'] = 0.02;
+        $args['min_score'] = 0.03;
 
         //Advanced query
         $args['query'] = array(
