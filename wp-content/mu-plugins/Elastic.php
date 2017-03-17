@@ -2,9 +2,8 @@
 
 namespace Municipio\Search;
 
-class Elasticsearch
+class Elastic
 {
-    public static $level = 'subscriptions';
     public static $postTypeFilter = null;
 
     public function __construct()
@@ -171,8 +170,8 @@ class Elasticsearch
      */
     public function fuzzynessSize($query = '')
     {
-        $max_fuzzyness = 4;
-        $min_fuzzyness = 1;
+        $max_fuzzyness = 5;
+        $min_fuzzyness = 2;
         $division_by = 3;
 
         if (strlen($query) === $division_by) {
@@ -206,18 +205,11 @@ class Elasticsearch
         }
 
         $postTypes = self::getPublic(self::$postTypeFilter);
-        if (self::$level === 'files') {
-            $postTypes = array('attachment');
-        }
 
         $query->set('cache_results', false);
         $query->set('post_type', $postTypes);
 
         $postStatuses  = array('publish', 'inherit');
-
-        if (is_user_logged_in()) {
-            $postStatuses[] = 'private';
-        }
 
         $query->set('post_status', $postStatuses);
     }
@@ -237,6 +229,10 @@ class Elasticsearch
         $query->set('orderby', 'relevance');
     }
 
+    /**
+     * Get all public post types
+     * @param WP_Query $query
+     */
     public static function getPublic($filter = null, $useSiteOption = true)
     {
         $postTypes = array();
@@ -249,14 +245,15 @@ class Elasticsearch
             );
             $postTypes = get_post_types($args);
         }
+
         // Filters out given post types
         $filter = array_merge(
             (array) $filter,
-            array('nav_menu_item', 'revision', 'hbg-alarm', 'incidents')
+            array('nav_menu_item', 'revision')
         );
+
         return array_values(array_diff($postTypes, $filter));
     }
-
 }
 
 new Elasticsearch();
