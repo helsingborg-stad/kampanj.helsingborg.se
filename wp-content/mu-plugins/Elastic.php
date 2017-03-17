@@ -92,7 +92,7 @@ class Elastic
     {
         $q = trim($query_args['s']);
 
-        $args['min_score'] = 0.03;
+        $args['min_score'] = 0.02;
 
         //Advanced query
         $args['query'] = array(
