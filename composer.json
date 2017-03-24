@@ -19,7 +19,7 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/helsingborg-stad/municipio.git"
+            "url": "https://github.com/helsingborg-stad/Modularity.git"
         },
         {
             "type": "vcs",
@@ -79,7 +79,19 @@
         },
         {
             "type": "vcs",
+            "url": "https://github.com/helsingborg-stad/search-statistics.git"
+        },
+        {
+            "type": "vcs",
             "url": "https://github.com/helsingborg-stad/wp-listings.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/helsingborg-stad/api-event-manager-integration.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/helsingborg-stad/wp-content-translator.git"
         },
         {
             "type":"composer",
@@ -89,7 +101,7 @@
 
     "require": {
         "composer/installers": "~1.0",
-        "johnpbloch/wordpress": "4.7.2",
+        "johnpbloch/wordpress": "4.7.3",
         "helsingborg-stad/Modularity": ">=1.0.0",
         "helsingborg-stad/municipio": ">=1.0.0",
         "helsingborg-stad/familjenhelsingborg": ">=1.0.0",
@@ -103,15 +115,18 @@
         "helsingborg-stad/Customer-feedback": ">=1.0.0",
         "helsingborg-stad/acf-ux-collapse": ">=1.0.0",
         "helsingborg-stad/search-notices": ">=1.0.0",
+        "helsingborg-stad/search-statistics": ">=1.0.0",
         "helsingborg-stad/better-post-ui": ">=1.0.0",
         "helsingborg-stad/custom-short-links": ">=1.0.0",
         "helsingborg-stad/wp-listings": ">=1.0.0",
+        "helsingborg-stad/api-event-manager-integration": ">=0.1.0",
+        "helsingborg-stad/wp-content-translator": ">=1.0.0",
         "wpackagist-plugin/tablepress": ">=1.0.0",
         "wpackagist-plugin/wp-editor-widget": "0.5.5",
         "wpackagist-plugin/all-in-one-seo-pack": "2.3.10.2",
         "wpackagist-plugin/varnish-http-purge": "^3.7.2",
         "wpackagist-plugin/stream": "3.1.1",
-        "wpackagist-plugin/wp-nested-pages": "1.6.5",
+        "wpackagist-plugin/wp-nested-pages": "1.6.5.2",
         "wpackagist-plugin/rest-api": "2.0-beta15",
         "wpackagist-plugin/mce-table-buttons": "^3.0.0",
         "wpackagist-plugin/wordpress-importer": "0.6.3",
