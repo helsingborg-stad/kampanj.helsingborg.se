@@ -111,7 +111,7 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/helsingborg-stad/wp-page-for-posttype.git"
+            "url": "https://github.com/helsingborg-stad/modularity-sections.git"
         },
         {
             "type":"composer",
@@ -144,7 +144,6 @@
         "helsingborg-stad/active-directory-api-wp-integration": ">=1.0.0",
         "helsingborg-stad/multisite-role-propagation": ">=1.0.0",
         "helsingborg-stad/modularity-form-builder": ">=1.0.0",
-        "helsingborg-stad/wp-page-for-post-type": ">=1.0.0",
         "wpackagist-plugin/tablepress": ">=1.0.0",
         "wpackagist-plugin/wp-editor-widget": "0.5.5",
         "wpackagist-plugin/all-in-one-seo-pack": "2.3.10.2",
