@@ -8,6 +8,9 @@ class Elasticsearch
 
     public function __construct()
     {
+        if (is_admin()) {
+            return;
+        }
 
         //Ordering for search
         add_action('pre_get_posts', array($this, 'setTypes'), 1000);
