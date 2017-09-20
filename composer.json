@@ -118,6 +118,11 @@
             "url": "https://github.com/helsingborg-stad/wp-page-for-posttype.git"
         },
         {
+            "type": "vcs",
+            "url": "https://github.com/helsingborg-stad/google-analythics.git"
+
+        },
+        {
             "type":"composer",
             "url":"https://wpackagist.org"
         }
@@ -150,6 +155,7 @@
         "helsingborg-stad/modularity-form-builder": ">=1.0.0",
         "helsingborg-stad/modularity-sections": ">=1.0.0",
         "helsingborg-stad/wp-page-for-post-type": ">=1.0.0",
+        "helsingborg-stad/google-analythics": ">=1.0.0",
         "wpackagist-plugin/tablepress": ">=1.0.0",
         "wpackagist-plugin/wp-editor-widget": "0.5.5",
         "wpackagist-plugin/all-in-one-seo-pack": "2.3.10.2",
