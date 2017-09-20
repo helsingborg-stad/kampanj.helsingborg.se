@@ -8,10 +8,6 @@ class Elasticsearch
 
     public function __construct()
     {
-        if (is_admin()) {
-            return;
-        }
-
         //Ordering for search
         add_action('pre_get_posts', array($this, 'setTypes'), 1000);
         add_action('pre_get_posts', array($this, 'setOrderby'), 1000);
@@ -204,7 +200,7 @@ class Elasticsearch
     public function setTypes($query)
     {
         // If not search or main query, return the default query
-        if (!is_search() || is_post_type_archive() || !$query->is_main_query()) {
+        if (!is_search() || is_post_type_archive() || !$query->is_main_query() || is_admin()) {
             return;
         }
 
@@ -225,7 +221,7 @@ class Elasticsearch
     public function setOrderby($query)
     {
         // If not search or main query, return the default query
-        if (!is_search() || is_post_type_archive() || !$query->is_main_query()) {
+        if (!is_search() || is_post_type_archive() || !$query->is_main_query() || is_admin()) {
             return;
         }
 
