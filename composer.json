@@ -130,7 +130,7 @@
 
     "require": {
         "composer/installers": "~1.0",
-        "johnpbloch/wordpress": "4.8.1",
+        "johnpbloch/wordpress": "4.8.2",
         "helsingborg-stad/Modularity": ">=1.0.0",
         "helsingborg-stad/municipio": ">=1.0.0",
         "helsingborg-stad/familjenhelsingborg": ">=1.0.0",
