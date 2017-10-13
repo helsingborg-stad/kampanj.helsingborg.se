@@ -24,43 +24,43 @@
     RewriteEngine On
 
     RewriteCond %{HTTP_HOST} utveckling.blogg.helsingborg.se [NC]
-    RewriteRule ^(.*) https://utveckling.helsingborg.se%{REQUEST_URI} [R=302,NC]
+    RewriteRule ^(.*)$ https://utveckling.helsingborg.se/$1 [R=302,L]
 
     RewriteCond %{HTTP_HOST} webbchefen.blogg.helsingborg.se [NC]
-    RewriteRule ^(.*) https://webbchefen.helsingborg.se%{REQUEST_URI} [R=302,NC]
+    RewriteRule ^(.*)$ https://webbchefen.helsingborg.se/$1 [R=302,L]
 
     RewriteCond %{HTTP_HOST} skolwebb.blogg.helsingborg.se [NC]
-    RewriteRule ^(.*) https://skolwebb.helsingborg.se%{REQUEST_URI} [R=302,NC]
+    RewriteRule ^(.*)$ https://skolwebb.helsingborg.se/$1 [R=302,L]
 
     RewriteCond %{HTTP_HOST} gemensammastaden.blogg.helsingborg.se [NC]
-    RewriteRule ^(.*) https://gemensammastaden.helsingborg.se%{REQUEST_URI} [R=302,NC]
+    RewriteRule ^(.*)$ https://gemensammastaden.helsingborg.se/$1 [R=302,L]
 
     RewriteCond %{HTTP_HOST} romskinkludering.blogg.helsingborg.se [NC]
-    RewriteRule ^(.*) https://romskinkludering.helsingborg.se%{REQUEST_URI} [R=302,NC]
+    RewriteRule ^(.*)$ https://romskinkludering.helsingborg.se/$1 [R=302,L]
 
     RewriteCond %{HTTP_HOST} jobbtorget.blogg.helsingborg.se [NC]
-    RewriteRule ^(.*) https://jobbtorget.helsingborg.se%{REQUEST_URI} [R=302,NC]
+    RewriteRule ^(.*)$ https://jobbtorget.helsingborg.se/$1 [R=302,L]
 
     RewriteCond %{HTTP_HOST} miljoinsikten.blogg.helsingborg.se [NC]
-    RewriteRule ^(.*) https://miljoinsikten.helsingborg.se%{REQUEST_URI} [R=302,NC]
+    RewriteRule ^(.*)$ https://miljoinsikten.helsingborg.se/$1 [R=302,L]
 
     RewriteCond %{HTTP_HOST} bemanningsenheten.blogg.helsingborg.se [NC]
-    RewriteRule ^(.*) https://bemanningsenheten.helsingborg.se%{REQUEST_URI} [R=302,NC]
+    RewriteRule ^(.*)$ https://bemanningsenheten.helsingborg.se/$1 [R=302,L]
 
     RewriteCond %{HTTP_HOST} trumslagaren.blogg.helsingborg.se [NC]
-    RewriteRule ^(.*) https://trumslagaren.helsingborg.se%{REQUEST_URI} [R=302,NC]
+    RewriteRule ^(.*)$ https://trumslagaren.helsingborg.se/$1 [R=302,L]
 
     RewriteCond %{HTTP_HOST} klockspel.blogg.helsingborg.se [NC]
-    RewriteRule ^(.*) https://klockspel.helsingborg.se%{REQUEST_URI} [R=302,NC]
+    RewriteRule ^(.*)$ https://klockspel.helsingborg.se/$1 [R=302,L]
 
     RewriteCond %{HTTP_HOST} growinggreatleaders.blogg.helsingborg.se [NC]
-    RewriteRule ^(.*) https://growinggreatleaders.helsingborg.se%{REQUEST_URI} [R=302,NC]
+    RewriteRule ^(.*)$ https://growinggreatleaders.helsingborg.se/$1 [R=302,L]
 
     RewriteCond %{HTTP_HOST} digitalisering.blogg.helsingborg.se [NC]
-    RewriteRule ^(.*) https://digitalisering.helsingborg.se%{REQUEST_URI} [R=302,NC]
+    RewriteRule ^(.*)$ https://digitalisering.helsingborg.se/$1 [R=302,L]
 
     RewriteCond %{HTTP_HOST} invanarprocessen.blogg.helsingborg.se [NC]
-    RewriteRule ^(.*) https://invanarprocessen.helsingborg.se%{REQUEST_URI} [R=302,NC]
+    RewriteRule ^(.*)$ https://invanarprocessen.helsingborg.se/$1 [R=302,L]
 </ifModule>
 
 # Rewrite rules -
