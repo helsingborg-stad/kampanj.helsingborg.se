@@ -1,5 +1,6 @@
 #Moved pages redirects
-Redirect 301 /regler-tillstand-och-anmalan/transporter-tungtrafik-med-mera/parkeringstillstand/nyttoparkering https://foretagare.helsingborg.se/regler-tillstand-och-anmalan/transporter-tungtrafik-med-mera/parkeringstillstand/
+Redirect 301 /regler-tillstand-och-anmalan/transporter-tungtrafik-med-mera/parkeringstillstand/nyttoparkering https://foretagare.helsingborg.se/regler-tillstand-och-anmalan/transporter-tungtrafik-med-mera/parkeringstillstand
+Redirect 301 /regler-tillstand-och-anmalan/transporter-tungtrafik-med-mera/parkeringstillstand/nyttoparkering/ https://foretagare.helsingborg.se/regler-tillstand-och-anmalan/transporter-tungtrafik-med-mera/parkeringstillstand/
 
 # Underscore to hypen fix
 <IfModule mod_rewrite.c>
