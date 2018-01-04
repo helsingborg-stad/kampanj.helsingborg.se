@@ -24,7 +24,7 @@
         "johnpbloch/wordpress": "4.9.1",
         "helsingborg-stad/Modularity": ">=1.0.0",
         "helsingborg-stad/municipio": ">=1.0.0",
-        "helsingborg-stad/familjenhelsingborg": ">=1.0.0",
+        "helsingborg-stad/familjenhelsingborg": "1.0.2",
         "helsingborg-stad/lix-calculator": ">=1.0.0",
         "helsingborg-stad/content-scheduler": ">=1.0.0",
         "helsingborg-stad/modularity-dictionary": ">=1.0.0",
