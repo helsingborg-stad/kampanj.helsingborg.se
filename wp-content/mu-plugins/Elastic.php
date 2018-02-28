@@ -266,4 +266,4 @@ class Elastic
     }
 }
 
-new Elasticsearch();
+new Elastic();
