@@ -2,12 +2,23 @@
 
 namespace Municipio\Search;
 
-class Elasticsearch
+class Elastic
 {
     public static $postTypeFilter = null;
 
     public function __construct()
     {
+
+        //Disable on some domains
+        if (isset($_SERVER['HTTP_HOST']) && !empty($_SERVER['HTTP_HOST'])) {
+            $domains = array("foretagare.helsingborg.se");
+            foreach ($domains as $domain) {
+                if (preg_match("/".$domain."/i", $_SERVER['HTTP_HOST'])) {
+                    return;
+                }
+            }
+        }
+
         //Ordering for search
         add_action('pre_get_posts', array($this, 'setTypes'), 1000);
         add_action('pre_get_posts', array($this, 'setOrderby'), 1000);
@@ -89,7 +100,6 @@ class Elasticsearch
      */
     public function searchArgs($args, $scope, $query_args)
     {
-
         $q = trim($query_args['s']);
 
         $args['min_score'] = 0.03;
