@@ -1,3 +1,11 @@
+# Force use of SSL (SERVER)
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTP:X-Forwarded-Proto} !https
+  RewriteCond %{HTTPS} off
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
+</IfModule>
+
 #Moved pages redirects
 Redirect 301 /regler-tillstand-och-anmalan/transporter-tungtrafik-med-mera/parkeringstillstand/nyttoparkering https://foretagare.helsingborg.se/regler-tillstand-och-anmalan/transporter-tungtrafik-med-mera/parkeringstillstand
 Redirect 301 /regler-tillstand-och-anmalan/transporter-tungtrafik-med-mera/parkeringstillstand/nyttoparkering/ https://foretagare.helsingborg.se/regler-tillstand-och-anmalan/transporter-tungtrafik-med-mera/parkeringstillstand/
