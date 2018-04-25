@@ -57,7 +57,8 @@
         "wpackagist-plugin/mce-table-buttons": "^3.0.0",
         "wpackagist-plugin/wordpress-importer": "0.6.3",
         "wpackagist-plugin/autodescription": ">=3.0.4",
-        "wpackagist-plugin/elasticpress": "2.2"
+        "wpackagist-plugin/elasticpress": "2.2",
+        "helsingborg-stad/algolia-multisite-enabler": "^1.0"
     },
 
     "extra": {
