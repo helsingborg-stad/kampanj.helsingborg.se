@@ -57,8 +57,7 @@
         "wpackagist-plugin/mce-table-buttons": "^3.0.0",
         "wpackagist-plugin/wordpress-importer": "0.6.3",
         "wpackagist-plugin/autodescription": ">=3.0.4",
-        "wpackagist-plugin/elasticpress": "2.2",
-        "wpackagist-plugin/search-by-algolia-instant-relevant-results": "2.9.3"
+        "wpackagist-plugin/elasticpress": "2.2"
     },
 
     "extra": {
