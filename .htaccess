@@ -10,6 +10,14 @@
 Redirect 301 /regler-tillstand-och-anmalan/transporter-tungtrafik-med-mera/parkeringstillstand/nyttoparkering https://foretagare.helsingborg.se/regler-tillstand-och-anmalan/transporter-tungtrafik-med-mera/parkeringstillstand
 Redirect 301 /regler-tillstand-och-anmalan/transporter-tungtrafik-med-mera/parkeringstillstand/nyttoparkering/ https://foretagare.helsingborg.se/regler-tillstand-och-anmalan/transporter-tungtrafik-med-mera/parkeringstillstand/
 
+# Closed idesluss
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTP_HOST} ^ideslussen.helsingborg.se$ [OR]
+  RewriteCond %{HTTP_HOST} ^www.ideslussen.helsingborg.se$
+  RewriteRule (.*)$ https://intranat.helsingborg.se/hjalp-och-stod/ideslussen/ [R=301,L]
+</IfModule>
+
 # Underscore to hypen fix
 <IfModule mod_rewrite.c>
     RewriteCond %{REQUEST_FILENAME} !-f
