@@ -47,6 +47,7 @@
         "helsingborg-stad/modularity-sections": ">=1.0.0",
         "helsingborg-stad/wp-page-for-post-type": ">=1.0.0",
         "helsingborg-stad/google-analythics": ">=1.0.0",
+        "helsingborg-stad/modularity-checklist": ">=1.0.0",
         "wpackagist-plugin/tablepress": ">=1.9",
         "wpackagist-plugin/wp-editor-widget": "0.5.5",
         "wpackagist-plugin/all-in-one-seo-pack": "2.3.10.2",
