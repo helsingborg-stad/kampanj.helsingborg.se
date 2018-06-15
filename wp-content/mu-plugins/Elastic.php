@@ -11,9 +11,10 @@ class Elastic
 
         //Disable on some domains
         if (isset($_SERVER['HTTP_HOST']) && !empty($_SERVER['HTTP_HOST'])) {
-            $domains = array("foretagare.helsingborg.se");
+            $domains = array("foretagare.helsingborg.se", "passagefestival.nu");
             foreach ($domains as $domain) {
                 if (preg_match("/".$domain."/i", $_SERVER['HTTP_HOST'])) {
+                    add_filter('site_option_active_sitewide_plugins', array($this, 'inactivateNetworkPlugins'), 99, 1);
                     return;
                 }
             }
@@ -39,6 +40,17 @@ class Elastic
         add_filter('ep_analyzer_language', function () {
             return 'Swedish';
         });
+    }
+
+   /**
+     * Disable Elasticsearch network activation on certain sites
+     * @param  array $value Default list of network activated plugins
+     * @return array        Modified list
+     */
+    public function inactivateNetworkPlugins($value)
+    {
+        unset($value['elasticpress/elasticpress.php']);
+        return $value;
     }
 
     /**
