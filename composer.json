@@ -59,7 +59,8 @@
         "wpackagist-plugin/wordpress-importer": "0.6.3",
         "wpackagist-plugin/autodescription": ">=3.0.4",
         "wpackagist-plugin/elasticpress": "2.2",
-        "helsingborg-stad/algolia-multisite-enabler": "^1.0"
+        "helsingborg-stad/algolia-multisite-enabler": "^1.0",
+        "wpackagist-plugin/wp-mail-smtp": "^1.2"
     },
 
     "extra": {
