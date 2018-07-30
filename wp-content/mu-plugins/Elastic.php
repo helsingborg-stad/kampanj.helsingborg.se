@@ -11,7 +11,7 @@ class Elastic
 
         //Disable on some domains
         if (isset($_SERVER['HTTP_HOST']) && !empty($_SERVER['HTTP_HOST'])) {
-            $domains = array("foretagare.helsingborg.se", "passagefestival.nu");
+            $domains = array("foretagare.helsingborg.se", "passagefestival.nu", "tekniskhandbok.helsingborg.se");
             foreach ($domains as $domain) {
                 if (preg_match("/".$domain."/i", $_SERVER['HTTP_HOST'])) {
                     add_filter('site_option_active_sitewide_plugins', array($this, 'inactivateNetworkPlugins'), 99, 1);
