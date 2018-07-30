@@ -13,6 +13,7 @@ class Elastic
         //Disable on all domains
         if (isset($disableElastic) && $disableElastic) {
             add_filter('site_option_active_sitewide_plugins', array($this, 'inactivateNetworkPlugins'), 99, 1);
+            return;
         }
 
         //Disable on some domains
