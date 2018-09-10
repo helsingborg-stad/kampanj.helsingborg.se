@@ -131,16 +131,6 @@ Redirect 301 /regler-tillstand-och-anmalan/transporter-tungtrafik-med-mera/parke
     RewriteRule ^(.*)$ - [F]
 </ifModule>
 
-# Prevent drive-by-download attacks
-<IfModule mod_headers.c>
-    Header set X-Content-Type-Options nosniff
-</IfModule>
-
-# Prevent clickjacking attempts
-<IfModule mod_headers.c>
-    Header always append X-Frame-Options SAMEORIGIN
-</IfModule>
-
 # Force download of dwg files
 AddType application/acad .dwg
 AddType application/octet-stream .dwg

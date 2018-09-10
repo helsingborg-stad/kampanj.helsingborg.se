@@ -8,9 +8,17 @@ class Elastic
 
     public function __construct()
     {
+        $disableElastic = true;
+
+        //Disable on all domains
+        if (isset($disableElastic) && $disableElastic) {
+            add_filter('site_option_active_sitewide_plugins', array($this, 'inactivateNetworkPlugins'), 99, 1);
+            return;
+        }
 
         //Disable on some domains
-        if (isset($_SERVER['HTTP_HOST']) && !empty($_SERVER['HTTP_HOST'])) {
+        if (isset($_SERVER['HTTP_HOST']) && !empty($_SERVER['HTTP_HOST']) && !isset($disableElastic) ||
+            isset($_SERVER['HTTP_HOST']) && !empty($_SERVER['HTTP_HOST']) && $disableElastic != true) {
             $domains = array("foretagare.helsingborg.se", "passagefestival.nu");
             foreach ($domains as $domain) {
                 if (preg_match("/".$domain."/i", $_SERVER['HTTP_HOST'])) {
