@@ -134,3 +134,9 @@ Redirect 301 /regler-tillstand-och-anmalan/transporter-tungtrafik-med-mera/parke
 # Force download of dwg files
 AddType application/acad .dwg
 AddType application/octet-stream .dwg
+
+# Force download of pdf files
+<FilesMatch "\.(pdf)$" >
+    ForceType application/octet-stream
+    Header add Content-Disposition "attachment"
+</FilesMatch>
