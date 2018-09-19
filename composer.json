@@ -40,6 +40,7 @@
         "helsingborg-stad/custom-short-links": ">=1.0.0",
         "helsingborg-stad/wp-listings": ">=1.0.0",
         "helsingborg-stad/api-event-manager-integration": ">=0.1.0",
+        "helsingborg-stad/modularity-timeline": ">=1.1.4",
         "helsingborg-stad/wp-content-translator": ">=1.0.0",
         "helsingborg-stad/active-directory-api-wp-integration": ">=1.0.0",
         "helsingborg-stad/multisite-role-propagation": ">=1.0.0",
