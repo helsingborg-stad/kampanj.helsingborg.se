@@ -61,7 +61,8 @@
         "wpackagist-plugin/wordpress-importer": "0.6.3",
         "wpackagist-plugin/autodescription": ">=3.0.4",
         "wpackagist-plugin/wp-mail-smtp": "^1.2",
-        "wpackagist-plugin/redirection": "3.4.1"
+        "wpackagist-plugin/redirection": "3.4.1",
+        "helsingborg-stad/modularity-resource-booking": "^0.0.1"
     },
 
     "extra": {

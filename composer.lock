@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ba6681a74d9bcd779ae8030cd48bf999",
+    "content-hash": "aec7ea8078832a39783ce55ef491f7e1",
     "packages": [
         {
             "name": "aristath/kirki",
@@ -1244,6 +1244,43 @@
             ],
             "description": "Addon for Modularity for creating guides",
             "time": "2018-07-12T08:33:00+00:00"
+        },
+        {
+            "name": "helsingborg-stad/modularity-resource-booking",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/modularity-resource-booking.git",
+                "reference": "490266fc411b30aad165d8c9375902cb411182d2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-resource-booking/zipball/490266fc411b30aad165d8c9375902cb411182d2",
+                "reference": "490266fc411b30aad165d8c9375902cb411182d2",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "helsingborg-stad/acf-export-manager": ">=1.0.0",
+                "philo/laravel-blade": "^3.1"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Thulin",
+                    "email": "sebastian.thulin@helsingborg.se"
+                },
+                {
+                    "name": "Nikolas Ramstedt",
+                    "email": "nikolas.ramstedt@helsingborg.se"
+                }
+            ],
+            "description": "Book a resource for a predefined amount of time",
+            "time": "2018-12-06T12:42:13+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-sections",
