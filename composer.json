@@ -21,7 +21,7 @@
 
     "require": {
         "composer/installers": "~1.0",
-        "johnpbloch/wordpress": "^4.9.4",
+        "johnpbloch/wordpress": "^5.0.0",
         "helsingborg-stad/Modularity": ">=1.0.0",
         "helsingborg-stad/municipio": ">=1.0.0",
         "helsingborg-stad/familjenhelsingborg": "1.0.2",
@@ -61,8 +61,7 @@
         "wpackagist-plugin/wordpress-importer": "0.6.3",
         "wpackagist-plugin/autodescription": ">=3.0.4",
         "wpackagist-plugin/wp-mail-smtp": "^1.2",
-        "wpackagist-plugin/redirection": "3.4.1",
-        "wpackagist-plugin/classic-editor":"0.5"
+        "wpackagist-plugin/redirection": "3.4.1"
     },
 
     "extra": {
