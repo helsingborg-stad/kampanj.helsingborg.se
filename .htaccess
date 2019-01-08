@@ -18,6 +18,14 @@ Redirect 301 /regler-tillstand-och-anmalan/transporter-tungtrafik-med-mera/parke
   RewriteRule (.*)$ https://intranat.helsingborg.se/hjalp-och-stod/ideslussen/ [R=301,L]
 </IfModule>
 
+# Closed utv blogg
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTP_HOST} ^utveckling.helsingborg.se$ [OR]
+  RewriteCond %{HTTP_HOST} ^www.utveckling.helsingborg.se$
+  RewriteRule (.*)$ https://webbplattform.helsingborg.se/[R=301,L]
+</IfModule>
+
 # Underscore to hypen fix
 <IfModule mod_rewrite.c>
     RewriteCond %{REQUEST_FILENAME} !-f
