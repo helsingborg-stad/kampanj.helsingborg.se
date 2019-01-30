@@ -1247,16 +1247,16 @@
         },
         {
             "name": "helsingborg-stad/modularity-resource-booking",
-            "version": "0.2.2",
+            "version": "0.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-resource-booking.git",
-                "reference": "6d16a3706941de3b543e30c00e47d9089697ac2d"
+                "reference": "7a2c412f7e6fc2fa416a8c7c0f6b53a05bb41d90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-resource-booking/zipball/6d16a3706941de3b543e30c00e47d9089697ac2d",
-                "reference": "6d16a3706941de3b543e30c00e47d9089697ac2d",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-resource-booking/zipball/7a2c412f7e6fc2fa416a8c7c0f6b53a05bb41d90",
+                "reference": "7a2c412f7e6fc2fa416a8c7c0f6b53a05bb41d90",
                 "shasum": ""
             },
             "require": {
@@ -1289,7 +1289,7 @@
                 }
             ],
             "description": "Book a resource for a predefined amount of time",
-            "time": "2019-01-30T09:51:16+00:00"
+            "time": "2019-01-30T10:14:08+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-sections",
