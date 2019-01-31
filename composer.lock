@@ -358,16 +358,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.82",
+            "version": "v0.83",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "f335aee468065d61c747ac1371347c1693f31e4d"
+                "reference": "f443f4107d9ba001dad60d18cf1ec0cf0e7234f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/f335aee468065d61c747ac1371347c1693f31e4d",
-                "reference": "f335aee468065d61c747ac1371347c1693f31e4d",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/f443f4107d9ba001dad60d18cf1ec0cf0e7234f9",
+                "reference": "f443f4107d9ba001dad60d18cf1ec0cf0e7234f9",
                 "shasum": ""
             },
             "require": {
@@ -391,7 +391,7 @@
             "keywords": [
                 "google"
             ],
-            "time": "2019-01-25T22:35:06+00:00"
+            "time": "2019-01-30T22:06:40+00:00"
         },
         {
             "name": "google/auth",
@@ -747,16 +747,16 @@
         },
         {
             "name": "helsingborg-stad/api-event-manager-integration",
-            "version": "0.6.10",
+            "version": "0.6.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager-integration.git",
-                "reference": "1921a865b8452dbd4f5dc69e30f03e34b4e1afed"
+                "reference": "d54779b4b7cd89a957d96d7d3b1dbe462b71375c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/1921a865b8452dbd4f5dc69e30f03e34b4e1afed",
-                "reference": "1921a865b8452dbd4f5dc69e30f03e34b4e1afed",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/d54779b4b7cd89a957d96d7d3b1dbe462b71375c",
+                "reference": "d54779b4b7cd89a957d96d7d3b1dbe462b71375c",
                 "shasum": ""
             },
             "require": {
@@ -775,7 +775,7 @@
                 }
             ],
             "description": "Import and display events from Event Manager API.",
-            "time": "2018-12-11T12:30:29+00:00"
+            "time": "2019-01-31T13:12:20+00:00"
         },
         {
             "name": "helsingborg-stad/attachment-revisions",
@@ -1247,16 +1247,16 @@
         },
         {
             "name": "helsingborg-stad/modularity-resource-booking",
-            "version": "0.2.3",
+            "version": "1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-resource-booking.git",
-                "reference": "7a2c412f7e6fc2fa416a8c7c0f6b53a05bb41d90"
+                "reference": "e25ea43ee06168a456ac70be1e66e1a223a55ec7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-resource-booking/zipball/7a2c412f7e6fc2fa416a8c7c0f6b53a05bb41d90",
-                "reference": "7a2c412f7e6fc2fa416a8c7c0f6b53a05bb41d90",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-resource-booking/zipball/e25ea43ee06168a456ac70be1e66e1a223a55ec7",
+                "reference": "e25ea43ee06168a456ac70be1e66e1a223a55ec7",
                 "shasum": ""
             },
             "require": {
@@ -1289,7 +1289,7 @@
                 }
             ],
             "description": "Book a resource for a predefined amount of time",
-            "time": "2019-01-30T10:14:08+00:00"
+            "time": "2019-01-31T11:29:21+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-sections",
