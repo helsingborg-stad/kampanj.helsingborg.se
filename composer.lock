@@ -1247,16 +1247,16 @@
         },
         {
             "name": "helsingborg-stad/modularity-login-form",
-            "version": "1.0.10",
+            "version": "1.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-login-form.git",
-                "reference": "78a801fa25e737891ae74be6f9774de724478241"
+                "reference": "8f0b7d6679d47c0dd571f04e73b2a7b27e60648a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-login-form/zipball/78a801fa25e737891ae74be6f9774de724478241",
-                "reference": "78a801fa25e737891ae74be6f9774de724478241",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-login-form/zipball/8f0b7d6679d47c0dd571f04e73b2a7b27e60648a",
+                "reference": "8f0b7d6679d47c0dd571f04e73b2a7b27e60648a",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -1275,7 +1275,7 @@
                 }
             ],
             "description": "Frontend login form based on react.",
-            "time": "2019-01-31T13:50:33+00:00"
+            "time": "2019-01-31T14:06:28+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-resource-booking",
