@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "945b81ca5b493ee524204fda9a0e949c",
+    "content-hash": "fa3a6da8e1c87d5db6b924d6eec80558",
     "packages": [
         {
             "name": "aristath/kirki",
@@ -1246,17 +1246,49 @@
             "time": "2018-07-12T08:33:00+00:00"
         },
         {
-            "name": "helsingborg-stad/modularity-resource-booking",
-            "version": "1.0.5",
+            "name": "helsingborg-stad/modularity-login-form",
+            "version": "1.0.10",
             "source": {
                 "type": "git",
-                "url": "https://github.com/helsingborg-stad/modularity-resource-booking.git",
-                "reference": "e25ea43ee06168a456ac70be1e66e1a223a55ec7"
+                "url": "https://github.com/helsingborg-stad/modularity-login-form.git",
+                "reference": "78a801fa25e737891ae74be6f9774de724478241"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-resource-booking/zipball/e25ea43ee06168a456ac70be1e66e1a223a55ec7",
-                "reference": "e25ea43ee06168a456ac70be1e66e1a223a55ec7",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-login-form/zipball/78a801fa25e737891ae74be6f9774de724478241",
+                "reference": "78a801fa25e737891ae74be6f9774de724478241",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Thulin",
+                    "email": "sebastian.thulin@helsingborg.se"
+                },
+                {
+                    "name": "Johan Silvergrund",
+                    "email": "johan.silvergrund@hiq.se"
+                }
+            ],
+            "description": "Frontend login form based on react.",
+            "time": "2019-01-31T13:50:33+00:00"
+        },
+        {
+            "name": "helsingborg-stad/modularity-resource-booking",
+            "version": "1.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/modularity-resource-booking.git",
+                "reference": "d5a1f8e29e164029fd097bc612efb7c9c64eef0a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-resource-booking/zipball/d5a1f8e29e164029fd097bc612efb7c9c64eef0a",
+                "reference": "d5a1f8e29e164029fd097bc612efb7c9c64eef0a",
                 "shasum": ""
             },
             "require": {
@@ -1289,7 +1321,7 @@
                 }
             ],
             "description": "Book a resource for a predefined amount of time",
-            "time": "2019-01-31T11:29:21+00:00"
+            "time": "2019-01-31T13:31:41+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-sections",
