@@ -62,7 +62,7 @@
         "wpackagist-plugin/autodescription": ">=3.0.4",
         "wpackagist-plugin/wp-mail-smtp": "^1.2",
         "wpackagist-plugin/redirection": "3.4.1",
-        "helsingborg-stad/modularity-resource-booking": ">=0.2.2",
+        "helsingborg-stad/modularity-resource-booking": ">=1.0.7",
         "helsingborg-stad/modularity-login-form": "^1.0"
     },
 
