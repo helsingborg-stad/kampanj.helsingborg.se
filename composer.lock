@@ -1074,16 +1074,16 @@
         },
         {
             "name": "helsingborg-stad/modularity",
-            "version": "2.11.4",
+            "version": "2.11.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "02b4cf401abf4d3739811e2c462d91719737a1a9"
+                "reference": "bb035276436991c73346cf021b6398d18b9049cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/02b4cf401abf4d3739811e2c462d91719737a1a9",
-                "reference": "02b4cf401abf4d3739811e2c462d91719737a1a9",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/bb035276436991c73346cf021b6398d18b9049cc",
+                "reference": "bb035276436991c73346cf021b6398d18b9049cc",
                 "shasum": ""
             },
             "require": {
@@ -1115,7 +1115,7 @@
                 }
             ],
             "description": "Modular component system for WordPress",
-            "time": "2019-01-08T08:04:24+00:00"
+            "time": "2019-02-04T13:52:21+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-checklist",
@@ -1247,16 +1247,16 @@
         },
         {
             "name": "helsingborg-stad/modularity-login-form",
-            "version": "1.0.13",
+            "version": "1.0.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-login-form.git",
-                "reference": "b95db64fb13deb5c858e4d6b74ad408ad613a941"
+                "reference": "2a382a5c80fcfcfe19d9bbfa5c33ec8724b3a95e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-login-form/zipball/b95db64fb13deb5c858e4d6b74ad408ad613a941",
-                "reference": "b95db64fb13deb5c858e4d6b74ad408ad613a941",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-login-form/zipball/2a382a5c80fcfcfe19d9bbfa5c33ec8724b3a95e",
+                "reference": "2a382a5c80fcfcfe19d9bbfa5c33ec8724b3a95e",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -1275,20 +1275,20 @@
                 }
             ],
             "description": "Frontend login form based on react.",
-            "time": "2019-01-31T14:54:25+00:00"
+            "time": "2019-02-06T14:11:11+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-resource-booking",
-            "version": "1.0.7",
+            "version": "1.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-resource-booking.git",
-                "reference": "cab75493cd97b537accb3eb02a5cad3cfce51f60"
+                "reference": "18ccba12163a16ef0fe58a37ceadb3ee91f1269a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-resource-booking/zipball/cab75493cd97b537accb3eb02a5cad3cfce51f60",
-                "reference": "cab75493cd97b537accb3eb02a5cad3cfce51f60",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-resource-booking/zipball/18ccba12163a16ef0fe58a37ceadb3ee91f1269a",
+                "reference": "18ccba12163a16ef0fe58a37ceadb3ee91f1269a",
                 "shasum": ""
             },
             "require": {
@@ -1321,7 +1321,7 @@
                 }
             ],
             "description": "Book a resource for a predefined amount of time",
-            "time": "2019-02-01T07:53:39+00:00"
+            "time": "2019-02-06T15:39:43+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-sections",
@@ -1418,16 +1418,16 @@
         },
         {
             "name": "helsingborg-stad/municipio",
-            "version": "1.22.27",
+            "version": "1.23.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "b5f167399ba3effa68db101c2728bbb8a3ef1067"
+                "reference": "e46c1d67874e39ace595f5f10fd19e0fe5c25a00"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/b5f167399ba3effa68db101c2728bbb8a3ef1067",
-                "reference": "b5f167399ba3effa68db101c2728bbb8a3ef1067",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/e46c1d67874e39ace595f5f10fd19e0fe5c25a00",
+                "reference": "e46c1d67874e39ace595f5f10fd19e0fe5c25a00",
                 "shasum": ""
             },
             "require": {
@@ -1462,7 +1462,7 @@
                 }
             ],
             "description": "A bootstrap theme for creating municipality sites.",
-            "time": "2018-12-12T15:07:30+00:00"
+            "time": "2019-02-06T15:45:08+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
@@ -2783,16 +2783,16 @@
         },
         {
             "name": "symfony/debug",
-            "version": "v3.4.21",
+            "version": "v3.4.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "26d7f23b9bd0b93bee5583e4d6ca5cb1ab31b186"
+                "reference": "667a26c4dd6bc75c67f06bc9bcd015bdecc7cbb8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/26d7f23b9bd0b93bee5583e4d6ca5cb1ab31b186",
-                "reference": "26d7f23b9bd0b93bee5583e4d6ca5cb1ab31b186",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/667a26c4dd6bc75c67f06bc9bcd015bdecc7cbb8",
+                "reference": "667a26c4dd6bc75c67f06bc9bcd015bdecc7cbb8",
                 "shasum": ""
             },
             "require": {
@@ -2835,20 +2835,20 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2019-01-01T13:45:19+00:00"
+            "time": "2019-01-25T10:19:25+00:00"
         },
         {
             "name": "symfony/finder",
-            "version": "v3.4.21",
+            "version": "v3.4.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "3f2a2ab6315dd7682d4c16dcae1e7b95c8b8555e"
+                "reference": "7c0c627220308928e958a87c293108e5891cde1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/3f2a2ab6315dd7682d4c16dcae1e7b95c8b8555e",
-                "reference": "3f2a2ab6315dd7682d4c16dcae1e7b95c8b8555e",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/7c0c627220308928e958a87c293108e5891cde1d",
+                "reference": "7c0c627220308928e958a87c293108e5891cde1d",
                 "shasum": ""
             },
             "require": {
@@ -2884,7 +2884,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2019-01-01T13:45:19+00:00"
+            "time": "2019-01-16T13:43:35+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -2947,16 +2947,16 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v4.2.2",
+            "version": "v4.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "939fb792d73f2ce80e6ae9019d205fc480f1c9a0"
+                "reference": "23fd7aac70d99a17a8e6473a41fec8fab3331050"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/939fb792d73f2ce80e6ae9019d205fc480f1c9a0",
-                "reference": "939fb792d73f2ce80e6ae9019d205fc480f1c9a0",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/23fd7aac70d99a17a8e6473a41fec8fab3331050",
+                "reference": "23fd7aac70d99a17a8e6473a41fec8fab3331050",
                 "shasum": ""
             },
             "require": {
@@ -3016,7 +3016,7 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2019-01-03T09:07:35+00:00"
+            "time": "2019-01-27T23:11:39+00:00"
         },
         {
             "name": "true/punycode",
