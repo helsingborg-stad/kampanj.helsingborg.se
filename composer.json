@@ -7,18 +7,17 @@
             "email": "webbredaktionen@helsingborg.se"
         }
     ],
-    "minimum-stability" : "stable",
+    "minimum-stability": "stable",
     "repositories": [
         {
-            "type":"composer",
-            "url":"https://packagist.org"
+            "type": "composer",
+            "url": "https://packagist.org"
         },
         {
-            "type":"composer",
-            "url":"https://wpackagist.org"
+            "type": "composer",
+            "url": "https://wpackagist.org"
         }
     ],
-
     "require": {
         "composer/installers": "~1.0",
         "johnpbloch/wordpress": "^5.0.0",
@@ -62,15 +61,18 @@
         "wpackagist-plugin/autodescription": ">=3.0.4",
         "wpackagist-plugin/wp-mail-smtp": "^1.2",
         "wpackagist-plugin/redirection": "3.4.1",
-        "helsingborg-stad/modularity-resource-booking": ">=1.0.7",
+        "helsingborg-stad/modularity-resource-booking": ">=1.0.0",
         "helsingborg-stad/modularity-login-form": "^1.0"
     },
-
     "extra": {
         "wordpress-install-dir": "wp",
         "installer-paths": {
-            "wp-content/plugins/{$name}": ["type:wordpress-plugin"],
-            "wp-content/themes/{$name}": ["type:wordpress-theme"]
+            "wp-content/plugins/{$name}": [
+                "type:wordpress-plugin"
+            ],
+            "wp-content/themes/{$name}": [
+                "type:wordpress-theme"
+            ]
         }
     }
 }

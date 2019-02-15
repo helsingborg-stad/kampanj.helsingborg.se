@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6ff860beac533884c6d6a0d1117471a5",
+    "content-hash": "319c0c03ab6363e361d77634390ba13e",
     "packages": [
         {
             "name": "aristath/kirki",
@@ -686,16 +686,16 @@
         },
         {
             "name": "helsingborg-stad/active-directory-api-wp-integration",
-            "version": "2.2.12",
+            "version": "2.2.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/active-directory-api-wp-integration.git",
-                "reference": "ce108d66c19b912f2ffc89540223fa56ca071cbd"
+                "reference": "b7c4443874666af86cd0472d32227888ca296c0e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/active-directory-api-wp-integration/zipball/ce108d66c19b912f2ffc89540223fa56ca071cbd",
-                "reference": "ce108d66c19b912f2ffc89540223fa56ca071cbd",
+                "url": "https://api.github.com/repos/helsingborg-stad/active-directory-api-wp-integration/zipball/b7c4443874666af86cd0472d32227888ca296c0e",
+                "reference": "b7c4443874666af86cd0472d32227888ca296c0e",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -710,7 +710,7 @@
                 }
             ],
             "description": "Simple plugin for verification of existing WordPress users with api.",
-            "time": "2019-01-21T08:27:13+00:00"
+            "time": "2019-02-12T08:59:43+00:00"
         },
         {
             "name": "helsingborg-stad/algolia-multisite-enabler",
@@ -747,16 +747,16 @@
         },
         {
             "name": "helsingborg-stad/api-event-manager-integration",
-            "version": "0.6.11",
+            "version": "0.6.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager-integration.git",
-                "reference": "d54779b4b7cd89a957d96d7d3b1dbe462b71375c"
+                "reference": "957b31a7943895c2bcd6ba816861421e5349c062"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/d54779b4b7cd89a957d96d7d3b1dbe462b71375c",
-                "reference": "d54779b4b7cd89a957d96d7d3b1dbe462b71375c",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/957b31a7943895c2bcd6ba816861421e5349c062",
+                "reference": "957b31a7943895c2bcd6ba816861421e5349c062",
                 "shasum": ""
             },
             "require": {
@@ -775,7 +775,7 @@
                 }
             ],
             "description": "Import and display events from Event Manager API.",
-            "time": "2019-01-31T13:12:20+00:00"
+            "time": "2019-02-13T13:34:19+00:00"
         },
         {
             "name": "helsingborg-stad/attachment-revisions",
@@ -1279,16 +1279,16 @@
         },
         {
             "name": "helsingborg-stad/modularity-resource-booking",
-            "version": "1.0.9",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-resource-booking.git",
-                "reference": "18ccba12163a16ef0fe58a37ceadb3ee91f1269a"
+                "reference": "01b0b9143920c3334ccf8f628219790eec8e8764"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-resource-booking/zipball/18ccba12163a16ef0fe58a37ceadb3ee91f1269a",
-                "reference": "18ccba12163a16ef0fe58a37ceadb3ee91f1269a",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-resource-booking/zipball/01b0b9143920c3334ccf8f628219790eec8e8764",
+                "reference": "01b0b9143920c3334ccf8f628219790eec8e8764",
                 "shasum": ""
             },
             "require": {
@@ -1321,7 +1321,7 @@
                 }
             ],
             "description": "Book a resource for a predefined amount of time",
-            "time": "2019-02-06T15:39:43+00:00"
+            "time": "2019-02-15T11:49:21+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-sections",
