@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f67ebe6582cff58cd3405d4bbfdad997",
+    "content-hash": "677ac90cc8a184f0d9fc4fa0389a541b",
     "packages": [
         {
             "name": "aristath/kirki",
@@ -1279,16 +1279,16 @@
         },
         {
             "name": "helsingborg-stad/modularity-resource-booking",
-            "version": "1.1.2",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-resource-booking.git",
-                "reference": "0d30b5683e540e114c21d285319dd925fa54aae2"
+                "reference": "8291bf2d2a289713b946f0ac9cf235c0b996ce2f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-resource-booking/zipball/0d30b5683e540e114c21d285319dd925fa54aae2",
-                "reference": "0d30b5683e540e114c21d285319dd925fa54aae2",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-resource-booking/zipball/8291bf2d2a289713b946f0ac9cf235c0b996ce2f",
+                "reference": "8291bf2d2a289713b946f0ac9cf235c0b996ce2f",
                 "shasum": ""
             },
             "require": {
@@ -1321,7 +1321,7 @@
                 }
             ],
             "description": "Book a resource for a predefined amount of time",
-            "time": "2019-02-15T14:47:06+00:00"
+            "time": "2019-02-20T13:04:58+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-sections",
