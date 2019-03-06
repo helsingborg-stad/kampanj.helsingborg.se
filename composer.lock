@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4bb96fda12f3aff0b7747393ccdd0c8b",
+    "content-hash": "84d5453480327b39593192459dcccf20",
     "packages": [
         {
             "name": "aristath/kirki",
@@ -1237,6 +1237,36 @@
             ],
             "description": "Addon for Modularity for creating guides",
             "time": "2018-07-12T08:33:00+00:00"
+        },
+        {
+            "name": "helsingborg-stad/modularity-json-render",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/modularity-json-render.git",
+                "reference": "0c8a4c1ae008d6de273195628a27083f7289b169"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-json-render/zipball/0c8a4c1ae008d6de273195628a27083f7289b169",
+                "reference": "0c8a4c1ae008d6de273195628a27083f7289b169",
+                "shasum": ""
+            },
+            "require": {
+                "helsingborg-stad/acf-export-manager": ">=1.0.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Thulin",
+                    "email": "sebastian.thulin@helsingborg.se"
+                }
+            ],
+            "time": "2018-12-11T08:42:25+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-login-form",

@@ -63,7 +63,8 @@
         "wpackagist-plugin/redirection": "3.4.1",
         "helsingborg-stad/modularity-resource-booking": "1.4.1",
         "helsingborg-stad/modularity-login-form": "^1.0",
-        "wpackagist-plugin/user-switching": "^1.4"
+        "wpackagist-plugin/user-switching": "^1.4",
+        "helsingborg-stad/modularity-json-render": "^1.1"
     },
     "extra": {
         "wordpress-install-dir": "wp",
