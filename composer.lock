@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3c69b2ea0393c6f15f95d1b65e14b1ea",
+    "content-hash": "4d2694cc4ed5a7fcd3b68358b60ce8fb",
     "packages": [
         {
             "name": "aristath/kirki",
@@ -3266,6 +3266,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/varnish-http-purge/"
+        },
+        {
+            "name": "wpackagist-plugin/woo-checkout-field-editor-pro",
+            "version": "1.3.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woo-checkout-field-editor-pro/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woo-checkout-field-editor-pro.zip?timestamp=1548933252",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woo-checkout-field-editor-pro/"
         },
         {
             "name": "wpackagist-plugin/woocommerce",
