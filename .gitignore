@@ -17,6 +17,10 @@ wp-content/*
 wp-content/mu-plugins/attachmentDownloader.php
 !wp-content/object-cache.php
 
+!wp-content⁩/languages⁩/⁨woocommerce⁩
+!wp-content⁩/languages⁩/⁨woocommerce⁩/*
+
+
 # Themes dependencies #
 ##########################
 wp-content/themes/*
