@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4d2694cc4ed5a7fcd3b68358b60ce8fb",
+    "content-hash": "3150fc81a4679ef678c5f211cab041f2",
     "packages": [
         {
             "name": "aristath/kirki",
@@ -1270,16 +1270,16 @@
         },
         {
             "name": "helsingborg-stad/modularity-login-form",
-            "version": "1.0.15",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-login-form.git",
-                "reference": "2a382a5c80fcfcfe19d9bbfa5c33ec8724b3a95e"
+                "reference": "3f3c67959201857e0ec57051fd345c240ede0251"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-login-form/zipball/2a382a5c80fcfcfe19d9bbfa5c33ec8724b3a95e",
-                "reference": "2a382a5c80fcfcfe19d9bbfa5c33ec8724b3a95e",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-login-form/zipball/3f3c67959201857e0ec57051fd345c240ede0251",
+                "reference": "3f3c67959201857e0ec57051fd345c240ede0251",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -1298,7 +1298,7 @@
                 }
             ],
             "description": "Frontend login form based on react.",
-            "time": "2019-02-06T14:11:11+00:00"
+            "time": "2019-03-08T14:22:08+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-resource-booking",
@@ -3277,7 +3277,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-checkout-field-editor-pro.zip?timestamp=1548933252",
+                "url": "https://downloads.wordpress.org/plugin/woo-checkout-field-editor-pro.zip?timestamp=1552031452",
                 "reference": null,
                 "shasum": null
             },

@@ -62,7 +62,7 @@
         "wpackagist-plugin/wp-mail-smtp": "^1.2",
         "wpackagist-plugin/redirection": "3.4.1",
         "helsingborg-stad/modularity-resource-booking": "1.4.3",
-        "helsingborg-stad/modularity-login-form": "^1.0",
+        "helsingborg-stad/modularity-login-form": "1.1.0",
         "wpackagist-plugin/user-switching": "^1.4",
         "helsingborg-stad/modularity-json-render": "^1.1",
         "wpackagist-plugin/woocommerce": "^3.5",
