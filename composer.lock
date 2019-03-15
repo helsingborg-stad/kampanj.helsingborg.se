@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4d2694cc4ed5a7fcd3b68358b60ce8fb",
+    "content-hash": "8127c85b64d28b6b9fad55cced9969c1",
     "packages": [
         {
             "name": "aristath/kirki",
@@ -1302,16 +1302,16 @@
         },
         {
             "name": "helsingborg-stad/modularity-resource-booking",
-            "version": "1.4.3",
+            "version": "1.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-resource-booking.git",
-                "reference": "1375be0210fe512665aee4410891f72f8ab6d467"
+                "reference": "e0a7492b184c79ff58231837fca36b4f164ec10d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-resource-booking/zipball/1375be0210fe512665aee4410891f72f8ab6d467",
-                "reference": "1375be0210fe512665aee4410891f72f8ab6d467",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-resource-booking/zipball/e0a7492b184c79ff58231837fca36b4f164ec10d",
+                "reference": "e0a7492b184c79ff58231837fca36b4f164ec10d",
                 "shasum": ""
             },
             "require": {
@@ -1344,7 +1344,7 @@
                 }
             ],
             "description": "Book a resource for a predefined amount of time",
-            "time": "2019-03-06T21:20:35+00:00"
+            "time": "2019-03-08T16:03:38+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-sections",
@@ -3287,7 +3287,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-checkout-field-editor-pro.zip?timestamp=1548933252",
+                "url": "https://downloads.wordpress.org/plugin/woo-checkout-field-editor-pro.zip?timestamp=1552031452",
                 "reference": null,
                 "shasum": null
             },
