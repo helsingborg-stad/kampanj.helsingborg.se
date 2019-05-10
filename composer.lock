@@ -1038,6 +1038,38 @@
             "time": "2018-12-13T08:27:31+00:00"
         },
         {
+            "name": "helsingborg-stad/import-rss-feed",
+            "version": "0.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/import-rss-feed.git",
+                "reference": "effd13a9bfe6a8498002a82fef8610fa31937a54"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/import-rss-feed/zipball/effd13a9bfe6a8498002a82fef8610fa31937a54",
+                "reference": "effd13a9bfe6a8498002a82fef8610fa31937a54",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "helsingborg-stad/acf-export-manager": ">=1.0.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nikolas Ramstedt",
+                    "email": "nikolas.ramstedt@helsingborg.se"
+                }
+            ],
+            "description": "Probably the last Wordpress RSS importer. Import items from RSS feed to any post type.",
+            "time": "2018-11-21T12:15:01+00:00"
+        },
+        {
             "name": "helsingborg-stad/lix-calculator",
             "version": "2.1.0",
             "source": {
