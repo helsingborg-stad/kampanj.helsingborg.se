@@ -1038,6 +1038,38 @@
             "time": "2018-12-13T08:27:31+00:00"
         },
         {
+            "name": "helsingborg-stad/idea-manager",
+            "version": "1.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/idea-manager.git",
+                "reference": "0ebb509a48809344a8ecd3509cd191c0a70d0cd5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/idea-manager/zipball/0ebb509a48809344a8ecd3509cd191c0a70d0cd5",
+                "reference": "0ebb509a48809344a8ecd3509cd191c0a70d0cd5",
+                "shasum": ""
+            },
+            "require": {
+                "helsingborg-stad/acf-export-manager": ">=1.0.0",
+                "philo/laravel-blade": "^3.1"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jonatan Hanson",
+                    "email": "jonatan.hanson@hiq.se"
+                }
+            ],
+            "description": "Plugin to gather and manage ideas",
+            "time": "2018-09-25T12:37:29+00:00"
+        },
+        {
             "name": "helsingborg-stad/import-rss-feed",
             "version": "0.3.1",
             "source": {
