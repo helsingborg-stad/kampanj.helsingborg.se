@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cd98018238e06dd3b5978d031e9fc090",
+    "content-hash": "f8341a45c05cbc8b3d478833f305783a",
     "packages": [
         {
             "name": "aristath/kirki",
@@ -1609,16 +1609,16 @@
         },
         {
             "name": "helsingborg-stad/student-council-protocols",
-            "version": "1.0.0",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/student-council-protocols.git",
-                "reference": "03574f5660da746216877ce25bdaf7a357a1793b"
+                "reference": "ad963b2a845e587a46186efed4b4d5ca8ca548ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/student-council-protocols/zipball/03574f5660da746216877ce25bdaf7a357a1793b",
-                "reference": "03574f5660da746216877ce25bdaf7a357a1793b",
+                "url": "https://api.github.com/repos/helsingborg-stad/student-council-protocols/zipball/ad963b2a845e587a46186efed4b4d5ca8ca548ba",
+                "reference": "ad963b2a845e587a46186efed4b4d5ca8ca548ba",
                 "shasum": ""
             },
             "require": {
@@ -1638,7 +1638,7 @@
                 }
             ],
             "description": "Plugin to gather and manage protocols",
-            "time": "2019-12-09T08:30:58+00:00"
+            "time": "2019-12-10T13:53:06+00:00"
         },
         {
             "name": "helsingborg-stad/student-council-protocols-theme",
@@ -3410,7 +3410,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-checkout-field-editor-pro.zip?timestamp=1548933252"
+                "url": "https://downloads.wordpress.org/plugin/woo-checkout-field-editor-pro.zip?timestamp=1552031452"
             },
             "require": {
                 "composer/installers": "~1.0"
