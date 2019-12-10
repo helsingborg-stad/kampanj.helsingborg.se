@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f8341a45c05cbc8b3d478833f305783a",
+    "content-hash": "7cc14e721150d7e72493e1d3e9f7604a",
     "packages": [
         {
             "name": "aristath/kirki",
@@ -1609,16 +1609,16 @@
         },
         {
             "name": "helsingborg-stad/student-council-protocols",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/student-council-protocols.git",
-                "reference": "ad963b2a845e587a46186efed4b4d5ca8ca548ba"
+                "reference": "e51e8e403026e5e59480c377e1f36648289d2f75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/student-council-protocols/zipball/ad963b2a845e587a46186efed4b4d5ca8ca548ba",
-                "reference": "ad963b2a845e587a46186efed4b4d5ca8ca548ba",
+                "url": "https://api.github.com/repos/helsingborg-stad/student-council-protocols/zipball/e51e8e403026e5e59480c377e1f36648289d2f75",
+                "reference": "e51e8e403026e5e59480c377e1f36648289d2f75",
                 "shasum": ""
             },
             "require": {
@@ -1638,7 +1638,7 @@
                 }
             ],
             "description": "Plugin to gather and manage protocols",
-            "time": "2019-12-10T13:53:06+00:00"
+            "time": "2019-12-10T15:17:10+00:00"
         },
         {
             "name": "helsingborg-stad/student-council-protocols-theme",
