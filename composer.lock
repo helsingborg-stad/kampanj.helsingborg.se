@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "66424ff3c489d8a0aee99910d198d56e",
+    "content-hash": "967ac04d8cdd537e48c91f4d55b6d6c1",
     "packages": [
         {
             "name": "aristath/kirki",
@@ -1642,16 +1642,16 @@
         },
         {
             "name": "helsingborg-stad/student-council-protocols-theme",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/student-council-protocols-theme.git",
-                "reference": "a78b4e17e9ed0c636ca62623c23da3ec6bd9b3d3"
+                "reference": "3c9a43196e82a94eb352e7f086f89a7eb1dbbd97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/student-council-protocols-theme/zipball/a78b4e17e9ed0c636ca62623c23da3ec6bd9b3d3",
-                "reference": "a78b4e17e9ed0c636ca62623c23da3ec6bd9b3d3",
+                "url": "https://api.github.com/repos/helsingborg-stad/student-council-protocols-theme/zipball/3c9a43196e82a94eb352e7f086f89a7eb1dbbd97",
+                "reference": "3c9a43196e82a94eb352e7f086f89a7eb1dbbd97",
                 "shasum": ""
             },
             "require": {
@@ -1682,7 +1682,7 @@
                 }
             ],
             "description": "A child theme for the student council web-platform",
-            "time": "2019-12-09T11:15:57+00:00"
+            "time": "2019-12-11T14:12:11+00:00"
         },
         {
             "name": "helsingborg-stad/wp-content-translator",
