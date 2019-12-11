@@ -1642,16 +1642,16 @@
         },
         {
             "name": "helsingborg-stad/student-council-protocols-theme",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/student-council-protocols-theme.git",
-                "reference": "3c9a43196e82a94eb352e7f086f89a7eb1dbbd97"
+                "reference": "4ea611eee9ea9762a94b0832816557a4f363f47e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/student-council-protocols-theme/zipball/3c9a43196e82a94eb352e7f086f89a7eb1dbbd97",
-                "reference": "3c9a43196e82a94eb352e7f086f89a7eb1dbbd97",
+                "url": "https://api.github.com/repos/helsingborg-stad/student-council-protocols-theme/zipball/4ea611eee9ea9762a94b0832816557a4f363f47e",
+                "reference": "4ea611eee9ea9762a94b0832816557a4f363f47e",
                 "shasum": ""
             },
             "require": {
@@ -1682,7 +1682,7 @@
                 }
             ],
             "description": "A child theme for the student council web-platform",
-            "time": "2019-12-11T14:12:11+00:00"
+            "time": "2019-12-11T14:46:06+00:00"
         },
         {
             "name": "helsingborg-stad/wp-content-translator",
