@@ -71,7 +71,8 @@
         "helsingborg-stad/import-rss-feed": "^0.3.1",
         "helsingborg-stad/student-council-protocols-theme": "^1.0.2",
         "helsingborg-stad/student-council-protocols": "^1.0.7",
-        "wpackagist-plugin/wp-rest-filter": "^1.4"
+        "wpackagist-plugin/wp-rest-filter": "^1.4",
+        "wpackagist-plugin/safe-svg": "^1.9"
     },
     "extra": {
         "wordpress-install-dir": "wp",
