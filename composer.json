@@ -7,6 +7,11 @@
             "email": "webbredaktionen@helsingborg.se"
         }
     ],
+    "config": {
+        "platform": {
+            "php": "7.1.33"
+        }
+    },
     "minimum-stability": "stable",
     "repositories": [
         {
