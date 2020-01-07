@@ -1624,16 +1624,16 @@
         },
         {
             "name": "helsingborg-stad/student-council-protocols",
-            "version": "1.0.8",
+            "version": "1.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/student-council-protocols.git",
-                "reference": "5ea0774daf576b93155fe2353f86e42a8e0ed459"
+                "reference": "9833974e7d903ce7551c5562052f5683ae41b93f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/student-council-protocols/zipball/5ea0774daf576b93155fe2353f86e42a8e0ed459",
-                "reference": "5ea0774daf576b93155fe2353f86e42a8e0ed459",
+                "url": "https://api.github.com/repos/helsingborg-stad/student-council-protocols/zipball/9833974e7d903ce7551c5562052f5683ae41b93f",
+                "reference": "9833974e7d903ce7551c5562052f5683ae41b93f",
                 "shasum": ""
             },
             "require": {
@@ -1653,20 +1653,20 @@
                 }
             ],
             "description": "Plugin to gather and manage protocols",
-            "time": "2019-12-11T15:24:26+00:00"
+            "time": "2020-01-07T09:30:11+00:00"
         },
         {
             "name": "helsingborg-stad/student-council-protocols-theme",
-            "version": "1.0.4",
+            "version": "1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/student-council-protocols-theme.git",
-                "reference": "8157da996ba9094e5c3b3c331563bf3817857c7d"
+                "reference": "c23cf7fb9f0255f082c5bb1b8aa12513eb00abbc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/student-council-protocols-theme/zipball/8157da996ba9094e5c3b3c331563bf3817857c7d",
-                "reference": "8157da996ba9094e5c3b3c331563bf3817857c7d",
+                "url": "https://api.github.com/repos/helsingborg-stad/student-council-protocols-theme/zipball/c23cf7fb9f0255f082c5bb1b8aa12513eb00abbc",
+                "reference": "c23cf7fb9f0255f082c5bb1b8aa12513eb00abbc",
                 "shasum": ""
             },
             "require": {
@@ -1697,7 +1697,7 @@
                 }
             ],
             "description": "A child theme for the student council web-platform",
-            "time": "2019-12-12T09:04:02+00:00"
+            "time": "2020-01-07T09:28:45+00:00"
         },
         {
             "name": "helsingborg-stad/wp-content-translator",
@@ -3305,9 +3305,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.12.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.12.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -3325,9 +3323,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/all-in-one-seo-pack.2.3.10.2.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/all-in-one-seo-pack.2.3.10.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -3345,9 +3341,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/autodescription.4.0.4.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/autodescription.4.0.4.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -3365,9 +3359,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/mce-table-buttons.3.3.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/mce-table-buttons.3.3.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -3385,9 +3377,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redirection.3.4.1.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/redirection.3.4.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -3405,9 +3395,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/rest-api.2.0-beta15.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/rest-api.2.0-beta15.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -3425,9 +3413,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/safe-svg.1.9.7.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/safe-svg.1.9.7.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -3445,9 +3431,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/tablepress.1.10.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/tablepress.1.10.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -3465,9 +3449,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/user-switching.1.5.3.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/user-switching.1.5.3.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -3485,9 +3467,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/varnish-http-purge.4.8.1.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/varnish-http-purge.4.8.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -3505,9 +3485,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-checkout-field-editor-pro.zip?timestamp=1576497558",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/woo-checkout-field-editor-pro.zip?timestamp=1576497558"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -3525,9 +3503,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce.3.8.1.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.3.8.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -3545,9 +3521,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.6.3.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.6.3.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -3565,9 +3539,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-editor-widget.0.5.5.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/wp-editor-widget.0.5.5.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -3585,9 +3557,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.1.8.1.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.1.8.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -3605,9 +3575,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-nested-pages.1.6.5.2.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/wp-nested-pages.1.6.5.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -3625,9 +3593,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-rest-filter.1.4.3.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/wp-rest-filter.1.4.3.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
