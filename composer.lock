@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a7dca559392355de8b7afb14d6949fdd",
+    "content-hash": "d4eb34ee0c6dd6ae39916613e47accd0",
     "packages": [
         {
             "name": "aristath/kirki",
@@ -1624,16 +1624,16 @@
         },
         {
             "name": "helsingborg-stad/student-council-protocols",
-            "version": "1.0.9",
+            "version": "1.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/student-council-protocols.git",
-                "reference": "9833974e7d903ce7551c5562052f5683ae41b93f"
+                "reference": "ac8cec926358a073de0cf5d53c7160cf600210c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/student-council-protocols/zipball/9833974e7d903ce7551c5562052f5683ae41b93f",
-                "reference": "9833974e7d903ce7551c5562052f5683ae41b93f",
+                "url": "https://api.github.com/repos/helsingborg-stad/student-council-protocols/zipball/ac8cec926358a073de0cf5d53c7160cf600210c4",
+                "reference": "ac8cec926358a073de0cf5d53c7160cf600210c4",
                 "shasum": ""
             },
             "require": {
@@ -1653,20 +1653,20 @@
                 }
             ],
             "description": "Plugin to gather and manage protocols",
-            "time": "2020-01-07T09:30:11+00:00"
+            "time": "2020-01-07T13:56:07+00:00"
         },
         {
             "name": "helsingborg-stad/student-council-protocols-theme",
-            "version": "1.0.5",
+            "version": "1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/student-council-protocols-theme.git",
-                "reference": "c23cf7fb9f0255f082c5bb1b8aa12513eb00abbc"
+                "reference": "399d1df79df1393393b0cfcef46d2464ae881c72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/student-council-protocols-theme/zipball/c23cf7fb9f0255f082c5bb1b8aa12513eb00abbc",
-                "reference": "c23cf7fb9f0255f082c5bb1b8aa12513eb00abbc",
+                "url": "https://api.github.com/repos/helsingborg-stad/student-council-protocols-theme/zipball/399d1df79df1393393b0cfcef46d2464ae881c72",
+                "reference": "399d1df79df1393393b0cfcef46d2464ae881c72",
                 "shasum": ""
             },
             "require": {
@@ -1697,7 +1697,7 @@
                 }
             ],
             "description": "A child theme for the student council web-platform",
-            "time": "2020-01-07T09:28:45+00:00"
+            "time": "2020-01-07T15:18:38+00:00"
         },
         {
             "name": "helsingborg-stad/wp-content-translator",
