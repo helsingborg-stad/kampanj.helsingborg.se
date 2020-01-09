@@ -31,13 +31,11 @@ define('WEB_FONT', 'Roboto');
  define('AD_USER_DOMAIN', 'helsingborg.se');
 
  /**
- * Integration with ad (autocreate users on some sites)
+ * Integration with ad (autocreate users)
  * @var string
  */
- if(preg_match("/elevrad/i", $_SERVER['HTTP_HOST'])) {
-    define('AD_AUTOCREATE_USER', true); 
-    define('AD_AUTOCREATE_ROLE', 'subscriber'); 
- }
+define('AD_AUTOCREATE_USER', true); 
+define('AD_AUTOCREATE_ROLE', 'subscriber'); 
 
 /**
  * Enable ssl proxy mode in ssl plugin
