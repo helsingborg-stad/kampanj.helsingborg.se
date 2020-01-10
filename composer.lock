@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "693aeb344a288788bbd8fca9c6c0be73",
+    "content-hash": "899ff94534a9610fd09009cb6c5604fe",
     "packages": [
         {
             "name": "aristath/kirki",
@@ -1248,16 +1248,16 @@
         },
         {
             "name": "helsingborg-stad/modularity-form-builder",
-            "version": "1.8.4",
+            "version": "1.8.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-form-builder.git",
-                "reference": "21f5daafea34e171c1d6feda644b2d07dde2430f"
+                "reference": "b15432208c54733256a9fc977ceebb2e2da4d75d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-form-builder/zipball/21f5daafea34e171c1d6feda644b2d07dde2430f",
-                "reference": "21f5daafea34e171c1d6feda644b2d07dde2430f",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-form-builder/zipball/b15432208c54733256a9fc977ceebb2e2da4d75d",
+                "reference": "b15432208c54733256a9fc977ceebb2e2da4d75d",
                 "shasum": ""
             },
             "require": {
@@ -1283,7 +1283,7 @@
                     "email": "jonatan.hanson@hiq.se"
                 }
             ],
-            "time": "2019-12-10T08:21:09+00:00"
+            "time": "2020-01-10T13:33:56+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-guides",
