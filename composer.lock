@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6e79aa6f277b835fde72faa428dd32c7",
+    "content-hash": "0f6ad3ee51ccf043329869943166c3ef",
     "packages": [
         {
             "name": "aristath/kirki",
@@ -1220,6 +1220,36 @@
             "time": "2018-06-26T07:54:13+00:00"
         },
         {
+            "name": "helsingborg-stad/modularity-comments",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/modularity-comments.git",
+                "reference": "80473ed50004f63f79a1ee5bc7fad5e67beb5574"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-comments/zipball/80473ed50004f63f79a1ee5bc7fad5e67beb5574",
+                "reference": "80473ed50004f63f79a1ee5bc7fad5e67beb5574",
+                "shasum": ""
+            },
+            "require": {
+                "helsingborg-stad/modularity-comments": ">=0.0.1"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Max Frederiksen",
+                    "email": "max.frederiksen@ecsolutions.se"
+                }
+            ],
+            "time": "2020-01-17T10:52:10+00:00"
+        },
+        {
             "name": "helsingborg-stad/modularity-dictionary",
             "version": "1.0.7",
             "source": {
@@ -1248,16 +1278,16 @@
         },
         {
             "name": "helsingborg-stad/modularity-form-builder",
-            "version": "1.8.8",
+            "version": "1.8.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-form-builder.git",
-                "reference": "b15432208c54733256a9fc977ceebb2e2da4d75d"
+                "reference": "713023c1abffcfd8ad4a1692d041cd7a573063e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-form-builder/zipball/b15432208c54733256a9fc977ceebb2e2da4d75d",
-                "reference": "b15432208c54733256a9fc977ceebb2e2da4d75d",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-form-builder/zipball/713023c1abffcfd8ad4a1692d041cd7a573063e4",
+                "reference": "713023c1abffcfd8ad4a1692d041cd7a573063e4",
                 "shasum": ""
             },
             "require": {
@@ -1283,7 +1313,7 @@
                     "email": "jonatan.hanson@hiq.se"
                 }
             ],
-            "time": "2020-01-10T13:33:56+00:00"
+            "time": "2020-01-17T10:03:13+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-guides",
@@ -1624,16 +1654,16 @@
         },
         {
             "name": "helsingborg-stad/student-council-protocols",
-            "version": "1.0.13",
+            "version": "1.0.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/student-council-protocols.git",
-                "reference": "b0053c5f69cafa07d9b1ef9003e0b6d42105b614"
+                "reference": "262823f61233ef37e065892ead78d65a70183805"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/student-council-protocols/zipball/b0053c5f69cafa07d9b1ef9003e0b6d42105b614",
-                "reference": "b0053c5f69cafa07d9b1ef9003e0b6d42105b614",
+                "url": "https://api.github.com/repos/helsingborg-stad/student-council-protocols/zipball/262823f61233ef37e065892ead78d65a70183805",
+                "reference": "262823f61233ef37e065892ead78d65a70183805",
                 "shasum": ""
             },
             "require": {
@@ -1653,20 +1683,20 @@
                 }
             ],
             "description": "Plugin to gather and manage protocols",
-            "time": "2020-01-14T07:59:45+00:00"
+            "time": "2020-01-17T09:59:40+00:00"
         },
         {
             "name": "helsingborg-stad/student-council-protocols-theme",
-            "version": "1.0.10",
+            "version": "1.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/student-council-protocols-theme.git",
-                "reference": "47ca5213617a37339f1e5e5e7f64b7788d077417"
+                "reference": "a2d3707cf3d233bf57873819e828ddd11a35c5c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/student-council-protocols-theme/zipball/47ca5213617a37339f1e5e5e7f64b7788d077417",
-                "reference": "47ca5213617a37339f1e5e5e7f64b7788d077417",
+                "url": "https://api.github.com/repos/helsingborg-stad/student-council-protocols-theme/zipball/a2d3707cf3d233bf57873819e828ddd11a35c5c4",
+                "reference": "a2d3707cf3d233bf57873819e828ddd11a35c5c4",
                 "shasum": ""
             },
             "require": {
@@ -1697,7 +1727,7 @@
                 }
             ],
             "description": "A child theme for the student council web-platform",
-            "time": "2020-01-14T08:28:38+00:00"
+            "time": "2020-01-17T09:58:49+00:00"
         },
         {
             "name": "helsingborg-stad/wp-content-translator",
