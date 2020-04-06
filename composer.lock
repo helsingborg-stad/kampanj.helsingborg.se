@@ -1030,16 +1030,16 @@
         },
         {
             "name": "helsingborg-stad/google-analythics",
-            "version": "1.0.6",
+            "version": "1.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/google-analythics.git",
-                "reference": "4bccecc6a5e175b57068619a8096d916d491f664"
+                "reference": "99608d54bb80a317a60174e18eef434472b2f872"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/google-analythics/zipball/4bccecc6a5e175b57068619a8096d916d491f664",
-                "reference": "4bccecc6a5e175b57068619a8096d916d491f664",
+                "url": "https://api.github.com/repos/helsingborg-stad/google-analythics/zipball/99608d54bb80a317a60174e18eef434472b2f872",
+                "reference": "99608d54bb80a317a60174e18eef434472b2f872",
                 "shasum": ""
             },
             "require": {
@@ -1057,7 +1057,7 @@
                 }
             ],
             "description": "Plugin to integrate Google Analytics and display simple statistics.",
-            "time": "2018-12-13T08:27:31+00:00"
+            "time": "2020-04-06T12:45:54+00:00"
         },
         {
             "name": "helsingborg-stad/idea-manager",
@@ -3523,7 +3523,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-checkout-field-editor-pro.zip?timestamp=1585232737"
+                "url": "https://downloads.wordpress.org/plugin/woo-checkout-field-editor-pro.zip?timestamp=1585915889"
             },
             "require": {
                 "composer/installers": "~1.0"
