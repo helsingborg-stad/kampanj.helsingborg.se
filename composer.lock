@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f15e7b00b6419e0f690198d4e9888377",
+    "content-hash": "716b637fe0fa391d6a879b143e75a924",
     "packages": [
         {
             "name": "aristath/kirki",
@@ -791,6 +791,46 @@
             ],
             "description": "Import and display events from Event Manager API.",
             "time": "2020-03-31T08:28:27+00:00"
+        },
+        {
+            "name": "helsingborg-stad/api-project-manager-integration",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/api-project-manager-integration.git",
+                "reference": "19089243d584a2d3c0e77d0e465c7f3605d11d40"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-integration/zipball/19089243d584a2d3c0e77d0e465c7f3605d11d40",
+                "reference": "19089243d584a2d3c0e77d0e465c7f3605d11d40",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "helsingborg-stad/acf-export-manager": ">=1.0.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jonatan Hanson",
+                    "email": "jonatan.hanson@helsingborg.se"
+                },
+                {
+                    "name": "Nikolas Ramstedt",
+                    "email": "nikolas.ramstedt@helsingborg.se"
+                },
+                {
+                    "name": "Ehsan Zilaei",
+                    "email": "ehsan.zilaei@helsingborg.se"
+                }
+            ],
+            "description": "Manage projects",
+            "time": "2020-04-08T09:33:30+00:00"
         },
         {
             "name": "helsingborg-stad/attachment-revisions",

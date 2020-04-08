@@ -78,7 +78,8 @@
         "helsingborg-stad/student-council-protocols": "^1.0.15",
         "wpackagist-plugin/wp-rest-filter": "^1.4",
         "wpackagist-plugin/safe-svg": "^1.9",
-        "helsingborg-stad/modularity-comments": "^1.0"
+        "helsingborg-stad/modularity-comments": "^1.0",
+        "helsingborg-stad/api-project-manager-integration": "^1.0"
     },
     "extra": {
         "wordpress-install-dir": "wp",
