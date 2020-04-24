@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "651bc4fdeda98a2d6ca69ef5ac098972",
+    "content-hash": "b28f844e4812a2f16f9bded239065ee5",
     "packages": [
         {
             "name": "aristath/kirki",
@@ -54,16 +54,6 @@
             "keywords": [
                 "customizer",
                 "wordpress"
-            ],
-            "funding": [
-                {
-                    "url": "https://aristath.github.io/donate",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/aristath",
-                    "type": "github"
-                }
             ],
             "time": "2020-03-01T14:46:32+00:00"
         },
@@ -804,16 +794,16 @@
         },
         {
             "name": "helsingborg-stad/api-project-manager-integration",
-            "version": "1.4.2",
+            "version": "1.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-project-manager-integration.git",
-                "reference": "65d0ae4798ed948c59fe322c0268e054b384c183"
+                "reference": "453b9162ddff488692d62f74335eca7dff712b78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-integration/zipball/65d0ae4798ed948c59fe322c0268e054b384c183",
-                "reference": "65d0ae4798ed948c59fe322c0268e054b384c183",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-integration/zipball/453b9162ddff488692d62f74335eca7dff712b78",
+                "reference": "453b9162ddff488692d62f74335eca7dff712b78",
                 "shasum": ""
             },
             "require": {
@@ -840,7 +830,7 @@
                 }
             ],
             "description": "Manage projects",
-            "time": "2020-04-23T09:07:47+00:00"
+            "time": "2020-04-23T13:56:07+00:00"
         },
         {
             "name": "helsingborg-stad/attachment-revisions",
@@ -3094,20 +3084,6 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2020-03-27T16:54:36+00:00"
         },
         {
@@ -3157,20 +3133,6 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2020-03-27T16:54:36+00:00"
         },
         {
@@ -3229,20 +3191,6 @@
                 "polyfill",
                 "portable",
                 "shim"
-            ],
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
             ],
             "time": "2020-03-09T19:04:49+00:00"
         },
@@ -3744,6 +3692,5 @@
     "platform-dev": [],
     "platform-overrides": {
         "php": "7.1.33"
-    },
-    "plugin-api-version": "1.1.0"
+    }
 }
