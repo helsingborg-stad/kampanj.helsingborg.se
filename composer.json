@@ -54,7 +54,6 @@
         "helsingborg-stad/google-analythics": ">=1.0.0",
         "helsingborg-stad/modularity-checklist": ">=1.0.0",
         "helsingborg-stad/idea-manager": ">=1.1.1",
-        "helsingborg-stad/algolia-multisite-enabler": "^1.0",
         "helsingborg-stad/attachment-revisions": "^1.2",
         "wpackagist-plugin/tablepress": ">=1.9",
         "wpackagist-plugin/wp-editor-widget": "0.5.5",
@@ -79,7 +78,9 @@
         "wpackagist-plugin/wp-rest-filter": "^1.4",
         "wpackagist-plugin/safe-svg": "^1.9",
         "helsingborg-stad/modularity-comments": "^1.0",
-        "helsingborg-stad/api-project-manager-integration": "1.4.3"
+        "helsingborg-stad/api-project-manager-integration": "1.4.3",
+        "helsingborg-stad/algolia-index-modularity-addon": "^1.0",
+        "helsingborg-stad/algolia-index": "^1.0"
     },
     "extra": {
         "wordpress-install-dir": "wp",

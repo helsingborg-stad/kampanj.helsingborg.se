@@ -26,6 +26,15 @@ require_once 'config/update.php';
 require_once 'config/upload.php';
 
 /**
+ * Search settings
+ *
+ * Searchengine configuration. 
+ */
+if (file_exists(__DIR__ . '/config/search.php')) {
+    require_once 'config/search.php';
+}
+
+/**
  * Cookie settings
  *
  * To enable this site as a multisite please rename the config/cookie-example.php file to
