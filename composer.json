@@ -1,6 +1,7 @@
 {
     "name": "helsingborg-stad/kampanj.helsingborg.se",
     "license": "GNU",
+    "description": "Helsingborg Stad kampaign platform for smaller shortlived sites.",
     "authors": [
         {
             "name": "Helsingborg Stad",

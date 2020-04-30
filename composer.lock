@@ -867,39 +867,6 @@
             "time": "2020-04-20T09:01:39+00:00"
         },
         {
-            "name": "helsingborg-stad/algolia-multisite-enabler",
-            "version": "1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/helsingborg-stad/algolia-multisite-enabler.git",
-                "reference": "7bba77b9fd8941eb981a8eaf574681f20459fc1b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/algolia-multisite-enabler/zipball/7bba77b9fd8941eb981a8eaf574681f20459fc1b",
-                "reference": "7bba77b9fd8941eb981a8eaf574681f20459fc1b",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "~1.0",
-                "php": ">=7.0"
-            },
-            "type": "wordpress-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Sebastian Thulin",
-                    "email": "sebastian.thulin@helsingborg.se"
-                }
-            ],
-            "description": "Plugin to enable Algolia plugin to mix-content from multiple WordPress sites in one index.",
-            "homepage": "https://github.com/helsingborg-stad/algolia-multisite-enabler",
-            "time": "2018-04-27T09:43:27+00:00"
-        },
-        {
             "name": "helsingborg-stad/api-event-manager-integration",
             "version": "0.15.2",
             "source": {
