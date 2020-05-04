@@ -434,16 +434,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.132",
+            "version": "v0.133",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "317c8555eaea64a38594d9e617b59547cea45f3e"
+                "reference": "dd53c4a23a5c4d868e409585e30ab31da278b5d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/317c8555eaea64a38594d9e617b59547cea45f3e",
-                "reference": "317c8555eaea64a38594d9e617b59547cea45f3e",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/dd53c4a23a5c4d868e409585e30ab31da278b5d2",
+                "reference": "dd53c4a23a5c4d868e409585e30ab31da278b5d2",
                 "shasum": ""
             },
             "require": {
@@ -467,7 +467,7 @@
             "keywords": [
                 "google"
             ],
-            "time": "2020-04-22T00:25:30+00:00"
+            "time": "2020-05-03T00:24:28+00:00"
         },
         {
             "name": "google/auth",
@@ -801,16 +801,16 @@
         },
         {
             "name": "helsingborg-stad/algolia-index",
-            "version": "1.0.2",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/algolia-index.git",
-                "reference": "2bcc4bd550c58167ab5e1fa6caff5f3f2bd99e51"
+                "reference": "02352bd83e5543328858ee497239f7ddd22e4e12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/algolia-index/zipball/2bcc4bd550c58167ab5e1fa6caff5f3f2bd99e51",
-                "reference": "2bcc4bd550c58167ab5e1fa6caff5f3f2bd99e51",
+                "url": "https://api.github.com/repos/helsingborg-stad/algolia-index/zipball/02352bd83e5543328858ee497239f7ddd22e4e12",
+                "reference": "02352bd83e5543328858ee497239f7ddd22e4e12",
                 "shasum": ""
             },
             "require": {
@@ -839,7 +839,7 @@
                 }
             ],
             "description": "Index wordpress site content to algolia.",
-            "time": "2020-04-30T08:04:06+00:00"
+            "time": "2020-04-30T10:21:08+00:00"
         },
         {
             "name": "helsingborg-stad/algolia-index-modularity-addon",
