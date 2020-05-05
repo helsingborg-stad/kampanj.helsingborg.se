@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2158d706504c7c670598cbec32203300",
+    "content-hash": "dcd0fd4ced4d0624c7d099d599d5dc4d",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1752,6 +1752,51 @@
             ],
             "description": "A bootstrap theme for creating municipality sites.",
             "time": "2020-04-14T06:39:11+00:00"
+        },
+        {
+            "name": "helsingborg-stad/municipio-innovation-theme",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/municipio-innovation-theme.git",
+                "reference": "fbddbbf778627d4523ae9ae0619595f670c58d0d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/municipio-innovation-theme/zipball/fbddbbf778627d4523ae9ae0619595f670c58d0d",
+                "reference": "fbddbbf778627d4523ae9ae0619595f670c58d0d",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0",
+                "helsingborg-stad/acf-export-manager": ">=1.0.0",
+                "philo/laravel-blade": "^3.1",
+                "symfony/debug": "^4.0"
+            },
+            "type": "wordpress-theme",
+            "extra": {
+                "installer-paths": {
+                    "vendor/{$name}/": [
+                        "type:wordpress-plugin"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nikolas Ramstedt",
+                    "email": "nikolas.ramstedt@helsingborg.se"
+                },
+                {
+                    "name": "Ehsan Zilaei",
+                    "email": "ehsan.zilaei@helsingborg.se"
+                }
+            ],
+            "description": "Wordpress child theme for Municipio",
+            "time": "2020-05-05T09:51:33+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
