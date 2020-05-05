@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b01dae15a4057cd00c01cb00d78c7eee",
+    "content-hash": "baea454fd17d496cd64559318636509a",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -772,6 +772,41 @@
             "time": "2016-10-11T12:00:20+00:00"
         },
         {
+            "name": "helsingborg-stad/action-municipio-childtheme",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/municipio-action-theme.git",
+                "reference": "506f6d3c13402a832b0515de4a100f9755b139ce"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/municipio-action-theme/zipball/506f6d3c13402a832b0515de4a100f9755b139ce",
+                "reference": "506f6d3c13402a832b0515de4a100f9755b139ce",
+                "shasum": ""
+            },
+            "type": "wordpress-theme",
+            "extra": {
+                "installer-paths": {
+                    "vendor/{$name}/": [
+                        "type:wordpress-plugin"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Thulin",
+                    "email": "sebastian.thulin@helsingborg.se"
+                }
+            ],
+            "description": "Custom tailored theme for action.helsingborg.se.",
+            "time": "2020-05-05T11:53:04+00:00"
+        },
+        {
             "name": "helsingborg-stad/active-directory-api-wp-integration",
             "version": "2.4.5",
             "source": {
@@ -840,6 +875,34 @@
             ],
             "description": "Index wordpress site content to algolia.",
             "time": "2020-05-04T06:44:36+00:00"
+        },
+        {
+            "name": "helsingborg-stad/algolia-index-js-searchpage-addon",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/algolia-index-js-searchpage-addon.git",
+                "reference": "7f7ef298d25f2f36f7bc73457b8689037d1acda9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/algolia-index-js-searchpage-addon/zipball/7f7ef298d25f2f36f7bc73457b8689037d1acda9",
+                "reference": "7f7ef298d25f2f36f7bc73457b8689037d1acda9",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Thulin",
+                    "email": "sebastian.thulin@helsingborg.se"
+                }
+            ],
+            "description": "https://github.com/helsingborg-stad/algolia-index-js-searchpage-addon",
+            "time": "2020-04-30T07:57:58+00:00"
         },
         {
             "name": "helsingborg-stad/algolia-index-modularity-addon",
@@ -3649,6 +3712,24 @@
                 "punycode"
             ],
             "time": "2016-11-16T10:37:54+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/acf-to-rest-api",
+            "version": "3.2.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/acf-to-rest-api/",
+                "reference": "tags/3.2.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/acf-to-rest-api.3.2.0.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/acf-to-rest-api/"
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",
