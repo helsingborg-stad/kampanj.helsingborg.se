@@ -971,12 +971,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-project-manager-integration.git",
-                "reference": "2f58d74d96c18df6560cb669995919fd0bc501b2"
+                "reference": "f9fc95285371d72758dca9de30b96ae2b6b61bf2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-integration/zipball/2f58d74d96c18df6560cb669995919fd0bc501b2",
-                "reference": "2f58d74d96c18df6560cb669995919fd0bc501b2",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-integration/zipball/f9fc95285371d72758dca9de30b96ae2b6b61bf2",
+                "reference": "f9fc95285371d72758dca9de30b96ae2b6b61bf2",
                 "shasum": ""
             },
             "require": {
