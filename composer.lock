@@ -773,16 +773,16 @@
         },
         {
             "name": "helsingborg-stad/action-municipio-childtheme",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/municipio-action-theme.git",
-                "reference": "506f6d3c13402a832b0515de4a100f9755b139ce"
+                "reference": "4361d6dbdab0f5abbfdb8f92d0462367b93dbc9c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/municipio-action-theme/zipball/506f6d3c13402a832b0515de4a100f9755b139ce",
-                "reference": "506f6d3c13402a832b0515de4a100f9755b139ce",
+                "url": "https://api.github.com/repos/helsingborg-stad/municipio-action-theme/zipball/4361d6dbdab0f5abbfdb8f92d0462367b93dbc9c",
+                "reference": "4361d6dbdab0f5abbfdb8f92d0462367b93dbc9c",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -804,7 +804,7 @@
                 }
             ],
             "description": "Custom tailored theme for action.helsingborg.se.",
-            "time": "2020-05-05T11:53:04+00:00"
+            "time": "2020-05-07T08:26:40+00:00"
         },
         {
             "name": "helsingborg-stad/active-directory-api-wp-integration",
@@ -3841,15 +3841,15 @@
         },
         {
             "name": "wpackagist-plugin/safe-svg",
-            "version": "1.9.8",
+            "version": "1.9.9",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/safe-svg/",
-                "reference": "tags/1.9.8"
+                "reference": "tags/1.9.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/safe-svg.1.9.8.zip"
+                "url": "https://downloads.wordpress.org/plugin/safe-svg.1.9.9.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
