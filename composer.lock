@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8976db6e6bba4df88adfd5114daf4952",
+    "content-hash": "6eafe13963b922886201071f527453c8",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1818,16 +1818,16 @@
         },
         {
             "name": "helsingborg-stad/municipio-innovation-theme",
-            "version": "1.0.6",
+            "version": "1.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/municipio-innovation-theme.git",
-                "reference": "46e234a41301af87fd105002729f7ba38a8a0b61"
+                "reference": "a490d1d7d928c5e53a103d9fa648f80c04e84dc0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/municipio-innovation-theme/zipball/46e234a41301af87fd105002729f7ba38a8a0b61",
-                "reference": "46e234a41301af87fd105002729f7ba38a8a0b61",
+                "url": "https://api.github.com/repos/helsingborg-stad/municipio-innovation-theme/zipball/a490d1d7d928c5e53a103d9fa648f80c04e84dc0",
+                "reference": "a490d1d7d928c5e53a103d9fa648f80c04e84dc0",
                 "shasum": ""
             },
             "require": {
@@ -1859,7 +1859,7 @@
                 }
             ],
             "description": "Wordpress child theme for Municipio",
-            "time": "2020-05-07T14:38:51+00:00"
+            "time": "2020-05-11T07:56:07+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
