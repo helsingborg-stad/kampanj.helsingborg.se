@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c36befc6eacf41344f4fa91a9282dd35",
+    "content-hash": "d75ef58ea1196567208e654f00c71f4a",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -967,16 +967,16 @@
         },
         {
             "name": "helsingborg-stad/api-project-manager-integration",
-            "version": "1.4.13",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-project-manager-integration.git",
-                "reference": "d3f7ba7590bc09451521f917d76c5c1fcffc8732"
+                "reference": "c1a159bf7a74df2b3fcc6f4a05191d01eae4915c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-integration/zipball/d3f7ba7590bc09451521f917d76c5c1fcffc8732",
-                "reference": "d3f7ba7590bc09451521f917d76c5c1fcffc8732",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-integration/zipball/c1a159bf7a74df2b3fcc6f4a05191d01eae4915c",
+                "reference": "c1a159bf7a74df2b3fcc6f4a05191d01eae4915c",
                 "shasum": ""
             },
             "require": {
@@ -1003,7 +1003,7 @@
                 }
             ],
             "description": "Manage projects",
-            "time": "2020-05-12T12:45:13+00:00"
+            "time": "2020-05-12T14:59:50+00:00"
         },
         {
             "name": "helsingborg-stad/attachment-revisions",
@@ -1818,16 +1818,16 @@
         },
         {
             "name": "helsingborg-stad/municipio-innovation-theme",
-            "version": "1.0.9",
+            "version": "1.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/municipio-innovation-theme.git",
-                "reference": "7a4fb4e57bec0b2ed6482f7eebb58c5244d078a6"
+                "reference": "57466c3aff476bbb325a652a6a2ba8caf19dc8a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/municipio-innovation-theme/zipball/7a4fb4e57bec0b2ed6482f7eebb58c5244d078a6",
-                "reference": "7a4fb4e57bec0b2ed6482f7eebb58c5244d078a6",
+                "url": "https://api.github.com/repos/helsingborg-stad/municipio-innovation-theme/zipball/57466c3aff476bbb325a652a6a2ba8caf19dc8a9",
+                "reference": "57466c3aff476bbb325a652a6a2ba8caf19dc8a9",
                 "shasum": ""
             },
             "require": {
@@ -1859,7 +1859,7 @@
                 }
             ],
             "description": "Wordpress child theme for Municipio",
-            "time": "2020-05-12T12:43:33+00:00"
+            "time": "2020-05-12T15:00:00+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
