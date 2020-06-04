@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2930e44a893d22c31f436f0d0174bbea",
+    "content-hash": "2471145875a34f0c3f7cc67b4d80ebed",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -967,16 +967,16 @@
         },
         {
             "name": "helsingborg-stad/api-project-manager-integration",
-            "version": "1.5.13",
+            "version": "1.5.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-project-manager-integration.git",
-                "reference": "5e0c17f777c42a5c80d0e3ee001781a3507616c9"
+                "reference": "b19bf26055b39a86493cb0694f46c6407822af9f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-integration/zipball/5e0c17f777c42a5c80d0e3ee001781a3507616c9",
-                "reference": "5e0c17f777c42a5c80d0e3ee001781a3507616c9",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-integration/zipball/b19bf26055b39a86493cb0694f46c6407822af9f",
+                "reference": "b19bf26055b39a86493cb0694f46c6407822af9f",
                 "shasum": ""
             },
             "require": {
@@ -1003,7 +1003,7 @@
                 }
             ],
             "description": "Manage projects",
-            "time": "2020-06-03T15:04:58+00:00"
+            "time": "2020-06-04T10:53:51+00:00"
         },
         {
             "name": "helsingborg-stad/attachment-revisions",
