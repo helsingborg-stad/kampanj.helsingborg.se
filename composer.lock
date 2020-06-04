@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d9aec3548dcf4bc6e0a6f7e4fc1c72d5",
+    "content-hash": "2930e44a893d22c31f436f0d0174bbea",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -4037,6 +4037,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-rest-filter/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-webhooks",
+            "version": "2.0.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-webhooks/",
+                "reference": "tags/2.0.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-webhooks.2.0.4.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-webhooks/"
         }
     ],
     "packages-dev": [],
