@@ -83,10 +83,11 @@
         "helsingborg-stad/algolia-index-modularity-addon": "^1.0",
         "helsingborg-stad/algolia-index": "^1.0",
         "helsingborg-stad/municipio-innovation-theme": "1.1.1",
-        "helsingborg-stad/action-municipio-childtheme": "^1.0",
+        "helsingborg-stad/action-municipio-childtheme": "1.1.1",
         "helsingborg-stad/algolia-index-js-searchpage-addon": "^1.0",
         "wpackagist-plugin/acf-to-rest-api": "^3.2",
-        "wpackagist-plugin/wp-webhooks": "^2.0"
+        "wpackagist-plugin/wp-webhooks": "^2.0",
+        "helsingborg-stad/skyfish-integration": "^0.8.8"
     },
     "extra": {
         "wordpress-install-dir": "wp",
