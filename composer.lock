@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a4f2a5cdcd5f6ad750b21e532dbc3a6d",
+    "content-hash": "c2e0b8d46ecb5c4312b7f2c0bcc8f786",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1366,16 +1366,16 @@
         },
         {
             "name": "helsingborg-stad/modularity",
-            "version": "2.13.0",
+            "version": "2.13.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "82149bae49a3cf7035fa83a64036fcfc9875035c"
+                "reference": "66b1fea295f2e17375a405ec45d8ee3a3fab5242"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/82149bae49a3cf7035fa83a64036fcfc9875035c",
-                "reference": "82149bae49a3cf7035fa83a64036fcfc9875035c",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/66b1fea295f2e17375a405ec45d8ee3a3fab5242",
+                "reference": "66b1fea295f2e17375a405ec45d8ee3a3fab5242",
                 "shasum": ""
             },
             "require": {
@@ -1407,7 +1407,7 @@
                 }
             ],
             "description": "Modular component system for WordPress",
-            "time": "2020-05-14T08:58:38+00:00"
+            "time": "2020-05-27T11:51:23+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-checklist",
