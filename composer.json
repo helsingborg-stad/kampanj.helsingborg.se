@@ -83,7 +83,7 @@
         "helsingborg-stad/algolia-index-modularity-addon": "^1.0",
         "helsingborg-stad/algolia-index": "^1.0",
         "helsingborg-stad/municipio-innovation-theme": "1.1.1",
-        "helsingborg-stad/action-municipio-childtheme": "^1.1.3",
+        "helsingborg-stad/action-municipio-childtheme": "^1.1.5",
         "helsingborg-stad/algolia-index-js-searchpage-addon": "^1.0",
         "wpackagist-plugin/acf-to-rest-api": "^3.2",
         "wpackagist-plugin/wp-webhooks": "^2.0",

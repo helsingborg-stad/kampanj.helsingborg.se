@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4b4963e5fee1e857ff6fd87e4129e64b",
+    "content-hash": "27ce2dfb21c0c351eb0ad563339f6422",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -774,16 +774,16 @@
         },
         {
             "name": "helsingborg-stad/action-municipio-childtheme",
-            "version": "1.1.3",
+            "version": "1.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/municipio-action-theme.git",
-                "reference": "7217b9f41e1c41301575423483a8b5106eb418f6"
+                "reference": "236fcf305ba09a3e14efc4744ee899c87f8391e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/municipio-action-theme/zipball/7217b9f41e1c41301575423483a8b5106eb418f6",
-                "reference": "7217b9f41e1c41301575423483a8b5106eb418f6",
+                "url": "https://api.github.com/repos/helsingborg-stad/municipio-action-theme/zipball/236fcf305ba09a3e14efc4744ee899c87f8391e2",
+                "reference": "236fcf305ba09a3e14efc4744ee899c87f8391e2",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -805,7 +805,7 @@
                 }
             ],
             "description": "Custom tailored theme for action.helsingborg.se.",
-            "time": "2020-09-03T07:53:52+00:00"
+            "time": "2020-09-14T08:16:26+00:00"
         },
         {
             "name": "helsingborg-stad/active-directory-api-wp-integration",
