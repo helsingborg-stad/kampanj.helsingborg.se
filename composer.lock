@@ -774,16 +774,16 @@
         },
         {
             "name": "helsingborg-stad/action-municipio-childtheme",
-            "version": "1.1.5",
+            "version": "1.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/municipio-action-theme.git",
-                "reference": "236fcf305ba09a3e14efc4744ee899c87f8391e2"
+                "reference": "00b209c2b5bd348e9a453ee938f08f9820d5b6af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/municipio-action-theme/zipball/236fcf305ba09a3e14efc4744ee899c87f8391e2",
-                "reference": "236fcf305ba09a3e14efc4744ee899c87f8391e2",
+                "url": "https://api.github.com/repos/helsingborg-stad/municipio-action-theme/zipball/00b209c2b5bd348e9a453ee938f08f9820d5b6af",
+                "reference": "00b209c2b5bd348e9a453ee938f08f9820d5b6af",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -805,7 +805,7 @@
                 }
             ],
             "description": "Custom tailored theme for action.helsingborg.se.",
-            "time": "2020-09-14T08:16:26+00:00"
+            "time": "2020-09-14T08:23:25+00:00"
         },
         {
             "name": "helsingborg-stad/active-directory-api-wp-integration",
