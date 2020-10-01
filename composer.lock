@@ -964,20 +964,20 @@
                 }
             ],
             "description": "Import and display events from Event Manager API.",
-            "time": "2020-07-17T10:25:51+00:00"
+            "time": "2020-09-18T14:27:01+00:00"
         },
         {
             "name": "helsingborg-stad/api-project-manager-integration",
-            "version": "1.5.17",
+            "version": "1.5.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-project-manager-integration.git",
-                "reference": "8095d79d35e5edf5802cc3c0614f3d0a0af25659"
+                "reference": "252fdc3c2018aa23951bcc6b54012c1b5df48d24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-integration/zipball/8095d79d35e5edf5802cc3c0614f3d0a0af25659",
-                "reference": "8095d79d35e5edf5802cc3c0614f3d0a0af25659",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-integration/zipball/252fdc3c2018aa23951bcc6b54012c1b5df48d24",
+                "reference": "252fdc3c2018aa23951bcc6b54012c1b5df48d24",
                 "shasum": ""
             },
             "require": {
@@ -1004,7 +1004,7 @@
                 }
             ],
             "description": "Manage projects",
-            "time": "2020-06-10T20:27:14+00:00"
+            "time": "2020-10-01T12:07:44+00:00"
         },
         {
             "name": "helsingborg-stad/attachment-revisions",
