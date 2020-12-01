@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "27ce2dfb21c0c351eb0ad563339f6422",
+    "content-hash": "e622816012f01e54f65f5dd3f2c07618",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -964,20 +964,20 @@
                 }
             ],
             "description": "Import and display events from Event Manager API.",
-            "time": "2020-09-18T14:27:01+00:00"
+            "time": "2020-07-17T10:25:51+00:00"
         },
         {
             "name": "helsingborg-stad/api-project-manager-integration",
-            "version": "1.5.19",
+            "version": "1.5.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-project-manager-integration.git",
-                "reference": "252fdc3c2018aa23951bcc6b54012c1b5df48d24"
+                "reference": "0b6105bf3892fa7a6b027a5b44be61f933dd1d80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-integration/zipball/252fdc3c2018aa23951bcc6b54012c1b5df48d24",
-                "reference": "252fdc3c2018aa23951bcc6b54012c1b5df48d24",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-integration/zipball/0b6105bf3892fa7a6b027a5b44be61f933dd1d80",
+                "reference": "0b6105bf3892fa7a6b027a5b44be61f933dd1d80",
                 "shasum": ""
             },
             "require": {
@@ -1004,7 +1004,7 @@
                 }
             ],
             "description": "Manage projects",
-            "time": "2020-10-01T12:07:44+00:00"
+            "time": "2020-12-01T14:59:49+00:00"
         },
         {
             "name": "helsingborg-stad/attachment-revisions",
@@ -1847,16 +1847,16 @@
         },
         {
             "name": "helsingborg-stad/municipio-innovation-theme",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/municipio-innovation-theme.git",
-                "reference": "123ed158defb5e89bf0ac9e97d0c642c3a403234"
+                "reference": "bb39a12a70f6df155837c73d017be90409186ba2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/municipio-innovation-theme/zipball/123ed158defb5e89bf0ac9e97d0c642c3a403234",
-                "reference": "123ed158defb5e89bf0ac9e97d0c642c3a403234",
+                "url": "https://api.github.com/repos/helsingborg-stad/municipio-innovation-theme/zipball/bb39a12a70f6df155837c73d017be90409186ba2",
+                "reference": "bb39a12a70f6df155837c73d017be90409186ba2",
                 "shasum": ""
             },
             "require": {
@@ -1888,7 +1888,7 @@
                 }
             ],
             "description": "Wordpress child theme for Municipio",
-            "time": "2020-06-04T14:08:20+00:00"
+            "time": "2020-12-01T14:56:02+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
@@ -4248,11 +4248,11 @@
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woo-checkout-field-editor-pro/",
-                "reference": "trunk"
+                "reference": "tags/1.4.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-checkout-field-editor-pro.zip?timestamp=1594128407"
+                "url": "https://downloads.wordpress.org/plugin/woo-checkout-field-editor-pro.1.4.3.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
