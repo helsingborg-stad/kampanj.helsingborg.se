@@ -17,6 +17,9 @@ jobs:
     - name: Install composer dependencies
       run: composer install --prefer-dist --no-progress --no-suggest
 
+    - name: Cleanup
+      run: rm -rf .git .gitignore config wp-content/uploads .github composer.json composer.lock installer.sh
+
     - name: rsync deployment to www-data user.
       uses: burnett01/rsync-deployments@4.1
       with:
