@@ -27,7 +27,7 @@
     "require": {
         "composer/installers": "~1.0",
         "johnpbloch/wordpress": "^5.0.0",
-        "helsingborg-stad/modularity": ">=2.13.2",
+        "helsingborg-stad/modularity": "2.13.3",
         "helsingborg-stad/municipio": ">=1.32.4",
         "helsingborg-stad/familjenhelsingborg": "1.0.2",
         "helsingborg-stad/lix-calculator": ">=1.0.0",
