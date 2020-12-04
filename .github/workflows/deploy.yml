@@ -37,8 +37,7 @@ jobs:
           cd ${{ secrets.DEPLOY_REMOTE_PATH_TEST_KAMPANJ_HELSINGBORG_SE }}
           wp varnish purge --allow-root
           wp cache flush --allow-root
-          cd ${{ secrets.DEPLOY_REMOTE_PATH_TEST_KAMPANJ_HELSINGBORG_SE }}/uploads/cache/blade-cache
-          rm -rf *
+          sudo rm ${{ secrets.DEPLOY_REMOTE_PATH_TEST_KAMPANJ_HELSINGBORG_SE }}/uploads/cache/blade-cache/*
         host: ${{ secrets.DEPLOY_REMOTE_HOST_TEST_KAMPANJ_HELSINGBORG_SE }}
         username: ${{ secrets.DEPLOY_AWS_REMOTE_USER }}
         key: ${{ secrets.DEPLOY_KEY }}
