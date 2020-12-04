@@ -20,6 +20,9 @@ jobs:
     - name: Cleanup
       run: rm -rf .git .gitignore config wp-content/uploads .github composer.json composer.lock installer.sh
 
+    - name: Debug check
+      run: ls -al
+      
     - name: rsync deployment to www-data user.
       uses: burnett01/rsync-deployments@4.1
       with:
