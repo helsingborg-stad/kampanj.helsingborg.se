@@ -1851,12 +1851,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/municipio-innovation-theme.git",
-                "reference": "efc9ec0e5863f30f02822f58b177d9699a15f147"
+                "reference": "f8ee70bd24c2e54d53d32d6278388f0e09f3e7da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/municipio-innovation-theme/zipball/efc9ec0e5863f30f02822f58b177d9699a15f147",
-                "reference": "efc9ec0e5863f30f02822f58b177d9699a15f147",
+                "url": "https://api.github.com/repos/helsingborg-stad/municipio-innovation-theme/zipball/f8ee70bd24c2e54d53d32d6278388f0e09f3e7da",
+                "reference": "f8ee70bd24c2e54d53d32d6278388f0e09f3e7da",
                 "shasum": ""
             },
             "require": {
@@ -1888,7 +1888,7 @@
                 }
             ],
             "description": "Wordpress child theme for Municipio",
-            "time": "2020-12-16T11:32:40+00:00"
+            "time": "2020-12-16T14:32:37+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
