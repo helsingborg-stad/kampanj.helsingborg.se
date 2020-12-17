@@ -972,12 +972,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-project-manager-integration.git",
-                "reference": "58d36ab42ba24389ad04c722949eb90ab319cade"
+                "reference": "538814145d7dfa6cc9570c705207537a4d5d1d63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-integration/zipball/58d36ab42ba24389ad04c722949eb90ab319cade",
-                "reference": "58d36ab42ba24389ad04c722949eb90ab319cade",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-integration/zipball/538814145d7dfa6cc9570c705207537a4d5d1d63",
+                "reference": "538814145d7dfa6cc9570c705207537a4d5d1d63",
                 "shasum": ""
             },
             "require": {
@@ -1004,7 +1004,7 @@
                 }
             ],
             "description": "Manage projects",
-            "time": "2020-12-08T14:33:24+00:00"
+            "time": "2020-12-17T22:33:24+00:00"
         },
         {
             "name": "helsingborg-stad/attachment-revisions",
@@ -1851,12 +1851,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/municipio-innovation-theme.git",
-                "reference": "59863fb250ecb4ec5119f9df39ebc89b35febd25"
+                "reference": "f59db2f66eaf39e879f8ab031dc817b4b8bdf2e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/municipio-innovation-theme/zipball/59863fb250ecb4ec5119f9df39ebc89b35febd25",
-                "reference": "59863fb250ecb4ec5119f9df39ebc89b35febd25",
+                "url": "https://api.github.com/repos/helsingborg-stad/municipio-innovation-theme/zipball/f59db2f66eaf39e879f8ab031dc817b4b8bdf2e3",
+                "reference": "f59db2f66eaf39e879f8ab031dc817b4b8bdf2e3",
                 "shasum": ""
             },
             "require": {
@@ -1888,7 +1888,7 @@
                 }
             ],
             "description": "Wordpress child theme for Municipio",
-            "time": "2020-12-16T15:57:19+00:00"
+            "time": "2020-12-17T22:40:39+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
