@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "401d2cb298138dcbca9e5d762424b9d0",
+    "content-hash": "c7c7d1ba4f738074daa9d6a17f45b880",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -968,7 +968,7 @@
         },
         {
             "name": "helsingborg-stad/api-project-manager-integration",
-            "version": "dev-feature/toolbox",
+            "version": "1.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-project-manager-integration.git",
@@ -1847,16 +1847,16 @@
         },
         {
             "name": "helsingborg-stad/municipio-innovation-theme",
-            "version": "dev-feature/toolbox",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/municipio-innovation-theme.git",
-                "reference": "59863fb250ecb4ec5119f9df39ebc89b35febd25"
+                "reference": "045b0db397e222c1bb29487bfe428e5d95dec620"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/municipio-innovation-theme/zipball/59863fb250ecb4ec5119f9df39ebc89b35febd25",
-                "reference": "59863fb250ecb4ec5119f9df39ebc89b35febd25",
+                "url": "https://api.github.com/repos/helsingborg-stad/municipio-innovation-theme/zipball/045b0db397e222c1bb29487bfe428e5d95dec620",
+                "reference": "045b0db397e222c1bb29487bfe428e5d95dec620",
                 "shasum": ""
             },
             "require": {
@@ -1888,7 +1888,7 @@
                 }
             ],
             "description": "Wordpress child theme for Municipio",
-            "time": "2020-12-16T15:57:19+00:00"
+            "time": "2020-12-18T16:13:51+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
@@ -4392,9 +4392,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "wpackagist-plugin/rest-api": 10,
-        "helsingborg-stad/api-project-manager-integration": 20,
-        "helsingborg-stad/municipio-innovation-theme": 20
+        "wpackagist-plugin/rest-api": 10
     },
     "prefer-stable": false,
     "prefer-lowest": false,
