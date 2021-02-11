@@ -968,16 +968,16 @@
         },
         {
             "name": "helsingborg-stad/api-project-manager-integration",
-            "version": "1.6.8",
+            "version": "1.6.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-project-manager-integration.git",
-                "reference": "42820df936d510ceea887bcec6709bd53d0811d0"
+                "reference": "0f94ec9b2c41b84e5f24ea300ab793d6072f9243"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-integration/zipball/42820df936d510ceea887bcec6709bd53d0811d0",
-                "reference": "42820df936d510ceea887bcec6709bd53d0811d0",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-integration/zipball/0f94ec9b2c41b84e5f24ea300ab793d6072f9243",
+                "reference": "0f94ec9b2c41b84e5f24ea300ab793d6072f9243",
                 "shasum": ""
             },
             "require": {
@@ -1006,9 +1006,9 @@
             "description": "Manage projects",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-project-manager-integration/issues",
-                "source": "https://github.com/helsingborg-stad/api-project-manager-integration/tree/1.6.8"
+                "source": "https://github.com/helsingborg-stad/api-project-manager-integration/tree/1.6.9"
             },
-            "time": "2021-02-10T15:04:43+00:00"
+            "time": "2021-02-11T08:09:15+00:00"
         },
         {
             "name": "helsingborg-stad/attachment-revisions",
