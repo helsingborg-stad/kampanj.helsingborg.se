@@ -65,3 +65,4 @@ wp-content/themes/helsingborg/node_modules
 .Trashes
 ehthumbs.db
 Thumbs.db
+.dccache
