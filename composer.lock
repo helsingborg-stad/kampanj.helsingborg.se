@@ -972,12 +972,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-project-manager-integration.git",
-                "reference": "c70f87881b89315f80c83f5d76b008dd7c515fe6"
+                "reference": "db40d7ac2715f0b542ec9288ad239e93ba827a69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-integration/zipball/c70f87881b89315f80c83f5d76b008dd7c515fe6",
-                "reference": "c70f87881b89315f80c83f5d76b008dd7c515fe6",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-integration/zipball/db40d7ac2715f0b542ec9288ad239e93ba827a69",
+                "reference": "db40d7ac2715f0b542ec9288ad239e93ba827a69",
                 "shasum": ""
             },
             "require": {
@@ -1008,7 +1008,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-project-manager-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-project-manager-integration/tree/feature/platform"
             },
-            "time": "2021-06-09T07:54:19+00:00"
+            "time": "2021-06-17T07:34:31+00:00"
         },
         {
             "name": "helsingborg-stad/attachment-revisions",
@@ -1855,12 +1855,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/municipio-innovation-theme.git",
-                "reference": "115151e5b08d0c314f546ee7d82cb98a9f8c1b33"
+                "reference": "bac42907ec9c472564217c11991692628bb56957"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/municipio-innovation-theme/zipball/115151e5b08d0c314f546ee7d82cb98a9f8c1b33",
-                "reference": "115151e5b08d0c314f546ee7d82cb98a9f8c1b33",
+                "url": "https://api.github.com/repos/helsingborg-stad/municipio-innovation-theme/zipball/bac42907ec9c472564217c11991692628bb56957",
+                "reference": "bac42907ec9c472564217c11991692628bb56957",
                 "shasum": ""
             },
             "require": {
@@ -1896,7 +1896,7 @@
                 "issues": "https://github.com/helsingborg-stad/municipio-innovation-theme/issues",
                 "source": "https://github.com/helsingborg-stad/municipio-innovation-theme/tree/develop"
             },
-            "time": "2021-06-11T14:15:41+00:00"
+            "time": "2021-06-15T12:02:58+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
