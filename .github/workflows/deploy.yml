@@ -29,7 +29,7 @@ jobs:
     - name: rsync deployment to www-data user.
       uses: burnett01/rsync-deployments@4.1
       with:
-        switches: -avzrog --rsync-path="sudo rsync" --delete --backup --backup-dir=${{ secrets.DEPLOY_REMOTE_BACKUP_DIR_TEST_KAMPANJ_HELSINGBORG_SE }}/$GITHUB_SHA --chown=www-data:www-data --chmod=g+rw --exclude config --exclude wp-content/uploads --exclude wp-content/plugins/advanced-custom-fields-pro --exclude wp-content/plugins/gravityforms --exclude wp-content/plugins/wp-schema-pro --exclude wp-content/plugins/translatepress-multilingual
+        switches: -avzrog --rsync-path="sudo rsync" --delete --backup --backup-dir=${{ secrets.DEPLOY_REMOTE_BACKUP_DIR_TEST_KAMPANJ_HELSINGBORG_SE }}/$GITHUB_SHA --chown=www-data:www-data --chmod=g+rw --exclude config --exclude wp-content/uploads --exclude wp-content/plugins/advanced-custom-fields-pro --exclude wp-content/plugins/gravityforms --exclude wp-content/plugins/wp-schema-pro --exclude wp-content/plugins/translatepress-multilingual --exclude wp-content/plugins/tp-add-on-automatic-language-detection --exclude wp-content/plugins/tp-add-on-navigation-based-on-language --exclude wp-content/plugins/tp-add-on-seo-pack
         path: .
         remote_path: ${{ secrets.DEPLOY_REMOTE_PATH_TEST_KAMPANJ_HELSINGBORG_SE }}
         remote_host: ${{ secrets.DEPLOY_REMOTE_HOST_TEST_KAMPANJ_HELSINGBORG_SE }}
