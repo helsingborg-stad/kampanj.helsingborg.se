@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "63302f6d404834382f72a1c71b70d53d",
+    "content-hash": "77999b4eafe0be53a107c29ab7888b53",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1851,16 +1851,16 @@
         },
         {
             "name": "helsingborg-stad/municipio-innovation-theme",
-            "version": "dev-develop",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/municipio-innovation-theme.git",
-                "reference": "0be09d9923e369795b7e2fdd8b14463f6fcd272e"
+                "reference": "5a2bc5aade332e8cafdd7f621deb03808937c3a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/municipio-innovation-theme/zipball/0be09d9923e369795b7e2fdd8b14463f6fcd272e",
-                "reference": "0be09d9923e369795b7e2fdd8b14463f6fcd272e",
+                "url": "https://api.github.com/repos/helsingborg-stad/municipio-innovation-theme/zipball/5a2bc5aade332e8cafdd7f621deb03808937c3a6",
+                "reference": "5a2bc5aade332e8cafdd7f621deb03808937c3a6",
                 "shasum": ""
             },
             "require": {
@@ -1894,9 +1894,9 @@
             "description": "Wordpress child theme for Municipio",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/municipio-innovation-theme/issues",
-                "source": "https://github.com/helsingborg-stad/municipio-innovation-theme/tree/develop"
+                "source": "https://github.com/helsingborg-stad/municipio-innovation-theme/tree/1.4.0"
             },
-            "time": "2021-06-28T10:19:38+00:00"
+            "time": "2021-06-28T13:18:25+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
@@ -4400,8 +4400,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "wpackagist-plugin/rest-api": 10,
-        "helsingborg-stad/municipio-innovation-theme": 20
+        "wpackagist-plugin/rest-api": 10
     },
     "prefer-stable": false,
     "prefer-lowest": false,
