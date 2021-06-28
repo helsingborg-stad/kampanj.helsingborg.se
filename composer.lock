@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6117526721d4a1457658fe3e9b9674ec",
+    "content-hash": "6651e0bdadb72cf907617acb92effcf3",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1102,16 +1102,16 @@
         },
         {
             "name": "helsingborg-stad/api-project-manager-integration",
-            "version": "dev-feature/platform",
+            "version": "1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-project-manager-integration.git",
-                "reference": "d19b45d90825644e27f8f38330a5cd0eacec2449"
+                "reference": "90c7df73385ec1b03db4198bffaade1a5dee7fba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-integration/zipball/d19b45d90825644e27f8f38330a5cd0eacec2449",
-                "reference": "d19b45d90825644e27f8f38330a5cd0eacec2449",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-integration/zipball/90c7df73385ec1b03db4198bffaade1a5dee7fba",
+                "reference": "90c7df73385ec1b03db4198bffaade1a5dee7fba",
                 "shasum": ""
             },
             "require": {
@@ -1140,9 +1140,9 @@
             "description": "Manage projects",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-project-manager-integration/issues",
-                "source": "https://github.com/helsingborg-stad/api-project-manager-integration/tree/feature/platform"
+                "source": "https://github.com/helsingborg-stad/api-project-manager-integration/tree/1.8.0"
             },
-            "time": "2021-06-22T11:29:24+00:00"
+            "time": "2021-06-28T13:26:42+00:00"
         },
         {
             "name": "helsingborg-stad/attachment-revisions",
@@ -4929,7 +4929,6 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "wpackagist-plugin/rest-api": 10,
-        "helsingborg-stad/api-project-manager-integration": 20,
         "helsingborg-stad/municipio-innovation-theme": 20
     },
     "prefer-stable": false,
