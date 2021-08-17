@@ -2054,16 +2054,16 @@
         },
         {
             "name": "helsingborg-stad/municipio-innovation-theme",
-            "version": "1.4.0",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/municipio-innovation-theme.git",
-                "reference": "5a2bc5aade332e8cafdd7f621deb03808937c3a6"
+                "reference": "fc83df889bb5c137a2b21c0e3eb7c4743dee9d9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/municipio-innovation-theme/zipball/5a2bc5aade332e8cafdd7f621deb03808937c3a6",
-                "reference": "5a2bc5aade332e8cafdd7f621deb03808937c3a6",
+                "url": "https://api.github.com/repos/helsingborg-stad/municipio-innovation-theme/zipball/fc83df889bb5c137a2b21c0e3eb7c4743dee9d9e",
+                "reference": "fc83df889bb5c137a2b21c0e3eb7c4743dee9d9e",
                 "shasum": ""
             },
             "require": {
@@ -2097,9 +2097,9 @@
             "description": "Wordpress child theme for Municipio",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/municipio-innovation-theme/issues",
-                "source": "https://github.com/helsingborg-stad/municipio-innovation-theme/tree/1.4.0"
+                "source": "https://github.com/helsingborg-stad/municipio-innovation-theme/tree/1.5.0"
             },
-            "time": "2021-06-28T13:18:25+00:00"
+            "time": "2021-08-16T11:20:04+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
