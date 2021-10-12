@@ -8,12 +8,8 @@
             "email": "webbredaktionen@helsingborg.se"
         }
     ],
-    "config": {
-        "platform": {
-            "php": "7.1.33"
-        }
-    },
-    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "minimum-stability" : "dev",
     "repositories": [
         {
             "type": "composer",
@@ -27,8 +23,8 @@
     "require": {
         "composer/installers": "~1.0",
         "johnpbloch/wordpress": "^5.0.0",
-        "helsingborg-stad/modularity": "2.13.3",
-        "helsingborg-stad/municipio": ">=1.33.7",
+        "helsingborg-stad/modularity": "dev-3.0/develop",
+        "helsingborg-stad/municipio": "dev-3.0/develop",
         "helsingborg-stad/familjenhelsingborg": "1.0.2",
         "helsingborg-stad/lix-calculator": ">=1.0.0",
         "helsingborg-stad/content-scheduler": ">=1.0.0",
@@ -37,7 +33,7 @@
         "helsingborg-stad/force-ssl": ">=1.0.0",
         "helsingborg-stad/readspeaker-helper": ">=1.0.0",
         "helsingborg-stad/broken-link-detector": ">=1.0.0",
-        "helsingborg-stad/customer-feedback": ">=1.0.0",
+        "helsingborg-stad/customer-feedback": "dev-3.0/develop",
         "helsingborg-stad/acf-ux-collapse": ">=1.0.0",
         "helsingborg-stad/search-notices": ">=1.0.0",
         "helsingborg-stad/wp-search-statistics": ">=0.1.0",
@@ -49,7 +45,7 @@
         "helsingborg-stad/wp-content-translator": ">=1.0.0",
         "helsingborg-stad/active-directory-api-wp-integration": ">=1.0.0",
         "helsingborg-stad/multisite-role-propagation": ">=1.0.0",
-        "helsingborg-stad/modularity-form-builder": "1.9.2",
+        "helsingborg-stad/modularity-form-builder": "dev-3.0/develop",
         "helsingborg-stad/modularity-sections": "1.3.3",
         "helsingborg-stad/wp-page-for-post-type": ">=1.0.7",
         "helsingborg-stad/modularity-checklist": ">=1.0.0",
@@ -68,7 +64,7 @@
         "helsingborg-stad/modularity-resource-booking": ">=1.4.6",
         "helsingborg-stad/modularity-login-form": ">=1.1.0",
         "wpackagist-plugin/user-switching": "^1.4",
-        "helsingborg-stad/modularity-json-render": "^1.1",
+        "helsingborg-stad/modularity-json-render": "dev-3.0/develop",
         "wpackagist-plugin/woocommerce": "^3.5",
         "wpackagist-plugin/woo-checkout-field-editor-pro": "^1.3",
         "helsingborg-stad/import-rss-feed": "^0.3.1",
@@ -82,7 +78,7 @@
         "helsingborg-stad/algolia-index": "^1.0",
         "helsingborg-stad/municipio-innovation-theme": "1.5.1",
         "helsingborg-stad/action-municipio-childtheme": "^1.1.5",
-        "helsingborg-stad/algolia-index-js-searchpage-addon": "^1.0",
+        "helsingborg-stad/algolia-index-js-searchpage-addon": "dev-3.0/develop",
         "wpackagist-plugin/acf-to-rest-api": "^3.2",
         "wpackagist-plugin/wp-webhooks": "^2.0",
         "helsingborg-stad/skyfish-integration": "^0.9.1",
@@ -91,14 +87,20 @@
         "wpackagist-plugin/nginx-helper": "^2.2"
     },
     "extra": {
+        "path": "/",
         "wordpress-install-dir": "wp",
         "installer-paths": {
-            "wp-content/plugins/{$name}": [
-                "type:wordpress-plugin"
-            ],
-            "wp-content/themes/{$name}": [
-                "type:wordpress-theme"
-            ]
+            "wp-content/plugins/{$name}": ["type:wordpress-plugin"],
+            "wp-content/themes/{$name}": ["type:wordpress-theme"]
         }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "mkdir -p wp-content/uploads/cache/blade-cache",
+            "@php post-install.php"
+        ],
+        "post-update-cmd": [
+            "@php post-install.php"
+        ]
     }
 }
