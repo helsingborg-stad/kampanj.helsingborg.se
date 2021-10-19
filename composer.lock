@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ac0ea3315eeaa6bdfa62830115f22377",
+    "content-hash": "777f8915cabdf2fd81c6c9f5883c2f14",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -693,7 +693,7 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.216.0",
+            "version": "v0.217.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
@@ -731,7 +731,7 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.216.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.217.0"
             },
             "time": "2021-10-06T11:20:29+00:00"
         },
@@ -1568,12 +1568,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "21569952bb4d1bb273dc5c563ab25fe3db438826"
+                "reference": "afc5c74b26e3b2c53ebb7c7536025b7856ee1619"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/21569952bb4d1bb273dc5c563ab25fe3db438826",
-                "reference": "21569952bb4d1bb273dc5c563ab25fe3db438826",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/afc5c74b26e3b2c53ebb7c7536025b7856ee1619",
+                "reference": "afc5c74b26e3b2c53ebb7c7536025b7856ee1619",
                 "shasum": ""
             },
             "require": {
@@ -1592,7 +1592,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2021-10-13T13:34:20+00:00"
+            "time": "2021-10-18T09:26:56+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -1960,12 +1960,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "5f2c1baa6b57d638256aa97974d410194335cab7"
+                "reference": "dcf5b37a7f788246daf420e5af4cccf284dbc15e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/5f2c1baa6b57d638256aa97974d410194335cab7",
-                "reference": "5f2c1baa6b57d638256aa97974d410194335cab7",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/dcf5b37a7f788246daf420e5af4cccf284dbc15e",
+                "reference": "dcf5b37a7f788246daf420e5af4cccf284dbc15e",
                 "shasum": ""
             },
             "require": {
@@ -2025,7 +2025,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2021-10-15T10:19:51+00:00"
+            "time": "2021-10-15T14:40:47+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-checklist",
@@ -2330,16 +2330,16 @@
         },
         {
             "name": "helsingborg-stad/modularity-sections",
-            "version": "1.3.3",
+            "version": "dev-3.0/develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-sections.git",
-                "reference": "aa83805faa9ae79a4051a1f2f725338e4d9f100e"
+                "reference": "1bf7797e36da0126d70e747ad85a72a510391b1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-sections/zipball/aa83805faa9ae79a4051a1f2f725338e4d9f100e",
-                "reference": "aa83805faa9ae79a4051a1f2f725338e4d9f100e",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-sections/zipball/1bf7797e36da0126d70e747ad85a72a510391b1e",
+                "reference": "1bf7797e36da0126d70e747ad85a72a510391b1e",
                 "shasum": ""
             },
             "require": {
@@ -2362,9 +2362,9 @@
             ],
             "support": {
                 "issues": "https://github.com/helsingborg-stad/modularity-sections/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-sections/tree/1.3.3"
+                "source": "https://github.com/helsingborg-stad/modularity-sections/tree/3.0/develop"
             },
-            "time": "2020-05-12T08:34:54+00:00"
+            "time": "2021-09-29T09:53:07+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-timeline",
@@ -4430,16 +4430,16 @@
         },
         {
             "name": "shortpixel/shortpixel-php",
-            "version": "V1.7.3",
+            "version": "v1.8.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/short-pixel-optimizer/shortpixel-php.git",
-                "reference": "2b654571c203399c3db967318db23e82233f632d"
+                "reference": "47c0be1abad7c8fb5b7569de03f05fc6d2487a9d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/short-pixel-optimizer/shortpixel-php/zipball/2b654571c203399c3db967318db23e82233f632d",
-                "reference": "2b654571c203399c3db967318db23e82233f632d",
+                "url": "https://api.github.com/repos/short-pixel-optimizer/shortpixel-php/zipball/47c0be1abad7c8fb5b7569de03f05fc6d2487a9d",
+                "reference": "47c0be1abad7c8fb5b7569de03f05fc6d2487a9d",
                 "shasum": ""
             },
             "require": {
@@ -4484,9 +4484,9 @@
             "support": {
                 "email": "support@shortpixel.com",
                 "issues": "https://github.com/short-pixel-optimizer/shortpixel-php/issues",
-                "source": "https://github.com/short-pixel-optimizer/shortpixel-php/tree/V1.7.3"
+                "source": "https://github.com/short-pixel-optimizer/shortpixel-php/tree/v1.8.4"
             },
-            "time": "2021-03-09T12:29:46+00:00"
+            "time": "2021-10-19T10:12:06+00:00"
         },
         {
             "name": "symfony/debug",
@@ -5319,24 +5319,6 @@
             "homepage": "https://wordpress.org/plugins/user-switching/"
         },
         {
-            "name": "wpackagist-plugin/varnish-http-purge",
-            "version": "5.0.3",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/varnish-http-purge/",
-                "reference": "tags/5.0.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/varnish-http-purge.5.0.3.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0 || ~2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/varnish-http-purge/"
-        },
-        {
             "name": "wpackagist-plugin/woo-checkout-field-editor-pro",
             "version": "1.5.0",
             "source": {
@@ -5507,6 +5489,7 @@
         "helsingborg-stad/municipio": 20,
         "helsingborg-stad/customer-feedback": 20,
         "helsingborg-stad/modularity-form-builder": 20,
+        "helsingborg-stad/modularity-sections": 20,
         "helsingborg-stad/modularity-json-render": 20,
         "helsingborg-stad/algolia-index-js-searchpage-addon": 20,
         "helsingborg-stad/component-library": 20
