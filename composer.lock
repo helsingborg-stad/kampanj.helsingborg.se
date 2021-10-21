@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "777f8915cabdf2fd81c6c9f5883c2f14",
+    "content-hash": "c54e80ad8eef0ff90da8a988dd9fdab9",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1568,12 +1568,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "afc5c74b26e3b2c53ebb7c7536025b7856ee1619"
+                "reference": "22585cf26f903600f556eea366c2166d1a59b05c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/afc5c74b26e3b2c53ebb7c7536025b7856ee1619",
-                "reference": "afc5c74b26e3b2c53ebb7c7536025b7856ee1619",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/22585cf26f903600f556eea366c2166d1a59b05c",
+                "reference": "22585cf26f903600f556eea366c2166d1a59b05c",
                 "shasum": ""
             },
             "require": {
@@ -1592,7 +1592,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2021-10-18T09:26:56+00:00"
+            "time": "2021-10-20T07:48:23+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -2094,6 +2094,38 @@
                 "source": "https://github.com/helsingborg-stad/modularity-comments/tree/master"
             },
             "time": "2020-01-17T10:52:10+00:00"
+        },
+        {
+            "name": "helsingborg-stad/modularity-contact-banner",
+            "version": "dev-3.0/develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/modularity-contact-banner.git",
+                "reference": "a51b64fedb0674e9caa4f22c6b23fbfd96b884d7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-contact-banner/zipball/a51b64fedb0674e9caa4f22c6b23fbfd96b884d7",
+                "reference": "a51b64fedb0674e9caa4f22c6b23fbfd96b884d7",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Thulin",
+                    "email": "sebastian.thulin@helsingborg.se"
+                }
+            ],
+            "description": "Contact Banner",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/modularity-contact-banner/issues",
+                "source": "https://github.com/helsingborg-stad/modularity-contact-banner/tree/3.0/develop"
+            },
+            "time": "2021-10-05T09:21:26+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-dictionary",
@@ -5492,7 +5524,8 @@
         "helsingborg-stad/modularity-sections": 20,
         "helsingborg-stad/modularity-json-render": 20,
         "helsingborg-stad/algolia-index-js-searchpage-addon": 20,
-        "helsingborg-stad/component-library": 20
+        "helsingborg-stad/component-library": 20,
+        "helsingborg-stad/modularity-contact-banner": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
