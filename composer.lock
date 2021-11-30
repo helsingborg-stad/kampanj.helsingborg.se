@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "26d6a8315c22fc87eaca4bb429ade7aa",
+    "content-hash": "2818c1623e3e88b24bac6ae8cc919ca3",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1287,16 +1287,16 @@
         },
         {
             "name": "helsingborg-stad/api-event-manager-integration",
-            "version": "0.15.12",
+            "version": "dev-3.0/develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager-integration.git",
-                "reference": "e23ab517037ea53ea31284b2ac6e98f869713b27"
+                "reference": "d59716e47cf27ca68931823f7068011415529c28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/e23ab517037ea53ea31284b2ac6e98f869713b27",
-                "reference": "e23ab517037ea53ea31284b2ac6e98f869713b27",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/d59716e47cf27ca68931823f7068011415529c28",
+                "reference": "d59716e47cf27ca68931823f7068011415529c28",
                 "shasum": ""
             },
             "require": {
@@ -1318,9 +1318,9 @@
             "description": "Import and display events from Event Manager API.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-event-manager-integration/issues",
-                "source": "https://github.com/helsingborg-stad/api-event-manager-integration/tree/0.15.12"
+                "source": "https://github.com/helsingborg-stad/api-event-manager-integration/tree/3.0/develop"
             },
-            "time": "2020-10-14T08:39:34+00:00"
+            "time": "2021-11-25T15:46:31+00:00"
         },
         {
             "name": "helsingborg-stad/api-project-manager-integration",
@@ -2206,17 +2206,20 @@
         },
         {
             "name": "helsingborg-stad/modularity-guides",
-            "version": "2.0.10",
+            "version": "dev-3.0/develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-guides.git",
-                "reference": "c05750a263b651e7e30ffcdcf9b631213c99f78c"
+                "reference": "4bed9d39bf629d331cc4c9ead70cd3a561bb96e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-guides/zipball/c05750a263b651e7e30ffcdcf9b631213c99f78c",
-                "reference": "c05750a263b651e7e30ffcdcf9b631213c99f78c",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-guides/zipball/4bed9d39bf629d331cc4c9ead70cd3a561bb96e3",
+                "reference": "4bed9d39bf629d331cc4c9ead70cd3a561bb96e3",
                 "shasum": ""
+            },
+            "require": {
+                "helsingborg-stad/recaptcha-integration": ">=1.0.8"
             },
             "type": "wordpress-plugin",
             "notification-url": "https://packagist.org/downloads/",
@@ -2225,20 +2228,20 @@
             ],
             "authors": [
                 {
-                    "name": "Sebastian Thulin",
-                    "email": "sebastian.thulin@helsingborg.se"
-                },
-                {
                     "name": "Kristoffer Svanmark",
                     "email": "kristoffer.svanmark@knowit.se"
+                },
+                {
+                    "name": "Sebastian Thulin",
+                    "email": "sebastian.thulin@helsingborg.se"
                 }
             ],
             "description": "Addon for Modularity for creating guides",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/modularity-guides/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-guides/tree/master"
+                "source": "https://github.com/helsingborg-stad/modularity-guides/tree/3.0/develop"
             },
-            "time": "2018-07-12T08:33:00+00:00"
+            "time": "2021-06-04T07:13:40+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-json-render",
@@ -5492,7 +5495,9 @@
     "stability-flags": {
         "helsingborg-stad/modularity": 20,
         "helsingborg-stad/municipio": 20,
+        "helsingborg-stad/modularity-guides": 20,
         "helsingborg-stad/customer-feedback": 20,
+        "helsingborg-stad/api-event-manager-integration": 20,
         "helsingborg-stad/modularity-form-builder": 20,
         "helsingborg-stad/modularity-sections": 20,
         "helsingborg-stad/modularity-json-render": 20,
@@ -5504,5 +5509,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.0.0"
 }
