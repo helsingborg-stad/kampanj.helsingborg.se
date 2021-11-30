@@ -85,9 +85,9 @@ jobs:
       with:
         script: |
           cd ${{ secrets.DEPLOY_REMOTE_PATH_KAMPANJ_HELSINGBORG_SE }}
-          wp varnish purge --allow-root
           wp cache flush --allow-root
-          rm /tmp/blade-engine-cache/* || true
+          wp nginx-helper purge-all --allow-root
+          rm ${{ secrets.DEPLOY_REMOTE_PATH_KAMPANJ_HELSINGBORG_SE }}/wp-content/uploads/cache/blade-cache/* || true
         host: ${{ secrets.DEPLOY_REMOTE_HOST_KAMPANJ_HELSINGBORG_SE }}
         username: ${{ secrets.DEPLOY_REMOTE_USER }}
         key: ${{ secrets.DEPLOY_KEY }}
