@@ -32,7 +32,8 @@ $removables = [
     'build.php',
     'composer.json',
     'composer.lock',
-    'post-install.php'
+    'post-install.php',
+    'images'
 ];
 
 $dirName = basename(dirname(__FILE__));
