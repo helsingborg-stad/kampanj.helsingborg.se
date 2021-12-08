@@ -693,16 +693,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.224.0",
+            "version": "v0.224.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "2dfd8e7fc063b9228e8d9ccf9ffdeb6dace7e6b1"
+                "reference": "06e515176ebf32c3dcf7c01b3f377af6bfca6ae3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/2dfd8e7fc063b9228e8d9ccf9ffdeb6dace7e6b1",
-                "reference": "2dfd8e7fc063b9228e8d9ccf9ffdeb6dace7e6b1",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/06e515176ebf32c3dcf7c01b3f377af6bfca6ae3",
+                "reference": "06e515176ebf32c3dcf7c01b3f377af6bfca6ae3",
                 "shasum": ""
             },
             "require": {
@@ -731,9 +731,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.224.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.224.1"
             },
-            "time": "2021-11-24T12:26:12+00:00"
+            "time": "2021-12-05T12:26:30+00:00"
         },
         {
             "name": "google/auth",
@@ -1568,12 +1568,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "532ea873a253cb256fea43573fb00ee1760db07f"
+                "reference": "bd512abb50301beffdca0159b9b6f39ab43231fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/532ea873a253cb256fea43573fb00ee1760db07f",
-                "reference": "532ea873a253cb256fea43573fb00ee1760db07f",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/bd512abb50301beffdca0159b9b6f39ab43231fd",
+                "reference": "bd512abb50301beffdca0159b9b6f39ab43231fd",
                 "shasum": ""
             },
             "require": {
@@ -1592,7 +1592,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2021-11-30T11:52:08+00:00"
+            "time": "2021-12-06T15:06:27+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -1960,12 +1960,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "8f22045cc8620a0296390c2938b1201024d5f7fb"
+                "reference": "d80c2ae47a39ee16f244b066065fddbb001492a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/8f22045cc8620a0296390c2938b1201024d5f7fb",
-                "reference": "8f22045cc8620a0296390c2938b1201024d5f7fb",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/d80c2ae47a39ee16f244b066065fddbb001492a7",
+                "reference": "d80c2ae47a39ee16f244b066065fddbb001492a7",
                 "shasum": ""
             },
             "require": {
@@ -2025,7 +2025,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2021-11-30T07:08:59+00:00"
+            "time": "2021-12-06T13:41:09+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-checklist",
@@ -2101,12 +2101,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-contact-banner.git",
-                "reference": "a536a21f2b952532da3ab9cbd8f786a10e6b738f"
+                "reference": "58affa97ee4c22d0c2d440375a95a746f7579507"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-contact-banner/zipball/a536a21f2b952532da3ab9cbd8f786a10e6b738f",
-                "reference": "a536a21f2b952532da3ab9cbd8f786a10e6b738f",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-contact-banner/zipball/58affa97ee4c22d0c2d440375a95a746f7579507",
+                "reference": "58affa97ee4c22d0c2d440375a95a746f7579507",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -2125,7 +2125,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-contact-banner/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-contact-banner/tree/3.0/develop"
             },
-            "time": "2021-11-30T10:38:19+00:00"
+            "time": "2021-12-06T13:30:57+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-dictionary",
@@ -2438,16 +2438,16 @@
         },
         {
             "name": "helsingborg-stad/multisite-role-propagation",
-            "version": "1.0.3",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/multisite-role-propagation.git",
-                "reference": "16d4992b8d32b3e3d8ef99ed51d37ac54bf917cc"
+                "reference": "5e986998da6d3d660851c0ce74edd8aebda52d06"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/multisite-role-propagation/zipball/16d4992b8d32b3e3d8ef99ed51d37ac54bf917cc",
-                "reference": "16d4992b8d32b3e3d8ef99ed51d37ac54bf917cc",
+                "url": "https://api.github.com/repos/helsingborg-stad/multisite-role-propagation/zipball/5e986998da6d3d660851c0ce74edd8aebda52d06",
+                "reference": "5e986998da6d3d660851c0ce74edd8aebda52d06",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -2464,9 +2464,9 @@
             "description": "Plugin to quickly set a role for a multisite user on multiple blogs in a network",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/multisite-role-propagation/issues",
-                "source": "https://github.com/helsingborg-stad/multisite-role-propagation/tree/1.0.3"
+                "source": "https://github.com/helsingborg-stad/multisite-role-propagation/tree/1.0.4"
             },
-            "time": "2017-05-12T11:30:57+00:00"
+            "time": "2021-12-02T12:54:25+00:00"
         },
         {
             "name": "helsingborg-stad/municipio",
@@ -2474,12 +2474,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "7fa3f997fcc1512b0c3b6b3d82f685610b522467"
+                "reference": "e32e6a6f31980e1103d6ddf1092094372a8980bb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/7fa3f997fcc1512b0c3b6b3d82f685610b522467",
-                "reference": "7fa3f997fcc1512b0c3b6b3d82f685610b522467",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/e32e6a6f31980e1103d6ddf1092094372a8980bb",
+                "reference": "e32e6a6f31980e1103d6ddf1092094372a8980bb",
                 "shasum": ""
             },
             "require": {
@@ -2536,7 +2536,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2021-11-30T11:02:04+00:00"
+            "time": "2021-12-06T15:21:43+00:00"
         },
         {
             "name": "helsingborg-stad/municipio-innovation-theme",
@@ -3603,16 +3603,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.54.0",
+            "version": "2.55.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "eed83939f1aed3eee517d03a33f5ec587ac529b5"
+                "reference": "8c2a18ce3e67c34efc1b29f64fe61304368259a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/eed83939f1aed3eee517d03a33f5ec587ac529b5",
-                "reference": "eed83939f1aed3eee517d03a33f5ec587ac529b5",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/8c2a18ce3e67c34efc1b29f64fe61304368259a2",
+                "reference": "8c2a18ce3e67c34efc1b29f64fe61304368259a2",
                 "shasum": ""
             },
             "require": {
@@ -3620,7 +3620,7 @@
                 "php": "^7.1.8 || ^8.0",
                 "symfony/polyfill-mbstring": "^1.0",
                 "symfony/polyfill-php80": "^1.16",
-                "symfony/translation": "^3.4 || ^4.0 || ^5.0"
+                "symfony/translation": "^3.4 || ^4.0 || ^5.0 || ^6.0"
             },
             "require-dev": {
                 "doctrine/dbal": "^2.0 || ^3.0",
@@ -3681,6 +3681,7 @@
                 "time"
             ],
             "support": {
+                "docs": "https://carbon.nesbot.com/docs",
                 "issues": "https://github.com/briannesbitt/Carbon/issues",
                 "source": "https://github.com/briannesbitt/Carbon"
             },
@@ -3694,7 +3695,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-11-01T21:22:20+00:00"
+            "time": "2021-12-03T14:59:52+00:00"
         },
         {
             "name": "olssonm/identity-number",
@@ -5166,15 +5167,15 @@
         },
         {
             "name": "wpackagist-plugin/autodescription",
-            "version": "4.2.1",
+            "version": "4.2.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/autodescription/",
-                "reference": "tags/4.2.1"
+                "reference": "tags/4.2.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/autodescription.4.2.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/autodescription.4.2.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5328,7 +5329,7 @@
         },
         {
             "name": "wpackagist-plugin/woo-checkout-field-editor-pro",
-            "version": "1.5.0",
+            "version": "1.5.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woo-checkout-field-editor-pro/",
@@ -5336,7 +5337,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-checkout-field-editor-pro.zip?timestamp=1633686481"
+                "url": "https://downloads.wordpress.org/plugin/woo-checkout-field-editor-pro.zip?timestamp=1638508698"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5509,5 +5510,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.1.0"
 }
