@@ -65,6 +65,15 @@ if (file_exists(__DIR__ . '/config/multisite.php')) {
 }
 
 /**
+ * Sentry settings
+ *
+ * Sentry configuration for error reporting.
+ */
+if (file_exists(__DIR__ . '/config/sentry.php')) {
+    require_once 'config/sentry.php';
+}
+
+/**
  * Developer settings
  *
  * You can create a file called "developer.php" in the config dir and
