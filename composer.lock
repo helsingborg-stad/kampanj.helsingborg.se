@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2818c1623e3e88b24bac6ae8cc919ca3",
+    "content-hash": "d5eee86695dcf5d52ec4c08dcbc4a584",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -5470,6 +5470,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-rest-filter/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-sentry-integration",
+            "version": "4.10.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-sentry-integration/",
+                "reference": "tags/4.10.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.4.10.3.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-sentry-integration/"
         },
         {
             "name": "wpackagist-plugin/wp-webhooks",
