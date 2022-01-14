@@ -8,23 +8,23 @@
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
-            "version": "2.8.0",
+            "version": "2.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/algolia/algoliasearch-client-php.git",
-                "reference": "d9781147ae433f5bdbfd902497d748d60e70d693"
+                "reference": "ce8b35a5aa842ad3e0dc05bbd7aaf5ed82481d71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/algolia/algoliasearch-client-php/zipball/d9781147ae433f5bdbfd902497d748d60e70d693",
-                "reference": "d9781147ae433f5bdbfd902497d748d60e70d693",
+                "url": "https://api.github.com/repos/algolia/algoliasearch-client-php/zipball/ce8b35a5aa842ad3e0dc05bbd7aaf5ed82481d71",
+                "reference": "ce8b35a5aa842ad3e0dc05bbd7aaf5ed82481d71",
                 "shasum": ""
             },
             "require": {
                 "ext-curl": "*",
                 "ext-json": "*",
                 "ext-mbstring": "*",
-                "php": "^5.3 || ^7.0 || ^8.0",
+                "php": "^5.3 || ^7.0",
                 "psr/http-message": "^1.0",
                 "psr/log": "^1.0",
                 "psr/simple-cache": "^1.0"
@@ -32,7 +32,7 @@
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^2.0",
                 "fzaninotto/faker": "^1.8",
-                "julienbourdeau/phpunit": "4.8.37",
+                "phpunit/phpunit": "^4.8",
                 "symfony/yaml": "^2.0 || ^4.0"
             },
             "suggest": {
@@ -76,9 +76,9 @@
             ],
             "support": {
                 "issues": "https://github.com/algolia/algoliasearch-client-php/issues",
-                "source": "https://github.com/algolia/algoliasearch-client-php/tree/2.8.0"
+                "source": "https://github.com/algolia/algoliasearch-client-php/tree/master"
             },
-            "time": "2021-04-07T16:50:58+00:00"
+            "time": "2020-06-25T08:47:13+00:00"
         },
         {
             "name": "aristath/kirki",
@@ -693,16 +693,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.226.0",
+            "version": "v0.229.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "c67839c96bc821b202c6737c9ae1ba6fd4626653"
+                "reference": "ec64bbf1d6af9475bee7b1ce4fc0ed8a0a8d8889"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/c67839c96bc821b202c6737c9ae1ba6fd4626653",
-                "reference": "c67839c96bc821b202c6737c9ae1ba6fd4626653",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/ec64bbf1d6af9475bee7b1ce4fc0ed8a0a8d8889",
+                "reference": "ec64bbf1d6af9475bee7b1ce4fc0ed8a0a8d8889",
                 "shasum": ""
             },
             "require": {
@@ -731,9 +731,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.226.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.229.0"
             },
-            "time": "2021-12-18T12:26:19+00:00"
+            "time": "2021-12-21T12:26:12+00:00"
         },
         {
             "name": "google/auth",
@@ -1177,20 +1177,23 @@
         },
         {
             "name": "helsingborg-stad/algolia-index",
-            "version": "1.8.1",
+            "version": "1.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/algolia-index.git",
-                "reference": "9573d1989fda29ce35de613b0c78ec58f2361e95"
+                "reference": "06112812e1b76218c51c5d13442477b13f7b5b21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/algolia-index/zipball/9573d1989fda29ce35de613b0c78ec58f2361e95",
-                "reference": "9573d1989fda29ce35de613b0c78ec58f2361e95",
+                "url": "https://api.github.com/repos/helsingborg-stad/algolia-index/zipball/06112812e1b76218c51c5d13442477b13f7b5b21",
+                "reference": "06112812e1b76218c51c5d13442477b13f7b5b21",
                 "shasum": ""
             },
             "require": {
-                "algolia/algoliasearch-client-php": "^2.6"
+                "algolia/algoliasearch-client-php": "2.7.0",
+                "google/apiclient": "2.7.2",
+                "guzzlehttp/guzzle": "7.0.1",
+                "guzzlehttp/psr7": "1.7.0"
             },
             "type": "wordpress-plugin",
             "extra": {
@@ -1217,9 +1220,9 @@
             "description": "Index wordpress site content to algolia.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/algolia-index/issues",
-                "source": "https://github.com/helsingborg-stad/algolia-index/tree/1.8.1"
+                "source": "https://github.com/helsingborg-stad/algolia-index/tree/1.8.3"
             },
-            "time": "2020-06-25T09:47:27+00:00"
+            "time": "2022-01-14T15:14:32+00:00"
         },
         {
             "name": "helsingborg-stad/algolia-index-js-searchpage-addon",
@@ -1291,12 +1294,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager-integration.git",
-                "reference": "d59716e47cf27ca68931823f7068011415529c28"
+                "reference": "a413012d997b03379b0b1153a8a62a4ed308319d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/d59716e47cf27ca68931823f7068011415529c28",
-                "reference": "d59716e47cf27ca68931823f7068011415529c28",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/a413012d997b03379b0b1153a8a62a4ed308319d",
+                "reference": "a413012d997b03379b0b1153a8a62a4ed308319d",
                 "shasum": ""
             },
             "require": {
@@ -1320,7 +1323,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-event-manager-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-event-manager-integration/tree/3.0/develop"
             },
-            "time": "2021-11-25T15:46:31+00:00"
+            "time": "2022-01-14T09:49:52+00:00"
         },
         {
             "name": "helsingborg-stad/api-project-manager-integration",
@@ -1568,12 +1571,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "6c032d40fdf777b51b9955305142bdeb1855b58a"
+                "reference": "17ba0eb329da0de3b59fcb411ba9a42b8209494f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/6c032d40fdf777b51b9955305142bdeb1855b58a",
-                "reference": "6c032d40fdf777b51b9955305142bdeb1855b58a",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/17ba0eb329da0de3b59fcb411ba9a42b8209494f",
+                "reference": "17ba0eb329da0de3b59fcb411ba9a42b8209494f",
                 "shasum": ""
             },
             "require": {
@@ -1592,7 +1595,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2021-12-20T10:17:55+00:00"
+            "time": "2022-01-10T15:27:38+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -1960,12 +1963,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "2d560cb288c442be27eb5173e40e65993b2134b6"
+                "reference": "4509de82ad4a24cbb0a9632c605222d70672da6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/2d560cb288c442be27eb5173e40e65993b2134b6",
-                "reference": "2d560cb288c442be27eb5173e40e65993b2134b6",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/4509de82ad4a24cbb0a9632c605222d70672da6c",
+                "reference": "4509de82ad4a24cbb0a9632c605222d70672da6c",
                 "shasum": ""
             },
             "require": {
@@ -2025,7 +2028,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2021-12-20T10:29:19+00:00"
+            "time": "2022-01-10T12:00:37+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-checklist",
@@ -2164,12 +2167,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-form-builder.git",
-                "reference": "3958a6f062acebce1c8b30106c09393217a006a6"
+                "reference": "8cf73992b7e561395b8383337d0487ac73e30d74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-form-builder/zipball/3958a6f062acebce1c8b30106c09393217a006a6",
-                "reference": "3958a6f062acebce1c8b30106c09393217a006a6",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-form-builder/zipball/8cf73992b7e561395b8383337d0487ac73e30d74",
+                "reference": "8cf73992b7e561395b8383337d0487ac73e30d74",
                 "shasum": ""
             },
             "require": {
@@ -2202,7 +2205,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-form-builder/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-form-builder/tree/3.0/develop"
             },
-            "time": "2021-12-20T14:44:02+00:00"
+            "time": "2022-01-12T11:53:50+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-guides",
@@ -2369,12 +2372,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-sections.git",
-                "reference": "6c3b63c2a7b6d53adbed62a8867503185d75a9cc"
+                "reference": "fea14063928700f00b9b4c27db6e80dfe5c5cdcc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-sections/zipball/6c3b63c2a7b6d53adbed62a8867503185d75a9cc",
-                "reference": "6c3b63c2a7b6d53adbed62a8867503185d75a9cc",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-sections/zipball/fea14063928700f00b9b4c27db6e80dfe5c5cdcc",
+                "reference": "fea14063928700f00b9b4c27db6e80dfe5c5cdcc",
                 "shasum": ""
             },
             "require": {
@@ -2399,7 +2402,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-sections/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-sections/tree/3.0/develop"
             },
-            "time": "2021-12-17T12:33:48+00:00"
+            "time": "2022-01-10T10:59:47+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-timeline",
@@ -2474,12 +2477,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "e44cb2607acb0ad36a82f950d1676b2cc9f813e7"
+                "reference": "adb565c3b03d42270a7e4508db12229ad54b8cfc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/e44cb2607acb0ad36a82f950d1676b2cc9f813e7",
-                "reference": "e44cb2607acb0ad36a82f950d1676b2cc9f813e7",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/adb565c3b03d42270a7e4508db12229ad54b8cfc",
+                "reference": "adb565c3b03d42270a7e4508db12229ad54b8cfc",
                 "shasum": ""
             },
             "require": {
@@ -2536,7 +2539,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2021-12-20T14:44:55+00:00"
+            "time": "2022-01-13T15:11:00+00:00"
         },
         {
             "name": "helsingborg-stad/municipio-innovation-theme",
@@ -3356,20 +3359,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "5.8.2",
+            "version": "5.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "4542ab539a46d3e5288db279a7fa5de3fecacaf6"
+                "reference": "ecec9cf67c91c2ff31b1002035e8e8a1a6c91292"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/4542ab539a46d3e5288db279a7fa5de3fecacaf6",
-                "reference": "4542ab539a46d3e5288db279a7fa5de3fecacaf6",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/ecec9cf67c91c2ff31b1002035e8e8a1a6c91292",
+                "reference": "ecec9cf67c91c2ff31b1002035e8e8a1a6c91292",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "5.8.2",
+                "johnpbloch/wordpress-core": "5.8.3",
                 "johnpbloch/wordpress-core-installer": "^1.0 || ^2.0",
                 "php": ">=5.6.20"
             },
@@ -3398,20 +3401,20 @@
                 "source": "http://core.trac.wordpress.org/browser",
                 "wiki": "http://codex.wordpress.org/"
             },
-            "time": "2021-11-10T17:28:17+00:00"
+            "time": "2022-01-06T19:24:21+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "5.8.2",
+            "version": "5.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "2bbb0498c019329aa12e22b21fa4f8b216ad6620"
+                "reference": "9f80e45b0a8116df03a41e4ccea09a434528b063"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/2bbb0498c019329aa12e22b21fa4f8b216ad6620",
-                "reference": "2bbb0498c019329aa12e22b21fa4f8b216ad6620",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/9f80e45b0a8116df03a41e4ccea09a434528b063",
+                "reference": "9f80e45b0a8116df03a41e4ccea09a434528b063",
                 "shasum": ""
             },
             "require": {
@@ -3419,7 +3422,7 @@
                 "php": ">=5.6.20"
             },
             "provide": {
-                "wordpress/core-implementation": "5.8.2"
+                "wordpress/core-implementation": "5.8.3"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -3446,7 +3449,7 @@
                 "source": "https://core.trac.wordpress.org/browser",
                 "wiki": "https://codex.wordpress.org/"
             },
-            "time": "2021-11-10T17:28:15+00:00"
+            "time": "2022-01-06T19:24:18+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -4480,16 +4483,16 @@
         },
         {
             "name": "symfony/debug",
-            "version": "v4.4.31",
+            "version": "v4.4.36",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "43ede438d4cb52cd589ae5dc070e9323866ba8e0"
+                "reference": "346e1507eeb3f566dcc7a116fefaa407ee84691b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/43ede438d4cb52cd589ae5dc070e9323866ba8e0",
-                "reference": "43ede438d4cb52cd589ae5dc070e9323866ba8e0",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/346e1507eeb3f566dcc7a116fefaa407ee84691b",
+                "reference": "346e1507eeb3f566dcc7a116fefaa407ee84691b",
                 "shasum": ""
             },
             "require": {
@@ -4528,7 +4531,7 @@
             "description": "Provides tools to ease debugging PHP code",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/debug/tree/v4.4.31"
+                "source": "https://github.com/symfony/debug/tree/v4.4.36"
             },
             "funding": [
                 {
@@ -4544,7 +4547,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-09-24T13:30:14+00:00"
+            "time": "2021-11-29T08:40:48+00:00"
         },
         {
             "name": "symfony/finder",
@@ -4690,16 +4693,16 @@
         },
         {
             "name": "symfony/polyfill-php80",
-            "version": "v1.23.1",
+            "version": "v1.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php80.git",
-                "reference": "1100343ed1a92e3a38f9ae122fc0eb21602547be"
+                "reference": "57b712b08eddb97c762a8caa32c84e037892d2e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/1100343ed1a92e3a38f9ae122fc0eb21602547be",
-                "reference": "1100343ed1a92e3a38f9ae122fc0eb21602547be",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/57b712b08eddb97c762a8caa32c84e037892d2e9",
+                "reference": "57b712b08eddb97c762a8caa32c84e037892d2e9",
                 "shasum": ""
             },
             "require": {
@@ -4753,7 +4756,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php80/tree/v1.23.1"
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.24.0"
             },
             "funding": [
                 {
@@ -4769,7 +4772,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-07-28T13:41:28+00:00"
+            "time": "2021-09-13T13:58:33+00:00"
         },
         {
             "name": "symfony/translation",
@@ -4927,16 +4930,16 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v5.4.1",
+            "version": "v5.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "2366ac8d8abe0c077844613c1a4f0c0a9f522dcc"
+                "reference": "1b56c32c3679002b3a42384a580e16e2600f41c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/2366ac8d8abe0c077844613c1a4f0c0a9f522dcc",
-                "reference": "2366ac8d8abe0c077844613c1a4f0c0a9f522dcc",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/1b56c32c3679002b3a42384a580e16e2600f41c1",
+                "reference": "1b56c32c3679002b3a42384a580e16e2600f41c1",
                 "shasum": ""
             },
             "require": {
@@ -4996,7 +4999,7 @@
                 "dump"
             ],
             "support": {
-                "source": "https://github.com/symfony/var-dumper/tree/v5.4.1"
+                "source": "https://github.com/symfony/var-dumper/tree/v5.4.2"
             },
             "funding": [
                 {
@@ -5012,7 +5015,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-12-01T15:04:08+00:00"
+            "time": "2021-12-29T10:10:35+00:00"
         },
         {
             "name": "tgmpa/tgm-plugin-activation",
@@ -5329,7 +5332,7 @@
         },
         {
             "name": "wpackagist-plugin/woo-checkout-field-editor-pro",
-            "version": "1.5.1",
+            "version": "1.5.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woo-checkout-field-editor-pro/",
@@ -5337,7 +5340,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-checkout-field-editor-pro.zip?timestamp=1638508698"
+                "url": "https://downloads.wordpress.org/plugin/woo-checkout-field-editor-pro.zip?timestamp=1642093816"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5473,15 +5476,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-sentry-integration",
-            "version": "4.10.3",
+            "version": "4.11.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-sentry-integration/",
-                "reference": "tags/4.10.3"
+                "reference": "tags/4.11.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.4.10.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.4.11.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5528,5 +5531,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.1.0"
 }
