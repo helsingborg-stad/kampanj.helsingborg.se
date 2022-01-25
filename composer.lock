@@ -761,7 +761,7 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.229.0",
+            "version": "v0.231.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
@@ -799,7 +799,7 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.229.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.231.0"
             },
             "time": "2021-12-21T12:26:12+00:00"
         },
@@ -2031,12 +2031,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "4509de82ad4a24cbb0a9632c605222d70672da6c"
+                "reference": "a912f6cd20bc054627e9c9686d051607ed1f09dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/4509de82ad4a24cbb0a9632c605222d70672da6c",
-                "reference": "4509de82ad4a24cbb0a9632c605222d70672da6c",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/a912f6cd20bc054627e9c9686d051607ed1f09dd",
+                "reference": "a912f6cd20bc054627e9c9686d051607ed1f09dd",
                 "shasum": ""
             },
             "require": {
@@ -2096,7 +2096,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2022-01-10T12:00:37+00:00"
+            "time": "2022-01-24T15:39:22+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-checklist",
@@ -2885,12 +2885,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/trenomvarldsanalys-wp.git",
-                "reference": "d083a9331207880b48f78d984d0c27057b59fb6b"
+                "reference": "d5903bead6c6422ae48543d9ce68ef94a20f1478"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/trenomvarldsanalys-wp/zipball/d083a9331207880b48f78d984d0c27057b59fb6b",
-                "reference": "d083a9331207880b48f78d984d0c27057b59fb6b",
+                "url": "https://api.github.com/repos/helsingborg-stad/trenomvarldsanalys-wp/zipball/d5903bead6c6422ae48543d9ce68ef94a20f1478",
+                "reference": "d5903bead6c6422ae48543d9ce68ef94a20f1478",
                 "shasum": ""
             },
             "require": {
@@ -2944,7 +2944,7 @@
             "support": {
                 "source": "https://github.com/helsingborg-stad/trenomvarldsanalys-wp/tree/main"
             },
-            "time": "2022-01-25T09:48:44+00:00"
+            "time": "2022-01-25T10:06:40+00:00"
         },
         {
             "name": "helsingborg-stad/wp-content-translator",
@@ -3741,16 +3741,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.55.2",
+            "version": "2.56.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "8c2a18ce3e67c34efc1b29f64fe61304368259a2"
+                "reference": "626ec8cbb724cd3c3400c3ed8f730545b744e3f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/8c2a18ce3e67c34efc1b29f64fe61304368259a2",
-                "reference": "8c2a18ce3e67c34efc1b29f64fe61304368259a2",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/626ec8cbb724cd3c3400c3ed8f730545b744e3f4",
+                "reference": "626ec8cbb724cd3c3400c3ed8f730545b744e3f4",
                 "shasum": ""
             },
             "require": {
@@ -3767,7 +3767,7 @@
                 "kylekatarnls/multi-tester": "^2.0",
                 "phpmd/phpmd": "^2.9",
                 "phpstan/extension-installer": "^1.0",
-                "phpstan/phpstan": "^0.12.54",
+                "phpstan/phpstan": "^0.12.54 || ^1.0",
                 "phpunit/phpunit": "^7.5.20 || ^8.5.14",
                 "squizlabs/php_codesniffer": "^3.4"
             },
@@ -3833,7 +3833,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-12-03T14:59:52+00:00"
+            "time": "2022-01-21T17:08:38+00:00"
         },
         {
             "name": "olssonm/identity-number",
@@ -5568,15 +5568,15 @@
         },
         {
             "name": "wpackagist-plugin/autodescription",
-            "version": "4.2.2",
+            "version": "4.2.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/autodescription/",
-                "reference": "tags/4.2.2"
+                "reference": "tags/4.2.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/autodescription.4.2.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/autodescription.4.2.3.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5640,15 +5640,15 @@
         },
         {
             "name": "wpackagist-plugin/redirection",
-            "version": "5.1.3",
+            "version": "5.2.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redirection/",
-                "reference": "tags/5.1.3"
+                "reference": "tags/5.2.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redirection.5.1.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/redirection.5.2.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5874,15 +5874,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-sentry-integration",
-            "version": "4.11.0",
+            "version": "4.12.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-sentry-integration/",
-                "reference": "tags/4.11.0"
+                "reference": "tags/4.12.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.4.11.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.4.12.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
