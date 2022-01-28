@@ -88,7 +88,6 @@
         "bueltge/must-use-loader": "^1.3",
         "helsingborg-stad/modularity-contact-banner": "dev-3.0/develop",
         "wpackagist-plugin/wp-sentry-integration": "^4.10",
-        "helsingborg-stad/trenomvarldsanalys-wp": "dev-main",
         "helsingborg-stad/modularity-entryscape": "dev-master"
     },
     "extra": {
