@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3c05efbac09cf9fe7ab8fd6da216e408",
+    "content-hash": "4aee576c189698e96e8dc11e89c5b56d",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -2228,6 +2228,39 @@
                 "source": "https://github.com/helsingborg-stad/modularity-dictionary/tree/1.0.7"
             },
             "time": "2017-05-12T12:21:57+00:00"
+        },
+        {
+            "name": "helsingborg-stad/modularity-entryscape",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/modularity-entryscape.git",
+                "reference": "854164139dffe57823ed4d0b825254f0588d6459"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-entryscape/zipball/854164139dffe57823ed4d0b825254f0588d6459",
+                "reference": "854164139dffe57823ed4d0b825254f0588d6459",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Thulin",
+                    "email": "sebastian.thulin@helsingborg.se"
+                }
+            ],
+            "description": "Modularity Entryscape",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/modularity-entryscape/issues",
+                "source": "https://github.com/helsingborg-stad/modularity-entryscape/tree/master"
+            },
+            "time": "2022-01-28T07:47:42+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-form-builder",
@@ -5924,7 +5957,8 @@
         "helsingborg-stad/algolia-index-js-searchpage-addon": 20,
         "helsingborg-stad/component-library": 20,
         "helsingborg-stad/modularity-contact-banner": 20,
-        "helsingborg-stad/trenomvarldsanalys-wp": 20
+        "helsingborg-stad/trenomvarldsanalys-wp": 20,
+        "helsingborg-stad/modularity-entryscape": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
