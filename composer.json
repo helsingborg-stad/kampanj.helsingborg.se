@@ -89,7 +89,8 @@
         "helsingborg-stad/modularity-contact-banner": "dev-3.0/develop",
         "wpackagist-plugin/wp-sentry-integration": "^4.10",
         "helsingborg-stad/modularity-entryscape": "dev-master",
-        "helsingborg-stad/trenomvarldsanalys-wp": "dev-main"
+        "helsingborg-stad/trenomvarldsanalys-wp": "dev-main",
+        "mcguffin/acf-customizer": "^0.3.0"
     },
     "extra": {
         "path": "/",
