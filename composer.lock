@@ -2918,12 +2918,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/trenomvarldsanalys-wp.git",
-                "reference": "a88544318961910ad82a3af801d63089e9c409d2"
+                "reference": "d1860322a02f73a47a1a5f90c2022e59c03391a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/trenomvarldsanalys-wp/zipball/a88544318961910ad82a3af801d63089e9c409d2",
-                "reference": "a88544318961910ad82a3af801d63089e9c409d2",
+                "url": "https://api.github.com/repos/helsingborg-stad/trenomvarldsanalys-wp/zipball/d1860322a02f73a47a1a5f90c2022e59c03391a3",
+                "reference": "d1860322a02f73a47a1a5f90c2022e59c03391a3",
                 "shasum": ""
             },
             "require": {
@@ -2977,7 +2977,7 @@
             "support": {
                 "source": "https://github.com/helsingborg-stad/trenomvarldsanalys-wp/tree/main"
             },
-            "time": "2022-01-28T14:43:25+00:00"
+            "time": "2022-01-28T15:09:21+00:00"
         },
         {
             "name": "helsingborg-stad/wp-content-translator",
