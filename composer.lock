@@ -1895,12 +1895,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/hbg-trend-omvarlds-analys-2021.git",
-                "reference": "1ec9cd7b016b9b83c52d83cac98ca63a615c5051"
+                "reference": "4c923d113553f7df86ab9f3136d8f61b597b68f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/hbg-trend-omvarlds-analys-2021/zipball/1ec9cd7b016b9b83c52d83cac98ca63a615c5051",
-                "reference": "1ec9cd7b016b9b83c52d83cac98ca63a615c5051",
+                "url": "https://api.github.com/repos/helsingborg-stad/hbg-trend-omvarlds-analys-2021/zipball/4c923d113553f7df86ab9f3136d8f61b597b68f6",
+                "reference": "4c923d113553f7df86ab9f3136d8f61b597b68f6",
                 "shasum": ""
             },
             "require": {
@@ -1954,7 +1954,7 @@
             "support": {
                 "source": "https://github.com/helsingborg-stad/hbg-trend-omvarlds-analys-2021/tree/main"
             },
-            "time": "2022-02-09T12:27:59+00:00"
+            "time": "2022-02-10T14:53:17+00:00"
         },
         {
             "name": "helsingborg-stad/idea-manager",
