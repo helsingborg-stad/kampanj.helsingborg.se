@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "749c6024784071cd4ef0391569160a75",
+    "content-hash": "d55a186a56dee2c77c84df407d5ac450",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -2644,12 +2644,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "3c5b104e4a6db18fe3f9069ea7e6cb6e06eb1985"
+                "reference": "d71ee2aca0cce6764928d3d0c64836189398a59c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/3c5b104e4a6db18fe3f9069ea7e6cb6e06eb1985",
-                "reference": "3c5b104e4a6db18fe3f9069ea7e6cb6e06eb1985",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/d71ee2aca0cce6764928d3d0c64836189398a59c",
+                "reference": "d71ee2aca0cce6764928d3d0c64836189398a59c",
                 "shasum": ""
             },
             "require": {
@@ -2706,7 +2706,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2022-02-28T09:13:06+00:00"
+            "time": "2022-02-28T15:43:31+00:00"
         },
         {
             "name": "helsingborg-stad/municipio-innovation-theme",
@@ -5735,6 +5735,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/redirection/"
+        },
+        {
+            "name": "wpackagist-plugin/redis-cache",
+            "version": "2.0.18",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/redis-cache/",
+                "reference": "tags/2.0.18"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/redis-cache.2.0.18.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/redis-cache/"
         },
         {
             "name": "wpackagist-plugin/rest-api",
