@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "77999b4eafe0be53a107c29ab7888b53",
+    "content-hash": "581673a08bb5d3a1d0f2ef59f191a0f8",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -968,16 +968,16 @@
         },
         {
             "name": "helsingborg-stad/api-project-manager-integration",
-            "version": "1.8.0",
+            "version": "dev-feature/refine-initiatives",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-project-manager-integration.git",
-                "reference": "90c7df73385ec1b03db4198bffaade1a5dee7fba"
+                "reference": "9097285b455662b6a429bd98fbf7cd59cb9d8002"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-integration/zipball/90c7df73385ec1b03db4198bffaade1a5dee7fba",
-                "reference": "90c7df73385ec1b03db4198bffaade1a5dee7fba",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-integration/zipball/9097285b455662b6a429bd98fbf7cd59cb9d8002",
+                "reference": "9097285b455662b6a429bd98fbf7cd59cb9d8002",
                 "shasum": ""
             },
             "require": {
@@ -1006,9 +1006,9 @@
             "description": "Manage projects",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-project-manager-integration/issues",
-                "source": "https://github.com/helsingborg-stad/api-project-manager-integration/tree/1.8.0"
+                "source": "https://github.com/helsingborg-stad/api-project-manager-integration/tree/feature/refine-initiatives"
             },
-            "time": "2021-06-28T13:26:42+00:00"
+            "time": "2022-03-08T09:38:08+00:00"
         },
         {
             "name": "helsingborg-stad/attachment-revisions",
@@ -1851,16 +1851,16 @@
         },
         {
             "name": "helsingborg-stad/municipio-innovation-theme",
-            "version": "1.4.0",
+            "version": "1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/municipio-innovation-theme.git",
-                "reference": "5a2bc5aade332e8cafdd7f621deb03808937c3a6"
+                "reference": "1b818a2e26dd49c2fa57c7da7042881926061e17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/municipio-innovation-theme/zipball/5a2bc5aade332e8cafdd7f621deb03808937c3a6",
-                "reference": "5a2bc5aade332e8cafdd7f621deb03808937c3a6",
+                "url": "https://api.github.com/repos/helsingborg-stad/municipio-innovation-theme/zipball/1b818a2e26dd49c2fa57c7da7042881926061e17",
+                "reference": "1b818a2e26dd49c2fa57c7da7042881926061e17",
                 "shasum": ""
             },
             "require": {
@@ -1894,9 +1894,9 @@
             "description": "Wordpress child theme for Municipio",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/municipio-innovation-theme/issues",
-                "source": "https://github.com/helsingborg-stad/municipio-innovation-theme/tree/1.4.0"
+                "source": "https://github.com/helsingborg-stad/municipio-innovation-theme/tree/1.5.1"
             },
-            "time": "2021-06-28T13:18:25+00:00"
+            "time": "2021-10-05T07:12:06+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
@@ -4400,7 +4400,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "wpackagist-plugin/rest-api": 10
+        "wpackagist-plugin/rest-api": 10,
+        "helsingborg-stad/api-project-manager-integration": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
