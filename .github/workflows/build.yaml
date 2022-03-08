@@ -1,0 +1,49 @@
+name: Build site
+
+on:
+  push:
+    branches: [ test ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Setup PHP with composer v2
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '7.4'
+        tools: composer:v2
+
+    - name: Validate composer.json and composer.lock
+      run: composer validate
+
+    - name: Install composer dependencies
+      run: composer install --prefer-dist --no-progress --no-suggest
+
+    - name: Cleanup
+      run: rm -rf .git .gitignore config wp-content/uploads .github composer.json composer.lock installer.sh
+      
+    - name: rsync deployment to www-data user.
+      uses: burnett01/rsync-deployments@4.1
+      with:
+        switches: -avzrog --rsync-path="sudo rsync" --delete --backup --backup-dir=${{ secrets.DEPLOY_REMOTE_BACKUP_DIR_TEST_KAMPANJ_HELSINGBORG_SE }}/$GITHUB_SHA --chown=www-data:www-data --chmod=g+rw --exclude config --exclude wp-content/uploads --exclude wp-content/plugins/advanced-custom-fields-pro --exclude wp-content/plugins/gravityforms --exclude wp-content/plugins/wp-schema-pro --exclude wp-content/plugins/translatepress-multilingual --exclude wp-content/plugins/tp-add-on-automatic-language-detection --exclude wp-content/plugins/tp-add-on-navigation-based-on-language --exclude wp-content/plugins/tp-add-on-seo-pack
+        path: .
+        remote_path: ${{ secrets.DEPLOY_REMOTE_PATH_TEST_KAMPANJ_HELSINGBORG_SE }}
+        remote_host: ${{ secrets.DEPLOY_REMOTE_HOST_TEST_KAMPANJ_HELSINGBORG_SE }}
+        remote_user: ${{ secrets.DEPLOY_AWS_REMOTE_USER }}
+        remote_key: ${{ secrets.DEPLOY_KEY }}
+
+    - name: Clear varnish and redis object cache and blade cache.
+      uses: appleboy/ssh-action@master
+      with:
+        script: |
+          cd ${{ secrets.DEPLOY_REMOTE_PATH_TEST_KAMPANJ_HELSINGBORG_SE }}
+          wp varnish purge --allow-root
+          wp cache flush --allow-root
+          sudo rm ${{ secrets.DEPLOY_REMOTE_PATH_TEST_KAMPANJ_HELSINGBORG_SE }}/wp-content/uploads/cache/blade-cache/*
+        host: ${{ secrets.DEPLOY_REMOTE_HOST_TEST_KAMPANJ_HELSINGBORG_SE }}
+        username: ${{ secrets.DEPLOY_AWS_REMOTE_USER }}
+        key: ${{ secrets.DEPLOY_KEY }}
