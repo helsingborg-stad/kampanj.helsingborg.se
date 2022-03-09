@@ -972,12 +972,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-project-manager-integration.git",
-                "reference": "9097285b455662b6a429bd98fbf7cd59cb9d8002"
+                "reference": "b8dea8b217a96269f6265d6c59d03feb2a0ff0cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-integration/zipball/9097285b455662b6a429bd98fbf7cd59cb9d8002",
-                "reference": "9097285b455662b6a429bd98fbf7cd59cb9d8002",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-integration/zipball/b8dea8b217a96269f6265d6c59d03feb2a0ff0cf",
+                "reference": "b8dea8b217a96269f6265d6c59d03feb2a0ff0cf",
                 "shasum": ""
             },
             "require": {
@@ -1008,7 +1008,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-project-manager-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-project-manager-integration/tree/feature/refine-initiatives"
             },
-            "time": "2022-03-08T09:38:08+00:00"
+            "time": "2022-03-09T13:01:30+00:00"
         },
         {
             "name": "helsingborg-stad/attachment-revisions",
