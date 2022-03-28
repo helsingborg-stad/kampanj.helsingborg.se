@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8991ef6d842be71d928d45e9a6759642",
+    "content-hash": "676682489d11e4f4f142f41eb47c2896",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1102,16 +1102,16 @@
         },
         {
             "name": "helsingborg-stad/api-project-manager-dashboard",
-            "version": "dev-feature/webpack-react",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-project-manager-dashboard.git",
-                "reference": "78f5aa8c1e29091597d1936ec009f8957f6c7214"
+                "reference": "ee93ecb5d23e657254ec3a4c5bd05328673db820"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-dashboard/zipball/78f5aa8c1e29091597d1936ec009f8957f6c7214",
-                "reference": "78f5aa8c1e29091597d1936ec009f8957f6c7214",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-dashboard/zipball/ee93ecb5d23e657254ec3a4c5bd05328673db820",
+                "reference": "ee93ecb5d23e657254ec3a4c5bd05328673db820",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -1128,9 +1128,9 @@
             "description": "Dashboard plugin for project related data.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-project-manager-dashboard/issues",
-                "source": "https://github.com/helsingborg-stad/api-project-manager-dashboard/tree/feature/webpack-react"
+                "source": "https://github.com/helsingborg-stad/api-project-manager-dashboard/tree/1.0.0"
             },
-            "time": "2022-03-14T10:05:01+00:00"
+            "time": "2022-03-28T08:13:08+00:00"
         },
         {
             "name": "helsingborg-stad/api-project-manager-integration",
@@ -4960,8 +4960,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "wpackagist-plugin/rest-api": 10,
-        "helsingborg-stad/api-project-manager-dashboard": 20
+        "wpackagist-plugin/rest-api": 10
     },
     "prefer-stable": false,
     "prefer-lowest": false,
