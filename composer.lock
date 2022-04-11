@@ -760,16 +760,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.242.0",
+            "version": "v0.243.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "73d4c0ed4b241e7396699e0ee1d1cdebabac25e8"
+                "reference": "d42d368b73a26e1d2a5250ac91cf89bb19e0730b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/73d4c0ed4b241e7396699e0ee1d1cdebabac25e8",
-                "reference": "73d4c0ed4b241e7396699e0ee1d1cdebabac25e8",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/d42d368b73a26e1d2a5250ac91cf89bb19e0730b",
+                "reference": "d42d368b73a26e1d2a5250ac91cf89bb19e0730b",
                 "shasum": ""
             },
             "require": {
@@ -798,9 +798,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.242.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.243.0"
             },
-            "time": "2022-04-03T01:24:10+00:00"
+            "time": "2022-04-10T01:14:37+00:00"
         },
         {
             "name": "google/auth",
@@ -1640,12 +1640,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "96b037ccec1c909598a7f4dabab1f770ab1a78d8"
+                "reference": "adef0c2a8eb5746b115b76e2990f6b0d694296f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/96b037ccec1c909598a7f4dabab1f770ab1a78d8",
-                "reference": "96b037ccec1c909598a7f4dabab1f770ab1a78d8",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/adef0c2a8eb5746b115b76e2990f6b0d694296f5",
+                "reference": "adef0c2a8eb5746b115b76e2990f6b0d694296f5",
                 "shasum": ""
             },
             "require": {
@@ -1664,7 +1664,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2022-04-01T13:22:13+00:00"
+            "time": "2022-04-11T13:35:58+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -2646,12 +2646,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "01a9c3f9b00c5bc6c6bb83be5f2f74cf6d43e186"
+                "reference": "fd50263dfe8f4436cf7514cc70227454dbfcf312"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/01a9c3f9b00c5bc6c6bb83be5f2f74cf6d43e186",
-                "reference": "01a9c3f9b00c5bc6c6bb83be5f2f74cf6d43e186",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/fd50263dfe8f4436cf7514cc70227454dbfcf312",
+                "reference": "fd50263dfe8f4436cf7514cc70227454dbfcf312",
                 "shasum": ""
             },
             "require": {
@@ -2710,7 +2710,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2022-04-01T09:14:18+00:00"
+            "time": "2022-04-11T14:16:32+00:00"
         },
         {
             "name": "helsingborg-stad/municipio-innovation-theme",
@@ -3530,20 +3530,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "5.9.2",
+            "version": "5.9.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "e929834ba93c3de1d6b832162eda5af469041ea6"
+                "reference": "8d0788bd5553c897b12bbf0e122c2fc5c4129914"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/e929834ba93c3de1d6b832162eda5af469041ea6",
-                "reference": "e929834ba93c3de1d6b832162eda5af469041ea6",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/8d0788bd5553c897b12bbf0e122c2fc5c4129914",
+                "reference": "8d0788bd5553c897b12bbf0e122c2fc5c4129914",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "5.9.2",
+                "johnpbloch/wordpress-core": "5.9.3",
                 "johnpbloch/wordpress-core-installer": "^1.0 || ^2.0",
                 "php": ">=5.6.20"
             },
@@ -3572,20 +3572,20 @@
                 "issues": "https://core.trac.wordpress.org/",
                 "source": "https://core.trac.wordpress.org/browser"
             },
-            "time": "2022-03-11T00:51:43+00:00"
+            "time": "2022-04-05T19:23:54+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "5.9.2",
+            "version": "5.9.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "0eb92a65ce99816683e2c0d50e83774ae5bfcf1a"
+                "reference": "455d38c7b7bcdce3e0a1c6108eccca8de1860361"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/0eb92a65ce99816683e2c0d50e83774ae5bfcf1a",
-                "reference": "0eb92a65ce99816683e2c0d50e83774ae5bfcf1a",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/455d38c7b7bcdce3e0a1c6108eccca8de1860361",
+                "reference": "455d38c7b7bcdce3e0a1c6108eccca8de1860361",
                 "shasum": ""
             },
             "require": {
@@ -3593,7 +3593,7 @@
                 "php": ">=5.6.20"
             },
             "provide": {
-                "wordpress/core-implementation": "5.9.2"
+                "wordpress/core-implementation": "5.9.3"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -3620,7 +3620,7 @@
                 "source": "https://core.trac.wordpress.org/browser",
                 "wiki": "https://codex.wordpress.org/"
             },
-            "time": "2022-03-11T00:51:39+00:00"
+            "time": "2022-04-05T19:23:48+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -3726,16 +3726,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "2.4.0",
+            "version": "2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "d7fd7450628561ba697b7097d86db72662f54aef"
+                "reference": "4192345e260f1d51b365536199744b987e160edc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/d7fd7450628561ba697b7097d86db72662f54aef",
-                "reference": "d7fd7450628561ba697b7097d86db72662f54aef",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/4192345e260f1d51b365536199744b987e160edc",
+                "reference": "4192345e260f1d51b365536199744b987e160edc",
                 "shasum": ""
             },
             "require": {
@@ -3809,7 +3809,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Seldaek/monolog/issues",
-                "source": "https://github.com/Seldaek/monolog/tree/2.4.0"
+                "source": "https://github.com/Seldaek/monolog/tree/2.5.0"
             },
             "funding": [
                 {
@@ -3821,7 +3821,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-03-14T12:44:37+00:00"
+            "time": "2022-04-08T15:43:54+00:00"
         },
         {
             "name": "nesbot/carbon",
