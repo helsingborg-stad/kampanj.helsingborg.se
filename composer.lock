@@ -527,12 +527,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dompdf/dompdf.git",
-                "reference": "c9031e43261b25ab439bea777086ae4106b83941"
+                "reference": "5f52622e79202dd469fdd3053f141d30e0901808"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dompdf/dompdf/zipball/c9031e43261b25ab439bea777086ae4106b83941",
-                "reference": "c9031e43261b25ab439bea777086ae4106b83941",
+                "url": "https://api.github.com/repos/dompdf/dompdf/zipball/5f52622e79202dd469fdd3053f141d30e0901808",
+                "reference": "5f52622e79202dd469fdd3053f141d30e0901808",
                 "shasum": ""
             },
             "require": {
@@ -589,7 +589,7 @@
                 "issues": "https://github.com/dompdf/dompdf/issues",
                 "source": "https://github.com/dompdf/dompdf/tree/master"
             },
-            "time": "2022-05-11T14:41:11+00:00"
+            "time": "2022-05-11T14:52:47+00:00"
         },
         {
             "name": "enshrined/svg-sanitize",
@@ -2306,12 +2306,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-entryscape.git",
-                "reference": "a4eb737b16ae4a2af73d0a44d948389bbc9fdc91"
+                "reference": "9064e7acdc41bb2028ba96d95bd62429dd668e5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-entryscape/zipball/a4eb737b16ae4a2af73d0a44d948389bbc9fdc91",
-                "reference": "a4eb737b16ae4a2af73d0a44d948389bbc9fdc91",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-entryscape/zipball/9064e7acdc41bb2028ba96d95bd62429dd668e5b",
+                "reference": "9064e7acdc41bb2028ba96d95bd62429dd668e5b",
                 "shasum": ""
             },
             "default-branch": true,
@@ -2331,7 +2331,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-entryscape/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-entryscape/tree/master"
             },
-            "time": "2022-05-02T11:47:10+00:00"
+            "time": "2022-05-11T14:58:42+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-form-builder",
