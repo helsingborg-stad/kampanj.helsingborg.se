@@ -1365,12 +1365,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager-integration.git",
-                "reference": "186d8632f4697a06526fb5bf0ec0df5490765a15"
+                "reference": "b5fbfcd176fc9798b570f14de970d518ec525e0f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/186d8632f4697a06526fb5bf0ec0df5490765a15",
-                "reference": "186d8632f4697a06526fb5bf0ec0df5490765a15",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/b5fbfcd176fc9798b570f14de970d518ec525e0f",
+                "reference": "b5fbfcd176fc9798b570f14de970d518ec525e0f",
                 "shasum": ""
             },
             "require": {
@@ -1395,7 +1395,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-event-manager-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-event-manager-integration/tree/feature/refactor-event-form"
             },
-            "time": "2022-05-17T08:02:57+00:00"
+            "time": "2022-05-17T08:23:00+00:00"
         },
         {
             "name": "helsingborg-stad/api-project-manager-integration",
