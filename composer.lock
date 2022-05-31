@@ -1742,17 +1742,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Customer-feedback.git",
-                "reference": "40f7b95b0887f53607272cb37aacc3d44cd29a88"
+                "reference": "0df6e82b5c6b967960f9208553a5cf040ca7b39d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Customer-feedback/zipball/40f7b95b0887f53607272cb37aacc3d44cd29a88",
-                "reference": "40f7b95b0887f53607272cb37aacc3d44cd29a88",
+                "url": "https://api.github.com/repos/helsingborg-stad/Customer-feedback/zipball/0df6e82b5c6b967960f9208553a5cf040ca7b39d",
+                "reference": "0df6e82b5c6b967960f9208553a5cf040ca7b39d",
                 "shasum": ""
             },
             "require": {
-                "helsingborg-stad/acf-export-manager": ">=1.0.0",
-                "helsingborg-stad/recaptcha-integration": ">=1.0.8"
+                "helsingborg-stad/acf-export-manager": ">=1.0.0"
             },
             "type": "wordpress-plugin",
             "notification-url": "https://packagist.org/downloads/",
@@ -1770,7 +1769,7 @@
                 "issues": "https://github.com/helsingborg-stad/Customer-feedback/issues",
                 "source": "https://github.com/helsingborg-stad/Customer-feedback/tree/3.0/develop"
             },
-            "time": "2022-02-16T12:16:04+00:00"
+            "time": "2022-05-31T12:32:06+00:00"
         },
         {
             "name": "helsingborg-stad/familjenhelsingborg",
@@ -2102,12 +2101,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "e27dfd3558096a1e994406621d6897d58895cff4"
+                "reference": "0f639afb70208884c57eff0ed64eddf7c032b38c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/e27dfd3558096a1e994406621d6897d58895cff4",
-                "reference": "e27dfd3558096a1e994406621d6897d58895cff4",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/0f639afb70208884c57eff0ed64eddf7c032b38c",
+                "reference": "0f639afb70208884c57eff0ed64eddf7c032b38c",
                 "shasum": ""
             },
             "require": {
@@ -2168,7 +2167,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2022-05-24T12:16:20+00:00"
+            "time": "2022-05-31T07:28:58+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-checklist",
@@ -2646,12 +2645,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "82a9b1151bbd0a08246a50d30040d3514a858ec4"
+                "reference": "6378c89c434591c4224903c6be2213253a133a8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/82a9b1151bbd0a08246a50d30040d3514a858ec4",
-                "reference": "82a9b1151bbd0a08246a50d30040d3514a858ec4",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/6378c89c434591c4224903c6be2213253a133a8d",
+                "reference": "6378c89c434591c4224903c6be2213253a133a8d",
                 "shasum": ""
             },
             "require": {
@@ -2710,7 +2709,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2022-05-30T14:17:51+00:00"
+            "time": "2022-05-31T07:10:08+00:00"
         },
         {
             "name": "helsingborg-stad/municipio-innovation-theme",
@@ -6208,5 +6207,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.1.0"
 }
