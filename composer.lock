@@ -1366,12 +1366,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager-integration.git",
-                "reference": "468314aba2f2f62bb94ea9ada3c1cca702b36c9c"
+                "reference": "418e183ed80c2757f2af82fbe405487f4cdab27d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/468314aba2f2f62bb94ea9ada3c1cca702b36c9c",
-                "reference": "468314aba2f2f62bb94ea9ada3c1cca702b36c9c",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/418e183ed80c2757f2af82fbe405487f4cdab27d",
+                "reference": "418e183ed80c2757f2af82fbe405487f4cdab27d",
                 "shasum": ""
             },
             "require": {
@@ -1396,7 +1396,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-event-manager-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-event-manager-integration/tree/feature/refactor-event-form"
             },
-            "time": "2022-05-25T09:46:23+00:00"
+            "time": "2022-05-31T07:45:01+00:00"
         },
         {
             "name": "helsingborg-stad/api-project-manager-integration",
@@ -1644,12 +1644,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "4e87c05718c7857b0134dcc71b815125a268b1fd"
+                "reference": "ce02c55a1fb4d951bc92092139cf47582cf874bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/4e87c05718c7857b0134dcc71b815125a268b1fd",
-                "reference": "4e87c05718c7857b0134dcc71b815125a268b1fd",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/ce02c55a1fb4d951bc92092139cf47582cf874bc",
+                "reference": "ce02c55a1fb4d951bc92092139cf47582cf874bc",
                 "shasum": ""
             },
             "require": {
@@ -1667,7 +1667,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/feature/refactor-form"
             },
-            "time": "2022-05-20T08:20:04+00:00"
+            "time": "2022-05-31T08:03:39+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
