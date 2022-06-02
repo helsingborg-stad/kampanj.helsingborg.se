@@ -2645,12 +2645,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "6378c89c434591c4224903c6be2213253a133a8d"
+                "reference": "260e9617befc8dc79d6ed4d3fedb7c25725086ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/6378c89c434591c4224903c6be2213253a133a8d",
-                "reference": "6378c89c434591c4224903c6be2213253a133a8d",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/260e9617befc8dc79d6ed4d3fedb7c25725086ae",
+                "reference": "260e9617befc8dc79d6ed4d3fedb7c25725086ae",
                 "shasum": ""
             },
             "require": {
@@ -2659,7 +2659,6 @@
                 "helsingborg-stad/acf-export-manager": ">=1.0.0",
                 "helsingborg-stad/blade-engine-wrapper": "dev-master",
                 "helsingborg-stad/global-blade-engine": "^1.2",
-                "helsingborg-stad/recaptcha-integration": ">=1.0.8",
                 "illuminate/container": "^5.8.36",
                 "illuminate/contracts": "^5.8.36",
                 "illuminate/events": "^5.8.36",
@@ -2709,7 +2708,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2022-05-31T07:10:08+00:00"
+            "time": "2022-06-02T07:39:16+00:00"
         },
         {
             "name": "helsingborg-stad/municipio-innovation-theme",
@@ -2791,43 +2790,6 @@
                 "source": "https://github.com/helsingborg-stad/readspeaker-helper/tree/2.0.1"
             },
             "time": "2017-01-23T09:54:35+00:00"
-        },
-        {
-            "name": "helsingborg-stad/recaptcha-integration",
-            "version": "1.1.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/helsingborg-stad/recaptcha-integration.git",
-                "reference": "e64e073cd204af6688d170839c92f06c9c223c5f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/recaptcha-integration/zipball/e64e073cd204af6688d170839c92f06c9c223c5f",
-                "reference": "e64e073cd204af6688d170839c92f06c9c223c5f",
-                "shasum": ""
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "HelsingborgStad\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Johan Silvergrund",
-                    "email": "johan.silvergrund@helsingborg.se"
-                }
-            ],
-            "description": "Google ReCAPTCHA v3 integration for Municipio and plugins",
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/recaptcha-integration/issues",
-                "source": "https://github.com/helsingborg-stad/recaptcha-integration/tree/1.1.2"
-            },
-            "time": "2021-03-24T10:38:12+00:00"
         },
         {
             "name": "helsingborg-stad/search-notices",
