@@ -108,5 +108,11 @@
         "post-update-cmd": [
             "@php post-install.php"
         ]
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "johnpbloch/wordpress-core-installer": true
+        }
     }
 }
