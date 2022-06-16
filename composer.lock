@@ -2183,6 +2183,9 @@
                 "reference": "e73c3933194c29c6a4a3bd1a75a70d5827a188b3",
                 "shasum": ""
             },
+            "require": {
+                "helsingborg-stad/modularity-checklist": ">=0.0.1"
+            },
             "type": "wordpress-plugin",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -2213,6 +2216,9 @@
                 "url": "https://api.github.com/repos/helsingborg-stad/modularity-comments/zipball/80473ed50004f63f79a1ee5bc7fad5e67beb5574",
                 "reference": "80473ed50004f63f79a1ee5bc7fad5e67beb5574",
                 "shasum": ""
+            },
+            "require": {
+                "helsingborg-stad/modularity-comments": ">=0.0.1"
             },
             "type": "wordpress-plugin",
             "notification-url": "https://packagist.org/downloads/",
@@ -6164,5 +6170,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.1.0"
 }
