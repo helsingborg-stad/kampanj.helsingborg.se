@@ -527,12 +527,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dompdf/dompdf.git",
-                "reference": "78102a793d38d6155fd9354bedac63225e63b1e9"
+                "reference": "165ad28f0291d7ba257b236caaa4b442a28d2150"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dompdf/dompdf/zipball/78102a793d38d6155fd9354bedac63225e63b1e9",
-                "reference": "78102a793d38d6155fd9354bedac63225e63b1e9",
+                "url": "https://api.github.com/repos/dompdf/dompdf/zipball/165ad28f0291d7ba257b236caaa4b442a28d2150",
+                "reference": "165ad28f0291d7ba257b236caaa4b442a28d2150",
                 "shasum": ""
             },
             "require": {
@@ -590,7 +590,7 @@
                 "issues": "https://github.com/dompdf/dompdf/issues",
                 "source": "https://github.com/dompdf/dompdf/tree/master"
             },
-            "time": "2022-06-16T12:20:30+00:00"
+            "time": "2022-06-16T19:44:12+00:00"
         },
         {
             "name": "enshrined/svg-sanitize",
@@ -2101,12 +2101,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "63121f9f9ea6803817e95ee72ca198ad6390db60"
+                "reference": "92fd74f94e6b1ee6aa4860e08784fee7cf28bbbf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/63121f9f9ea6803817e95ee72ca198ad6390db60",
-                "reference": "63121f9f9ea6803817e95ee72ca198ad6390db60",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/92fd74f94e6b1ee6aa4860e08784fee7cf28bbbf",
+                "reference": "92fd74f94e6b1ee6aa4860e08784fee7cf28bbbf",
                 "shasum": ""
             },
             "require": {
@@ -2167,7 +2167,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2022-06-15T12:05:17+00:00"
+            "time": "2022-06-17T07:04:14+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-checklist",
@@ -2645,12 +2645,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "7f3a18dcd8676d529496da4cdca08331ddff9d85"
+                "reference": "dee6ae750a6721cb576ce30a3936c36552666e6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/7f3a18dcd8676d529496da4cdca08331ddff9d85",
-                "reference": "7f3a18dcd8676d529496da4cdca08331ddff9d85",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/dee6ae750a6721cb576ce30a3936c36552666e6a",
+                "reference": "dee6ae750a6721cb576ce30a3936c36552666e6a",
                 "shasum": ""
             },
             "require": {
@@ -2708,7 +2708,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2022-06-15T12:04:50+00:00"
+            "time": "2022-06-17T07:25:25+00:00"
         },
         {
             "name": "helsingborg-stad/municipio-innovation-theme",
