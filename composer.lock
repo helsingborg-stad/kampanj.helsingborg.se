@@ -1366,12 +1366,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager-integration.git",
-                "reference": "eb19561d913d30afa8acf6c368de5353f8e4b95d"
+                "reference": "11e16d04d7ada07ffc884f9415dad59391a5c16e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/eb19561d913d30afa8acf6c368de5353f8e4b95d",
-                "reference": "eb19561d913d30afa8acf6c368de5353f8e4b95d",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/11e16d04d7ada07ffc884f9415dad59391a5c16e",
+                "reference": "11e16d04d7ada07ffc884f9415dad59391a5c16e",
                 "shasum": ""
             },
             "require": {
@@ -1396,7 +1396,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-event-manager-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-event-manager-integration/tree/3.0/develop"
             },
-            "time": "2022-08-02T09:14:27+00:00"
+            "time": "2022-08-22T08:59:01+00:00"
         },
         {
             "name": "helsingborg-stad/api-project-manager-integration",
@@ -2307,12 +2307,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-entryscape.git",
-                "reference": "0e2498a8b18a1f4d363708c91e1a27e2b5bb908e"
+                "reference": "1fdee4420915428275e6d65be7c6ce7aeb8cef50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-entryscape/zipball/0e2498a8b18a1f4d363708c91e1a27e2b5bb908e",
-                "reference": "0e2498a8b18a1f4d363708c91e1a27e2b5bb908e",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-entryscape/zipball/1fdee4420915428275e6d65be7c6ce7aeb8cef50",
+                "reference": "1fdee4420915428275e6d65be7c6ce7aeb8cef50",
                 "shasum": ""
             },
             "default-branch": true,
@@ -2332,7 +2332,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-entryscape/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-entryscape/tree/master"
             },
-            "time": "2022-08-22T08:14:12+00:00"
+            "time": "2022-08-22T09:14:30+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-form-builder",
