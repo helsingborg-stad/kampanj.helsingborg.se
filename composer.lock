@@ -1366,12 +1366,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager-integration.git",
-                "reference": "f9c06d5abba2f1cb149d930562e047ffedd75a3f"
+                "reference": "5327256cb2d43acda409ae9db4678ac8e3f6f78c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/f9c06d5abba2f1cb149d930562e047ffedd75a3f",
-                "reference": "f9c06d5abba2f1cb149d930562e047ffedd75a3f",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/5327256cb2d43acda409ae9db4678ac8e3f6f78c",
+                "reference": "5327256cb2d43acda409ae9db4678ac8e3f6f78c",
                 "shasum": ""
             },
             "require": {
@@ -1396,7 +1396,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-event-manager-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-event-manager-integration/tree/3.0/develop"
             },
-            "time": "2022-08-26T09:23:17+00:00"
+            "time": "2022-08-26T12:55:38+00:00"
         },
         {
             "name": "helsingborg-stad/api-project-manager-integration",
@@ -1476,16 +1476,16 @@
         },
         {
             "name": "helsingborg-stad/better-post-ui",
-            "version": "1.3.1",
+            "version": "1.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/better-post-UI.git",
-                "reference": "7f28911f057da08a7d72479af14528a0d4453777"
+                "reference": "5142a4584b34b8f85478c85fdaf5f10841958b6e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/better-post-UI/zipball/7f28911f057da08a7d72479af14528a0d4453777",
-                "reference": "7f28911f057da08a7d72479af14528a0d4453777",
+                "url": "https://api.github.com/repos/helsingborg-stad/better-post-UI/zipball/5142a4584b34b8f85478c85fdaf5f10841958b6e",
+                "reference": "5142a4584b34b8f85478c85fdaf5f10841958b6e",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -1502,9 +1502,9 @@
             "description": "Improves the UI and UX of the WordPress admin post form.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/better-post-UI/issues",
-                "source": "https://github.com/helsingborg-stad/better-post-UI/tree/1.3.1"
+                "source": "https://github.com/helsingborg-stad/better-post-UI/tree/1.3.5"
             },
-            "time": "2021-11-29T15:38:24+00:00"
+            "time": "2022-08-24T06:49:56+00:00"
         },
         {
             "name": "helsingborg-stad/blade-component-library",
