@@ -1644,12 +1644,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "08b6d539d4b03d71882186da95efaa1296a4d9e6"
+                "reference": "6ba1c62d554141ee839e8278bcf498155641fd8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/08b6d539d4b03d71882186da95efaa1296a4d9e6",
-                "reference": "08b6d539d4b03d71882186da95efaa1296a4d9e6",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/6ba1c62d554141ee839e8278bcf498155641fd8a",
+                "reference": "6ba1c62d554141ee839e8278bcf498155641fd8a",
                 "shasum": ""
             },
             "require": {
@@ -1668,7 +1668,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2022-09-08T12:49:38+00:00"
+            "time": "2022-09-13T11:03:12+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -2102,12 +2102,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "1ed8093785d382e72c651928235377670645c2ef"
+                "reference": "e56c3f0fe6840ce3cf3829f236b567da083208e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/1ed8093785d382e72c651928235377670645c2ef",
-                "reference": "1ed8093785d382e72c651928235377670645c2ef",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/e56c3f0fe6840ce3cf3829f236b567da083208e9",
+                "reference": "e56c3f0fe6840ce3cf3829f236b567da083208e9",
                 "shasum": ""
             },
             "require": {
@@ -2136,6 +2136,7 @@
                 "symfony/debug": "^4.0",
                 "symfony/finder": "4.4.8",
                 "symfony/polyfill-mbstring": "1.17.0",
+                "symfony/polyfill-php80": "1.26.x-dev",
                 "symfony/translation": "5.0.8",
                 "symfony/translation-contracts": "2.0.1",
                 "wpackagist-plugin/acf-extended": "0.8.8.7"
@@ -2176,7 +2177,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2022-09-09T14:59:37+00:00"
+            "time": "2022-09-14T12:58:13+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-checklist",
@@ -2654,12 +2655,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "0276402efaca2cf8a6764fdfd56e6eb15215640b"
+                "reference": "5d6b08cad543e98be597d401ce3a4b38962523d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/0276402efaca2cf8a6764fdfd56e6eb15215640b",
-                "reference": "0276402efaca2cf8a6764fdfd56e6eb15215640b",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/5d6b08cad543e98be597d401ce3a4b38962523d3",
+                "reference": "5d6b08cad543e98be597d401ce3a4b38962523d3",
                 "shasum": ""
             },
             "require": {
@@ -2717,7 +2718,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2022-09-08T12:45:35+00:00"
+            "time": "2022-09-15T07:36:21+00:00"
         },
         {
             "name": "helsingborg-stad/municipio-innovation-theme",
@@ -5380,7 +5381,7 @@
         },
         {
             "name": "symfony/polyfill-php80",
-            "version": "v1.26.0",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php80.git",
@@ -5395,6 +5396,7 @@
             "require": {
                 "php": ">=7.1"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -5930,15 +5932,15 @@
         },
         {
             "name": "wpackagist-plugin/redirection",
-            "version": "5.3.3",
+            "version": "5.3.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redirection/",
-                "reference": "tags/5.3.3"
+                "reference": "tags/5.3.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redirection.5.3.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/redirection.5.3.4.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
