@@ -91,7 +91,8 @@
         "helsingborg-stad/hbg-trend-omvarlds-analys-2021": "dev-main",
         "mcguffin/acf-customizer": "^0.3.0",
         "wpackagist-plugin/redis-cache": "2.0.18",
-        "helsingborg-stad/recaptcha-integration": "^1.1"
+        "helsingborg-stad/recaptcha-integration": "^1.1",
+        "helsingborg-stad/modularity-products": "dev-master"
     },
     "extra": {
         "path": "/",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d03270cdeb15a5d75aca37ae305f3a12",
+    "content-hash": "74611e8cfb6434be86af327abcef74d2",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -527,20 +527,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dompdf/dompdf.git",
-                "reference": "9adb8129e88eabe946c16923ac2030a78454149a"
+                "reference": "2d09f59a49a35dccd77a7d24a997d19c0dd7c0bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dompdf/dompdf/zipball/9adb8129e88eabe946c16923ac2030a78454149a",
-                "reference": "9adb8129e88eabe946c16923ac2030a78454149a",
+                "url": "https://api.github.com/repos/dompdf/dompdf/zipball/2d09f59a49a35dccd77a7d24a997d19c0dd7c0bd",
+                "reference": "2d09f59a49a35dccd77a7d24a997d19c0dd7c0bd",
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
                 "ext-mbstring": "*",
                 "masterminds/html5": "^2.0",
-                "phenx/php-font-lib": "^0.5.4",
-                "phenx/php-svg-lib": "^0.3.3 || ^0.4.0",
+                "phenx/php-font-lib": ">=0.5.4",
+                "phenx/php-svg-lib": ">=0.3.3",
                 "php": "^7.1 || ^8.0"
             },
             "require-dev": {
@@ -572,16 +572,8 @@
             ],
             "authors": [
                 {
-                    "name": "Fabien Ménager",
-                    "email": "fabien.menager@gmail.com"
-                },
-                {
-                    "name": "Brian Sweeney",
-                    "email": "eclecticgeek@gmail.com"
-                },
-                {
-                    "name": "Gabriel Bull",
-                    "email": "me@gabrielbull.com"
+                    "name": "The Dompdf Community",
+                    "homepage": "https://github.com/dompdf/dompdf/blob/master/AUTHORS.md"
                 }
             ],
             "description": "DOMPDF is a CSS 2.1 compliant HTML to PDF converter",
@@ -590,7 +582,7 @@
                 "issues": "https://github.com/dompdf/dompdf/issues",
                 "source": "https://github.com/dompdf/dompdf/tree/master"
             },
-            "time": "2022-08-25T13:11:11+00:00"
+            "time": "2022-09-20T13:10:21+00:00"
         },
         {
             "name": "enshrined/svg-sanitize",
@@ -763,16 +755,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.266.0",
+            "version": "v0.267.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "27ead5edc8ba4a17ddd211ad03216c313a57411f"
+                "reference": "fd342b0abaedda02b76acf8df9e0cb798377c562"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/27ead5edc8ba4a17ddd211ad03216c313a57411f",
-                "reference": "27ead5edc8ba4a17ddd211ad03216c313a57411f",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/fd342b0abaedda02b76acf8df9e0cb798377c562",
+                "reference": "fd342b0abaedda02b76acf8df9e0cb798377c562",
                 "shasum": ""
             },
             "require": {
@@ -801,9 +793,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.266.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.267.0"
             },
-            "time": "2022-09-12T01:28:14+00:00"
+            "time": "2022-09-18T01:06:12+00:00"
         },
         {
             "name": "google/auth",
@@ -1302,12 +1294,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/algolia-index-js-searchpage-addon.git",
-                "reference": "b26d0d190ae1e5263ffd551b17d3ea2fe164d764"
+                "reference": "f1b970c805e2878beb4c86193bce09eba5b64239"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/algolia-index-js-searchpage-addon/zipball/b26d0d190ae1e5263ffd551b17d3ea2fe164d764",
-                "reference": "b26d0d190ae1e5263ffd551b17d3ea2fe164d764",
+                "url": "https://api.github.com/repos/helsingborg-stad/algolia-index-js-searchpage-addon/zipball/f1b970c805e2878beb4c86193bce09eba5b64239",
+                "reference": "f1b970c805e2878beb4c86193bce09eba5b64239",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -1326,7 +1318,7 @@
                 "issues": "https://github.com/helsingborg-stad/algolia-index-js-searchpage-addon/issues",
                 "source": "https://github.com/helsingborg-stad/algolia-index-js-searchpage-addon/tree/3.0/develop"
             },
-            "time": "2022-07-08T12:30:10+00:00"
+            "time": "2022-09-15T11:29:18+00:00"
         },
         {
             "name": "helsingborg-stad/algolia-index-modularity-addon",
@@ -1366,12 +1358,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager-integration.git",
-                "reference": "19fe1a89f4414f6411ddf2e19a54f3d9a97ddf0c"
+                "reference": "429743a2f872cf4ec1e1e762f0f2690ea076ddcd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/19fe1a89f4414f6411ddf2e19a54f3d9a97ddf0c",
-                "reference": "19fe1a89f4414f6411ddf2e19a54f3d9a97ddf0c",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/429743a2f872cf4ec1e1e762f0f2690ea076ddcd",
+                "reference": "429743a2f872cf4ec1e1e762f0f2690ea076ddcd",
                 "shasum": ""
             },
             "require": {
@@ -1396,7 +1388,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-event-manager-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-event-manager-integration/tree/3.0/develop"
             },
-            "time": "2022-09-09T08:15:51+00:00"
+            "time": "2022-09-21T08:53:11+00:00"
         },
         {
             "name": "helsingborg-stad/api-project-manager-integration",
@@ -1644,12 +1636,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "6ba1c62d554141ee839e8278bcf498155641fd8a"
+                "reference": "89994b560acd60ce9f67ad5911045443ff14ac4f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/6ba1c62d554141ee839e8278bcf498155641fd8a",
-                "reference": "6ba1c62d554141ee839e8278bcf498155641fd8a",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/89994b560acd60ce9f67ad5911045443ff14ac4f",
+                "reference": "89994b560acd60ce9f67ad5911045443ff14ac4f",
                 "shasum": ""
             },
             "require": {
@@ -1668,7 +1660,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2022-09-13T11:03:12+00:00"
+            "time": "2022-09-21T07:50:52+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -2102,12 +2094,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "e56c3f0fe6840ce3cf3829f236b567da083208e9"
+                "reference": "aa3af1ffb8d28d98f5fbae7028a253918baad5a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/e56c3f0fe6840ce3cf3829f236b567da083208e9",
-                "reference": "e56c3f0fe6840ce3cf3829f236b567da083208e9",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/aa3af1ffb8d28d98f5fbae7028a253918baad5a6",
+                "reference": "aa3af1ffb8d28d98f5fbae7028a253918baad5a6",
                 "shasum": ""
             },
             "require": {
@@ -2177,7 +2169,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2022-09-14T12:58:13+00:00"
+            "time": "2022-09-20T14:42:49+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-checklist",
@@ -2495,6 +2487,39 @@
             "time": "2019-03-08T14:22:08+00:00"
         },
         {
+            "name": "helsingborg-stad/modularity-products",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/modularity-products.git",
+                "reference": "04d6da479b2525e41bae900378884fedf0d95dcb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-products/zipball/04d6da479b2525e41bae900378884fedf0d95dcb",
+                "reference": "04d6da479b2525e41bae900378884fedf0d95dcb",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freya Liljeberg",
+                    "email": "freya.liljeberg@helsingborg.se"
+                }
+            ],
+            "description": "An addon for displaying products.",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/modularity-products/issues",
+                "source": "https://github.com/helsingborg-stad/modularity-products/tree/master"
+            },
+            "time": "2022-07-01T11:47:55+00:00"
+        },
+        {
             "name": "helsingborg-stad/modularity-resource-booking",
             "version": "1.4.6",
             "source": {
@@ -2550,12 +2575,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-sections.git",
-                "reference": "fea14063928700f00b9b4c27db6e80dfe5c5cdcc"
+                "reference": "422bc95d0c7aa47a4ab729c9beca08ce8aa3a6a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-sections/zipball/fea14063928700f00b9b4c27db6e80dfe5c5cdcc",
-                "reference": "fea14063928700f00b9b4c27db6e80dfe5c5cdcc",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-sections/zipball/422bc95d0c7aa47a4ab729c9beca08ce8aa3a6a1",
+                "reference": "422bc95d0c7aa47a4ab729c9beca08ce8aa3a6a1",
                 "shasum": ""
             },
             "require": {
@@ -2580,7 +2605,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-sections/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-sections/tree/3.0/develop"
             },
-            "time": "2022-01-10T10:59:47+00:00"
+            "time": "2022-09-20T09:31:00+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-timeline",
@@ -2655,12 +2680,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "5d6b08cad543e98be597d401ce3a4b38962523d3"
+                "reference": "0b2086852b5c52c8b5df56a5d9d6dfda4e07da2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/5d6b08cad543e98be597d401ce3a4b38962523d3",
-                "reference": "5d6b08cad543e98be597d401ce3a4b38962523d3",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/0b2086852b5c52c8b5df56a5d9d6dfda4e07da2a",
+                "reference": "0b2086852b5c52c8b5df56a5d9d6dfda4e07da2a",
                 "shasum": ""
             },
             "require": {
@@ -2718,7 +2743,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2022-09-15T07:36:21+00:00"
+            "time": "2022-09-20T10:50:46+00:00"
         },
         {
             "name": "helsingborg-stad/municipio-innovation-theme",
@@ -4275,21 +4300,21 @@
         },
         {
             "name": "phenx/php-svg-lib",
-            "version": "0.4.1",
+            "version": "0.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dompdf/php-svg-lib.git",
-                "reference": "4498b5df7b08e8469f0f8279651ea5de9626ed02"
+                "reference": "76876c6cf3080bcb6f249d7d59705108166a6685"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dompdf/php-svg-lib/zipball/4498b5df7b08e8469f0f8279651ea5de9626ed02",
-                "reference": "4498b5df7b08e8469f0f8279651ea5de9626ed02",
+                "url": "https://api.github.com/repos/dompdf/php-svg-lib/zipball/76876c6cf3080bcb6f249d7d59705108166a6685",
+                "reference": "76876c6cf3080bcb6f249d7d59705108166a6685",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
-                "php": "^7.1 || ^7.2 || ^7.3 || ^7.4 || ^8.0",
+                "php": "^7.1 || ^8.0",
                 "sabberworm/php-css-parser": "^8.4"
             },
             "require-dev": {
@@ -4315,9 +4340,9 @@
             "homepage": "https://github.com/PhenX/php-svg-lib",
             "support": {
                 "issues": "https://github.com/dompdf/php-svg-lib/issues",
-                "source": "https://github.com/dompdf/php-svg-lib/tree/0.4.1"
+                "source": "https://github.com/dompdf/php-svg-lib/tree/0.5.0"
             },
-            "time": "2022-03-07T12:52:04+00:00"
+            "time": "2022-09-06T12:16:56+00:00"
         },
         {
             "name": "philo/laravel-blade",
@@ -6235,7 +6260,8 @@
         "helsingborg-stad/component-library": 20,
         "helsingborg-stad/modularity-contact-banner": 20,
         "helsingborg-stad/modularity-entryscape": 20,
-        "helsingborg-stad/hbg-trend-omvarlds-analys-2021": 20
+        "helsingborg-stad/hbg-trend-omvarlds-analys-2021": 20,
+        "helsingborg-stad/modularity-products": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
