@@ -77,7 +77,7 @@
         "wpackagist-plugin/wp-rest-filter": "^1.4",
         "wpackagist-plugin/safe-svg": "^1.9",
         "helsingborg-stad/modularity-comments": "^1.0",
-        "helsingborg-stad/api-project-manager-integration": "1.9.1",
+        "helsingborg-stad/api-project-manager-integration": "1.9.2",
         "helsingborg-stad/algolia-index-modularity-addon": "^1.0",
         "helsingborg-stad/algolia-index": "^1.0",
         "helsingborg-stad/municipio-innovation-theme": "1.5.1",

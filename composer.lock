@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "943a3340a1811f02f410a3f2d9fa7f89",
+    "content-hash": "5731a72e34eef1d0fe717a07094718eb",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1134,16 +1134,16 @@
         },
         {
             "name": "helsingborg-stad/api-project-manager-integration",
-            "version": "1.9.1",
+            "version": "1.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-project-manager-integration.git",
-                "reference": "003b9ed98ab135838fa9fa701cd0cf36c68f08e5"
+                "reference": "760bedbea2f9bd6a1704845bbba570f8e0bc7521"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-integration/zipball/003b9ed98ab135838fa9fa701cd0cf36c68f08e5",
-                "reference": "003b9ed98ab135838fa9fa701cd0cf36c68f08e5",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-integration/zipball/760bedbea2f9bd6a1704845bbba570f8e0bc7521",
+                "reference": "760bedbea2f9bd6a1704845bbba570f8e0bc7521",
                 "shasum": ""
             },
             "require": {
@@ -1172,9 +1172,9 @@
             "description": "Manage projects",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-project-manager-integration/issues",
-                "source": "https://github.com/helsingborg-stad/api-project-manager-integration/tree/1.9.1"
+                "source": "https://github.com/helsingborg-stad/api-project-manager-integration/tree/1.9.2"
             },
-            "time": "2022-07-15T09:00:18+00:00"
+            "time": "2022-09-22T10:55:04+00:00"
         },
         {
             "name": "helsingborg-stad/attachment-revisions",
