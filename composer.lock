@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "74611e8cfb6434be86af327abcef74d2",
+    "content-hash": "d64e6b999b54d8ab175fa0a430ecb9e4",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1636,12 +1636,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "315fcf0ffb08120735b722676c528b5fecb11943"
+                "reference": "a8144d2adf82b1c6bac8bb2888062945233350d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/315fcf0ffb08120735b722676c528b5fecb11943",
-                "reference": "315fcf0ffb08120735b722676c528b5fecb11943",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/a8144d2adf82b1c6bac8bb2888062945233350d5",
+                "reference": "a8144d2adf82b1c6bac8bb2888062945233350d5",
                 "shasum": ""
             },
             "require": {
@@ -1660,7 +1660,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2022-09-30T08:11:22+00:00"
+            "time": "2022-10-04T08:53:55+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -3046,37 +3046,6 @@
                 "source": "https://github.com/helsingborg-stad/wp-content-translator/tree/master"
             },
             "time": "2017-09-13T09:37:16+00:00"
-        },
-        {
-            "name": "helsingborg-stad/wp-listings",
-            "version": "1.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/helsingborg-stad/wp-listings.git",
-                "reference": "6c033cf6c3e4684bc4f54b7136a26fbb0bee9c17"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/wp-listings/zipball/6c033cf6c3e4684bc4f54b7136a26fbb0bee9c17",
-                "reference": "6c033cf6c3e4684bc4f54b7136a26fbb0bee9c17",
-                "shasum": ""
-            },
-            "type": "wordpress-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Kristoffer Svanmark",
-                    "email": "kristoffer.svanmark@lexiconitkonsult.se"
-                }
-            ],
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/wp-listings/issues",
-                "source": "https://github.com/helsingborg-stad/wp-listings/tree/master"
-            },
-            "time": "2019-04-25T15:13:22+00:00"
         },
         {
             "name": "helsingborg-stad/wp-page-for-post-type",
