@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d64e6b999b54d8ab175fa0a430ecb9e4",
+    "content-hash": "feee0b8772bd61cf81516f9f22561162",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1358,12 +1358,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager-integration.git",
-                "reference": "36282e662c2d25bc8cd8e8ba34c4b5cdc81df8a7"
+                "reference": "dab2e41b2c9bc20f6539c297eaad0fd46c53aad2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/36282e662c2d25bc8cd8e8ba34c4b5cdc81df8a7",
-                "reference": "36282e662c2d25bc8cd8e8ba34c4b5cdc81df8a7",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/dab2e41b2c9bc20f6539c297eaad0fd46c53aad2",
+                "reference": "dab2e41b2c9bc20f6539c297eaad0fd46c53aad2",
                 "shasum": ""
             },
             "require": {
@@ -1388,7 +1388,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-event-manager-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-event-manager-integration/tree/3.0/develop"
             },
-            "time": "2022-09-30T11:22:54+00:00"
+            "time": "2022-10-05T13:39:28+00:00"
         },
         {
             "name": "helsingborg-stad/api-project-manager-integration",
@@ -1636,12 +1636,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "a8144d2adf82b1c6bac8bb2888062945233350d5"
+                "reference": "8bedaa96ae7a26fcbf256f495a3ee3098c77173f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/a8144d2adf82b1c6bac8bb2888062945233350d5",
-                "reference": "a8144d2adf82b1c6bac8bb2888062945233350d5",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/8bedaa96ae7a26fcbf256f495a3ee3098c77173f",
+                "reference": "8bedaa96ae7a26fcbf256f495a3ee3098c77173f",
                 "shasum": ""
             },
             "require": {
@@ -1660,7 +1660,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2022-10-04T08:53:55+00:00"
+            "time": "2022-10-06T13:17:44+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -2057,6 +2057,41 @@
             "time": "2018-04-25T07:02:01+00:00"
         },
         {
+            "name": "helsingborg-stad/mce-table-buttons",
+            "version": "3.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/mce-table-buttons.git",
+                "reference": "465f8de45866d2e6d99211608ed9668e8bd35682"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/mce-table-buttons/zipball/465f8de45866d2e6d99211608ed9668e8bd35682",
+                "reference": "465f8de45866d2e6d99211608ed9668e8bd35682",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "extra": {
+                "installer-paths": {
+                    "vendor/{$vendor}/{$name}/": [
+                        "vendor:wpackagist-plugin"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-only"
+            ],
+            "description": "Fork of 10ups archived mce-table-buttons",
+            "support": {
+                "source": "https://github.com/helsingborg-stad/mce-table-buttons/tree/3.3.1"
+            },
+            "time": "2022-10-06T13:25:17+00:00"
+        },
+        {
             "name": "helsingborg-stad/media-usage",
             "version": "1.3.10",
             "source": {
@@ -2094,12 +2129,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "2744fd6e70809e1b1caf45a3b69d32c6ea543d1d"
+                "reference": "431b4e37568846a2eae192a9a0a20f159849d552"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/2744fd6e70809e1b1caf45a3b69d32c6ea543d1d",
-                "reference": "2744fd6e70809e1b1caf45a3b69d32c6ea543d1d",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/431b4e37568846a2eae192a9a0a20f159849d552",
+                "reference": "431b4e37568846a2eae192a9a0a20f159849d552",
                 "shasum": ""
             },
             "require": {
@@ -2169,7 +2204,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2022-10-03T09:19:28+00:00"
+            "time": "2022-10-06T13:13:45+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-checklist",
@@ -2184,9 +2219,6 @@
                 "url": "https://api.github.com/repos/helsingborg-stad/modularity-checklist/zipball/e73c3933194c29c6a4a3bd1a75a70d5827a188b3",
                 "reference": "e73c3933194c29c6a4a3bd1a75a70d5827a188b3",
                 "shasum": ""
-            },
-            "require": {
-                "helsingborg-stad/modularity-checklist": ">=0.0.1"
             },
             "type": "wordpress-plugin",
             "notification-url": "https://packagist.org/downloads/",
@@ -2219,9 +2251,6 @@
                 "reference": "80473ed50004f63f79a1ee5bc7fad5e67beb5574",
                 "shasum": ""
             },
-            "require": {
-                "helsingborg-stad/modularity-comments": ">=0.0.1"
-            },
             "type": "wordpress-plugin",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -2245,12 +2274,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-contact-banner.git",
-                "reference": "34877bef53299507538c4e8a0674498be09868b0"
+                "reference": "14d622511b08a0e7f7bdc1eca67046648cc6e10c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-contact-banner/zipball/34877bef53299507538c4e8a0674498be09868b0",
-                "reference": "34877bef53299507538c4e8a0674498be09868b0",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-contact-banner/zipball/14d622511b08a0e7f7bdc1eca67046648cc6e10c",
+                "reference": "14d622511b08a0e7f7bdc1eca67046648cc6e10c",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -2269,7 +2298,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-contact-banner/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-contact-banner/tree/3.0/develop"
             },
-            "time": "2022-09-29T07:59:06+00:00"
+            "time": "2022-10-05T13:14:04+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-dictionary",
@@ -2680,12 +2709,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "c87484d786de8cf1e1f487112f03664e2476e01c"
+                "reference": "e0dac809b0f47f420e5015030c534d2ec7bc0160"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/c87484d786de8cf1e1f487112f03664e2476e01c",
-                "reference": "c87484d786de8cf1e1f487112f03664e2476e01c",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/e0dac809b0f47f420e5015030c534d2ec7bc0160",
+                "reference": "e0dac809b0f47f420e5015030c534d2ec7bc0160",
                 "shasum": ""
             },
             "require": {
@@ -2743,7 +2772,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2022-09-30T08:43:43+00:00"
+            "time": "2022-10-06T14:02:13+00:00"
         },
         {
             "name": "helsingborg-stad/municipio-innovation-theme",
@@ -5889,6 +5918,24 @@
             "homepage": "https://wordpress.org/plugins/autodescription/"
         },
         {
+            "name": "wpackagist-plugin/cookies-and-content-security-policy",
+            "version": "2.09",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/cookies-and-content-security-policy/",
+                "reference": "tags/2.09"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/cookies-and-content-security-policy.2.09.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/cookies-and-content-security-policy/"
+        },
+        {
             "name": "wpackagist-plugin/kirki",
             "version": "4.0.24",
             "source": {
@@ -6236,5 +6283,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }

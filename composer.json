@@ -91,7 +91,9 @@
         "mcguffin/acf-customizer": "^0.3.0",
         "wpackagist-plugin/redis-cache": "2.0.18",
         "helsingborg-stad/recaptcha-integration": "^1.1",
-        "helsingborg-stad/modularity-products": "dev-master"
+        "helsingborg-stad/modularity-products": "dev-master",
+		"wpackagist-plugin/cookies-and-content-security-policy": "^2.09",
+		"helsingborg-stad/mce-table-buttons": "~3.3.1"
     },
     "extra": {
         "path": "/",
