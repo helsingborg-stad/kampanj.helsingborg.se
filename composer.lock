@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4e0d987bf6f77ed60cea3980e3b387e0",
+    "content-hash": "0da90145c729b7c39403d417816e5a1f",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1647,12 +1647,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "d801dfb4134bf778d19192ab448aa875c1fb7584"
+                "reference": "748d4feb152d1a72f79d6d08aa491c62f2918554"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/d801dfb4134bf778d19192ab448aa875c1fb7584",
-                "reference": "d801dfb4134bf778d19192ab448aa875c1fb7584",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/748d4feb152d1a72f79d6d08aa491c62f2918554",
+                "reference": "748d4feb152d1a72f79d6d08aa491c62f2918554",
                 "shasum": ""
             },
             "require": {
@@ -1671,7 +1671,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2022-10-21T10:54:45+00:00"
+            "time": "2022-10-25T09:20:51+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -2231,9 +2231,6 @@
                 "reference": "e73c3933194c29c6a4a3bd1a75a70d5827a188b3",
                 "shasum": ""
             },
-            "require": {
-                "helsingborg-stad/modularity-checklist": ">=0.0.1"
-            },
             "type": "wordpress-plugin",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -2264,9 +2261,6 @@
                 "url": "https://api.github.com/repos/helsingborg-stad/modularity-comments/zipball/80473ed50004f63f79a1ee5bc7fad5e67beb5574",
                 "reference": "80473ed50004f63f79a1ee5bc7fad5e67beb5574",
                 "shasum": ""
-            },
-            "require": {
-                "helsingborg-stad/modularity-comments": ">=0.0.1"
             },
             "type": "wordpress-plugin",
             "notification-url": "https://packagist.org/downloads/",
@@ -6079,6 +6073,24 @@
             "homepage": "https://wordpress.org/plugins/tablepress/"
         },
         {
+            "name": "wpackagist-plugin/translatepress-multilingual",
+            "version": "2.3.9",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/translatepress-multilingual/",
+                "reference": "tags/2.3.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/translatepress-multilingual.2.3.9.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/translatepress-multilingual/"
+        },
+        {
             "name": "wpackagist-plugin/user-switching",
             "version": "1.7.0",
             "source": {
@@ -6301,5 +6313,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
