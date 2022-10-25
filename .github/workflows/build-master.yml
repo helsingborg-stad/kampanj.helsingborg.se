@@ -3,8 +3,6 @@ name: Build and deploy 3.0/master.
 on:
   push:
     branches: [ 3.0/paid-plugin ]
-    paths-ignore:
-      - .github/**
 
 jobs:
   # build:
