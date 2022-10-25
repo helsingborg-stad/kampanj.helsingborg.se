@@ -93,7 +93,8 @@
         "helsingborg-stad/recaptcha-integration": "^1.1",
         "helsingborg-stad/modularity-products": "dev-master",
 		"wpackagist-plugin/cookies-and-content-security-policy": "^2.09",
-		"helsingborg-stad/mce-table-buttons": "~3.3.1"
+		"helsingborg-stad/mce-table-buttons": "~3.3.1",
+        "translatepress-multilingual": "^2.3.9"
     },
     "extra": {
         "path": "/",
