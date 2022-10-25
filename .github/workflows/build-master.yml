@@ -28,3 +28,4 @@ jobs:
     - uses: actions/checkout@v2
       with: 
         repository: ${{ secrets.PAID_PLUGINS_REPO }}
+        token: ${{ secrets.DEPLOY_ACCESS_TOKEN }}
