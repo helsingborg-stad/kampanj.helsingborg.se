@@ -5,24 +5,24 @@ on:
     branches: [ 3.0/paid-plugin ]
 
 jobs:
-  # build:
-  #   runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
 
-  #   steps:
-  #   - uses: actions/checkout@v2
+    steps:
+    - uses: actions/checkout@v2
 
-  #   - uses: helsingborg-stad/municipio-deploy/3.0@master
-  #     with:
-  #       deploy-host: ${{ secrets.DEPLOY_REMOTE_HOST_KAMPANJ_HELSINGBORG_SE }}
-  #       deploy-host-path: ${{ secrets.DEPLOY_REMOTE_PATH_KAMPANJ_HELSINGBORG_SE }}
-  #       deploy-host-backup-path: ${{ secrets.DEPLOY_REMOTE_BACKUP_DIR_KAMPANJ_HELSINGBORG_SE }}
-  #       deploy-host-user: ${{ secrets.DEPLOY_REMOTE_USER }}
-  #       deploy-host-user-key: ${{ secrets.DEPLOY_KEY }}
-  #       deploy-host-web-server-user: ${{ secrets.WEB_SERVER_USER }}
-  #       github-token: ${{ secrets.GITHUB_TOKEN }}
-  #       acf-url: ${{ secrets.ACF_URL }}
+    # - uses: helsingborg-stad/municipio-deploy/3.0@master
+    #   with:
+    #     deploy-host: ${{ secrets.DEPLOY_REMOTE_HOST_KAMPANJ_HELSINGBORG_SE }}
+    #     deploy-host-path: ${{ secrets.DEPLOY_REMOTE_PATH_KAMPANJ_HELSINGBORG_SE }}
+    #     deploy-host-backup-path: ${{ secrets.DEPLOY_REMOTE_BACKUP_DIR_KAMPANJ_HELSINGBORG_SE }}
+    #     deploy-host-user: ${{ secrets.DEPLOY_REMOTE_USER }}
+    #     deploy-host-user-key: ${{ secrets.DEPLOY_KEY }}
+    #     deploy-host-web-server-user: ${{ secrets.WEB_SERVER_USER }}
+    #     github-token: ${{ secrets.GITHUB_TOKEN }}
+    #     acf-url: ${{ secrets.ACF_URL }}
 
-  paid-plugin:
+  paid-plugin: # Extra 
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -39,7 +39,7 @@ jobs:
       with:
         switches: -avzrog --chown=${{ secrets.WEB_SERVER_USER }}:${{ secrets.WEB_SERVER_USER }}
         path: .
-        remote_path: ${{ secrets.DEPLOY_REMOTE_PATH_KAMPANJ_HELSINGBORG_SE }}/wp-content/test
+        remote_path: ${{ secrets.DEPLOY_REMOTE_PATH_KAMPANJ_HELSINGBORG_SE }}/wp-content/plugins
         remote_host: ${{ secrets.DEPLOY_REMOTE_HOST_KAMPANJ_HELSINGBORG_SE }}
         remote_user: ${{ secrets.DEPLOY_REMOTE_USER }}
         remote_key: ${{ secrets.DEPLOY_KEY }}
