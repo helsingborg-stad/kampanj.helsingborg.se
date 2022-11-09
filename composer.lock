@@ -2138,12 +2138,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "d0fcda23ff6ab4e55776e7e3db582743b270c3c9"
+                "reference": "765ddf08a191cda11081a28e78c20b171282af04"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/d0fcda23ff6ab4e55776e7e3db582743b270c3c9",
-                "reference": "d0fcda23ff6ab4e55776e7e3db582743b270c3c9",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/765ddf08a191cda11081a28e78c20b171282af04",
+                "reference": "765ddf08a191cda11081a28e78c20b171282af04",
                 "shasum": ""
             },
             "require": {
@@ -2213,7 +2213,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2022-11-09T08:16:26+00:00"
+            "time": "2022-11-09T13:05:59+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-checklist",
