@@ -34,7 +34,7 @@ jobs:
         token: ${{ secrets.HBG_GH_TOKEN }}
 
     - name: unzip and remove
-      run: unzip * && rm *.zip
+      run: unzip \*.zip && rm *.zip
       shell: bash
 
     - name: The rsync deployment to www-data user.
