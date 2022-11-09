@@ -12,6 +12,10 @@
     "minimum-stability" : "dev",
     "repositories": [
         {
+            "type": "vcs",
+            "url": "https://github.com/whitespace-se/broken-link-detector"
+        },
+        {
             "type": "composer",
             "url": "https://packagist.org"
         },
@@ -32,7 +36,7 @@
         "helsingborg-stad/modularity-guides": "dev-3.0/develop",
         "helsingborg-stad/force-ssl": ">=1.0.0",
         "helsingborg-stad/readspeaker-helper": ">=1.0.0",
-        "helsingborg-stad/broken-link-detector": ">=1.0.0",
+        "helsingborg-stad/broken-link-detector": "dev-whitespace",
         "helsingborg-stad/customer-feedback": "dev-3.0/develop",
         "helsingborg-stad/acf-ux-collapse": ">=1.0.0",
         "helsingborg-stad/search-notices": ">=1.0.0",
@@ -94,7 +98,8 @@
         "helsingborg-stad/modularity-products": "dev-master",
 		"wpackagist-plugin/cookies-and-content-security-policy": "^2.09",
 		"helsingborg-stad/mce-table-buttons": "~3.3.1",
-        "wpackagist-plugin/translatepress-multilingual": "^2.3.9"
+        "wpackagist-plugin/translatepress-multilingual": "^2.3.9",
+        "municipio/content-insights-for-editors": "dev-master"
     },
     "extra": {
         "path": "/",
