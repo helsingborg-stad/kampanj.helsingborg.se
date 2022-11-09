@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
 
     - uses: helsingborg-stad/municipio-deploy/3.0@master
       with:
@@ -28,7 +28,7 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with: 
         repository: ${{ secrets.PAID_PLUGINS_REPO }}
         token: ${{ secrets.HBG_GH_TOKEN }}
