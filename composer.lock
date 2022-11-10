@@ -1645,12 +1645,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "1cae89fc081c447e0e69577696bc9c2585651cd1"
+                "reference": "a19441f846233a35a8b6c1409192c61fcd282f45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/1cae89fc081c447e0e69577696bc9c2585651cd1",
-                "reference": "1cae89fc081c447e0e69577696bc9c2585651cd1",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/a19441f846233a35a8b6c1409192c61fcd282f45",
+                "reference": "a19441f846233a35a8b6c1409192c61fcd282f45",
                 "shasum": ""
             },
             "require": {
@@ -1669,7 +1669,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2022-11-09T07:49:16+00:00"
+            "time": "2022-11-10T14:18:44+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -2385,12 +2385,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-form-builder.git",
-                "reference": "c6b77ea01a07a69a35117309b0a5d8297035b2e0"
+                "reference": "902a75dc16f70c0c5a4e69efdee49225862b3a5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-form-builder/zipball/c6b77ea01a07a69a35117309b0a5d8297035b2e0",
-                "reference": "c6b77ea01a07a69a35117309b0a5d8297035b2e0",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-form-builder/zipball/902a75dc16f70c0c5a4e69efdee49225862b3a5b",
+                "reference": "902a75dc16f70c0c5a4e69efdee49225862b3a5b",
                 "shasum": ""
             },
             "require": {
@@ -2422,7 +2422,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-form-builder/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-form-builder/tree/3.0/develop"
             },
-            "time": "2022-11-08T15:35:59+00:00"
+            "time": "2022-11-10T13:27:12+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-guides",
@@ -5959,15 +5959,15 @@
         },
         {
             "name": "wpackagist-plugin/autodescription",
-            "version": "4.2.6",
+            "version": "4.2.7.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/autodescription/",
-                "reference": "tags/4.2.6"
+                "reference": "tags/4.2.7.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/autodescription.4.2.6.zip"
+                "url": "https://downloads.wordpress.org/plugin/autodescription.4.2.7.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
