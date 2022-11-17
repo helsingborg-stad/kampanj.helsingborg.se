@@ -1358,12 +1358,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager-integration.git",
-                "reference": "dcf2e24748d3a740f5337dab20a3ef67311509cd"
+                "reference": "2b6a5d4a0828dc5d7179cd7a59a4f8194e7cc824"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/dcf2e24748d3a740f5337dab20a3ef67311509cd",
-                "reference": "dcf2e24748d3a740f5337dab20a3ef67311509cd",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/2b6a5d4a0828dc5d7179cd7a59a4f8194e7cc824",
+                "reference": "2b6a5d4a0828dc5d7179cd7a59a4f8194e7cc824",
                 "shasum": ""
             },
             "require": {
@@ -1388,7 +1388,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-event-manager-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-event-manager-integration/tree/3.0/develop"
             },
-            "time": "2022-11-15T10:21:43+00:00"
+            "time": "2022-11-17T13:56:50+00:00"
         },
         {
             "name": "helsingborg-stad/api-project-manager-integration",
@@ -1900,12 +1900,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/hbg-trend-omvarlds-analys-2021.git",
-                "reference": "239d89fef04ec0634216c9c6161f37369a35074a"
+                "reference": "31e419dd792f4e4afe9efa4875824646fe2e8f96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/hbg-trend-omvarlds-analys-2021/zipball/239d89fef04ec0634216c9c6161f37369a35074a",
-                "reference": "239d89fef04ec0634216c9c6161f37369a35074a",
+                "url": "https://api.github.com/repos/helsingborg-stad/hbg-trend-omvarlds-analys-2021/zipball/31e419dd792f4e4afe9efa4875824646fe2e8f96",
+                "reference": "31e419dd792f4e4afe9efa4875824646fe2e8f96",
                 "shasum": ""
             },
             "require": {
@@ -1959,7 +1959,7 @@
             "support": {
                 "source": "https://github.com/helsingborg-stad/hbg-trend-omvarlds-analys-2021/tree/main"
             },
-            "time": "2022-06-16T12:11:03+00:00"
+            "time": "2022-11-17T14:08:42+00:00"
         },
         {
             "name": "helsingborg-stad/idea-manager",
