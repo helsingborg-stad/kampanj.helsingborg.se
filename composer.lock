@@ -1807,16 +1807,16 @@
         },
         {
             "name": "helsingborg-stad/force-ssl",
-            "version": "1.0.19",
+            "version": "1.0.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/force-ssl.git",
-                "reference": "0034aea1d6c93f021b62f3794c3beeb2952e22c1"
+                "reference": "06dc4a8d3721a6935a52c7873a15445f29e61790"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/force-ssl/zipball/0034aea1d6c93f021b62f3794c3beeb2952e22c1",
-                "reference": "0034aea1d6c93f021b62f3794c3beeb2952e22c1",
+                "url": "https://api.github.com/repos/helsingborg-stad/force-ssl/zipball/06dc4a8d3721a6935a52c7873a15445f29e61790",
+                "reference": "06dc4a8d3721a6935a52c7873a15445f29e61790",
                 "shasum": ""
             },
             "require": {
@@ -1836,9 +1836,9 @@
             "description": "Force users to use ssl",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/force-ssl/issues",
-                "source": "https://github.com/helsingborg-stad/force-ssl/tree/1.0.19"
+                "source": "https://github.com/helsingborg-stad/force-ssl/tree/1.0.20"
             },
-            "time": "2017-05-26T11:57:48+00:00"
+            "time": "2022-12-13T09:17:51+00:00"
         },
         {
             "name": "helsingborg-stad/global-blade-engine",
@@ -2724,12 +2724,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "73078bd9b6ae75242d6c9a163273d56362fa726e"
+                "reference": "0c28be583b75279fcecae9007bfd5d8ae7c92eb9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/73078bd9b6ae75242d6c9a163273d56362fa726e",
-                "reference": "73078bd9b6ae75242d6c9a163273d56362fa726e",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/0c28be583b75279fcecae9007bfd5d8ae7c92eb9",
+                "reference": "0c28be583b75279fcecae9007bfd5d8ae7c92eb9",
                 "shasum": ""
             },
             "require": {
@@ -2787,7 +2787,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2022-12-12T10:02:01+00:00"
+            "time": "2022-12-13T10:44:14+00:00"
         },
         {
             "name": "helsingborg-stad/municipio-innovation-theme",
@@ -6121,15 +6121,15 @@
         },
         {
             "name": "wpackagist-plugin/translatepress-multilingual",
-            "version": "2.4.2",
+            "version": "2.4.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/translatepress-multilingual/",
-                "reference": "tags/2.4.2"
+                "reference": "tags/2.4.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/translatepress-multilingual.2.4.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/translatepress-multilingual.2.4.3.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
