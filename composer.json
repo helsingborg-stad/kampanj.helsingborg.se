@@ -91,7 +91,6 @@
         "helsingborg-stad/modularity-contact-banner": "dev-3.0/develop",
         "wpackagist-plugin/wp-sentry-integration": "^4.10",
         "helsingborg-stad/modularity-entryscape": "dev-master",
-        "helsingborg-stad/hbg-trend-omvarlds-analys-2021": "dev-main",
         "mcguffin/acf-customizer": "^0.3.0",
         "wpackagist-plugin/redis-cache": "2.0.18",
         "helsingborg-stad/recaptcha-integration": "^1.1",
