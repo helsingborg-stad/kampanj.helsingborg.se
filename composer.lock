@@ -1333,12 +1333,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-project-manager-integration.git",
-                "reference": "bdd101b2d95cf3ca78b58654ea7daaadf2003502"
+                "reference": "34ef28e99c553f46627059bb02864adf4373c1c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-integration/zipball/bdd101b2d95cf3ca78b58654ea7daaadf2003502",
-                "reference": "bdd101b2d95cf3ca78b58654ea7daaadf2003502",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-integration/zipball/34ef28e99c553f46627059bb02864adf4373c1c6",
+                "reference": "34ef28e99c553f46627059bb02864adf4373c1c6",
                 "shasum": ""
             },
             "require": {
@@ -1380,7 +1380,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-project-manager-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-project-manager-integration/tree/3.0/develop"
             },
-            "time": "2023-01-11T11:46:09+00:00"
+            "time": "2023-01-12T11:22:00+00:00"
         },
         {
             "name": "helsingborg-stad/attachment-revisions",
@@ -1582,12 +1582,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "dd81d6841840f7775e042d1c077785d47299b965"
+                "reference": "3e4b8184e5d28a2a32a6d90fbdd789953757ccfd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/dd81d6841840f7775e042d1c077785d47299b965",
-                "reference": "dd81d6841840f7775e042d1c077785d47299b965",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/3e4b8184e5d28a2a32a6d90fbdd789953757ccfd",
+                "reference": "3e4b8184e5d28a2a32a6d90fbdd789953757ccfd",
                 "shasum": ""
             },
             "require": {
@@ -1606,7 +1606,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2023-01-09T09:50:44+00:00"
+            "time": "2023-01-12T11:17:57+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
