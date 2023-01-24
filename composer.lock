@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "45d54e5768c25378a115d432ec86756d",
+    "content-hash": "5731a72e34eef1d0fe717a07094718eb",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1134,34 +1134,23 @@
         },
         {
             "name": "helsingborg-stad/api-project-manager-integration",
-            "version": "dev-3.0/develop",
+            "version": "1.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-project-manager-integration.git",
-                "reference": "da9ce1ae1cc12755e11a032e82b3ba9c375e63c8"
+                "reference": "760bedbea2f9bd6a1704845bbba570f8e0bc7521"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-integration/zipball/da9ce1ae1cc12755e11a032e82b3ba9c375e63c8",
-                "reference": "da9ce1ae1cc12755e11a032e82b3ba9c375e63c8",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-integration/zipball/760bedbea2f9bd6a1704845bbba570f8e0bc7521",
+                "reference": "760bedbea2f9bd6a1704845bbba570f8e0bc7521",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0",
                 "helsingborg-stad/acf-export-manager": ">=1.0.0"
             },
-            "require-dev": {
-                "brain/monkey": "^2.6",
-                "codedungeon/phpunit-result-printer": "^0.31.0",
-                "phpunit/phpunit": "^9.5"
-            },
-            "default-branch": true,
             "type": "wordpress-plugin",
-            "autoload": {
-                "psr-4": {
-                    "ProjectManagerIntegration\\": "source/php/"
-                }
-            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -1180,12 +1169,12 @@
                     "email": "ehsan.zilaei@helsingborg.se"
                 }
             ],
-            "description": "Imports and displays projects from Project Manager API.",
+            "description": "Manage projects",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-project-manager-integration/issues",
-                "source": "https://github.com/helsingborg-stad/api-project-manager-integration/tree/3.0/develop"
+                "source": "https://github.com/helsingborg-stad/api-project-manager-integration/tree/1.9.2"
             },
-            "time": "2023-01-23T16:09:42+00:00"
+            "time": "2022-09-22T10:55:04+00:00"
         },
         {
             "name": "helsingborg-stad/attachment-revisions",
@@ -4971,8 +4960,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "wpackagist-plugin/rest-api": 10,
-        "helsingborg-stad/api-project-manager-integration": 20
+        "wpackagist-plugin/rest-api": 10
     },
     "prefer-stable": false,
     "prefer-lowest": false,
@@ -4981,5 +4969,5 @@
     "platform-overrides": {
         "php": "7.1.33"
     },
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.0.0"
 }
