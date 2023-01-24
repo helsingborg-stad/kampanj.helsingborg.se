@@ -692,16 +692,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.281.0",
+            "version": "v0.284.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "ce774773c6e11510145ce1db4c333017298599c5"
+                "reference": "29d471cfaf0fc6f856f01dd82a89ac0fb7ac7fec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/ce774773c6e11510145ce1db4c333017298599c5",
-                "reference": "ce774773c6e11510145ce1db4c333017298599c5",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/29d471cfaf0fc6f856f01dd82a89ac0fb7ac7fec",
+                "reference": "29d471cfaf0fc6f856f01dd82a89ac0fb7ac7fec",
                 "shasum": ""
             },
             "require": {
@@ -730,9 +730,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.281.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.284.0"
             },
-            "time": "2022-12-24T01:38:12+00:00"
+            "time": "2023-01-22T01:08:15+00:00"
         },
         {
             "name": "google/auth",
@@ -1681,12 +1681,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Customer-feedback.git",
-                "reference": "8228bdc23801e8f69fefbe6ad863a8c25a412173"
+                "reference": "be796376c9d6d9cbcdcee99364342005a67264b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Customer-feedback/zipball/8228bdc23801e8f69fefbe6ad863a8c25a412173",
-                "reference": "8228bdc23801e8f69fefbe6ad863a8c25a412173",
+                "url": "https://api.github.com/repos/helsingborg-stad/Customer-feedback/zipball/be796376c9d6d9cbcdcee99364342005a67264b4",
+                "reference": "be796376c9d6d9cbcdcee99364342005a67264b4",
                 "shasum": ""
             },
             "require": {
@@ -1708,7 +1708,7 @@
                 "issues": "https://github.com/helsingborg-stad/Customer-feedback/issues",
                 "source": "https://github.com/helsingborg-stad/Customer-feedback/tree/3.0/develop"
             },
-            "time": "2022-12-08T14:45:09+00:00"
+            "time": "2023-01-19T08:19:19+00:00"
         },
         {
             "name": "helsingborg-stad/familjenhelsingborg",
@@ -2099,9 +2099,6 @@
                 "reference": "e73c3933194c29c6a4a3bd1a75a70d5827a188b3",
                 "shasum": ""
             },
-            "require": {
-                "helsingborg-stad/modularity-checklist": ">=0.0.1"
-            },
             "type": "wordpress-plugin",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -2132,9 +2129,6 @@
                 "url": "https://api.github.com/repos/helsingborg-stad/modularity-comments/zipball/80473ed50004f63f79a1ee5bc7fad5e67beb5574",
                 "reference": "80473ed50004f63f79a1ee5bc7fad5e67beb5574",
                 "shasum": ""
-            },
-            "require": {
-                "helsingborg-stad/modularity-comments": ">=0.0.1"
             },
             "type": "wordpress-plugin",
             "notification-url": "https://packagist.org/downloads/",
@@ -2594,12 +2588,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "512e429ac3825c882b422d1b57fd6e62330fdaa5"
+                "reference": "d43c047457ee0c3c4cb3ef0beac33576f2b4d8b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/512e429ac3825c882b422d1b57fd6e62330fdaa5",
-                "reference": "512e429ac3825c882b422d1b57fd6e62330fdaa5",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/d43c047457ee0c3c4cb3ef0beac33576f2b4d8b7",
+                "reference": "d43c047457ee0c3c4cb3ef0beac33576f2b4d8b7",
                 "shasum": ""
             },
             "require": {
@@ -2657,7 +2651,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2023-01-23T12:49:33+00:00"
+            "time": "2023-01-24T09:30:35+00:00"
         },
         {
             "name": "helsingborg-stad/municipio-innovation-theme",
@@ -3818,12 +3812,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/whitespace-se/content-insights-for-editors.git",
-                "reference": "3f752b66a0c71c29f9c51df751c8ee5a581e0f1a"
+                "reference": "cddb3785fa5b21d9510a6cf5e21b126532203c02"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/whitespace-se/content-insights-for-editors/zipball/3f752b66a0c71c29f9c51df751c8ee5a581e0f1a",
-                "reference": "3f752b66a0c71c29f9c51df751c8ee5a581e0f1a",
+                "url": "https://api.github.com/repos/whitespace-se/content-insights-for-editors/zipball/cddb3785fa5b21d9510a6cf5e21b126532203c02",
+                "reference": "cddb3785fa5b21d9510a6cf5e21b126532203c02",
                 "shasum": ""
             },
             "require": {
@@ -3854,20 +3848,20 @@
                 "issues": "https://github.com/whitespace-se/content-insights-for-editors/issues",
                 "source": "https://github.com/whitespace-se/content-insights-for-editors/tree/master"
             },
-            "time": "2022-08-24T11:43:30+00:00"
+            "time": "2023-01-10T12:57:21+00:00"
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.64.1",
+            "version": "2.65.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "f2e59963f4c4f4fdfb9fcfd752e8d2e2b79a4e2c"
+                "reference": "09acf64155c16dc6f580f36569ae89344e9734a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/f2e59963f4c4f4fdfb9fcfd752e8d2e2b79a4e2c",
-                "reference": "f2e59963f4c4f4fdfb9fcfd752e8d2e2b79a4e2c",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/09acf64155c16dc6f580f36569ae89344e9734a3",
+                "reference": "09acf64155c16dc6f580f36569ae89344e9734a3",
                 "shasum": ""
             },
             "require": {
@@ -3956,7 +3950,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-01T23:17:36+00:00"
+            "time": "2023-01-06T15:55:01+00:00"
         },
         {
             "name": "olssonm/identity-number",
@@ -5569,15 +5563,15 @@
         },
         {
             "name": "wpackagist-plugin/redirection",
-            "version": "5.3.6",
+            "version": "5.3.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redirection/",
-                "reference": "tags/5.3.6"
+                "reference": "tags/5.3.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redirection.5.3.6.zip"
+                "url": "https://downloads.wordpress.org/plugin/redirection.5.3.8.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5641,15 +5635,15 @@
         },
         {
             "name": "wpackagist-plugin/tablepress",
-            "version": "2.0.2",
+            "version": "2.0.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/tablepress/",
-                "reference": "tags/2.0.2"
+                "reference": "tags/2.0.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/tablepress.2.0.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/tablepress.2.0.4.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5659,15 +5653,15 @@
         },
         {
             "name": "wpackagist-plugin/translatepress-multilingual",
-            "version": "2.4.4",
+            "version": "2.4.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/translatepress-multilingual/",
-                "reference": "tags/2.4.4"
+                "reference": "tags/2.4.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/translatepress-multilingual.2.4.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/translatepress-multilingual.2.4.5.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
