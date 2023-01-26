@@ -1333,12 +1333,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-project-manager-integration.git",
-                "reference": "0974a52c5d535dc7194aa26f4828bccb4087de99"
+                "reference": "739cf5bcb44becb97805098b1a87567a9006858f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-integration/zipball/0974a52c5d535dc7194aa26f4828bccb4087de99",
-                "reference": "0974a52c5d535dc7194aa26f4828bccb4087de99",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-integration/zipball/739cf5bcb44becb97805098b1a87567a9006858f",
+                "reference": "739cf5bcb44becb97805098b1a87567a9006858f",
                 "shasum": ""
             },
             "require": {
@@ -1380,7 +1380,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-project-manager-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-project-manager-integration/tree/3.0/develop"
             },
-            "time": "2023-01-26T08:50:59+00:00"
+            "time": "2023-01-26T11:24:15+00:00"
         },
         {
             "name": "helsingborg-stad/attachment-revisions",
@@ -1582,12 +1582,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "4f2c7e3f1b7c1aa965500a315442d48a6478c758"
+                "reference": "eb44b05b4e2e10ed2b1902d36c072b0a944c4631"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/4f2c7e3f1b7c1aa965500a315442d48a6478c758",
-                "reference": "4f2c7e3f1b7c1aa965500a315442d48a6478c758",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/eb44b05b4e2e10ed2b1902d36c072b0a944c4631",
+                "reference": "eb44b05b4e2e10ed2b1902d36c072b0a944c4631",
                 "shasum": ""
             },
             "require": {
@@ -1606,7 +1606,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2023-01-26T08:31:17+00:00"
+            "time": "2023-01-26T10:30:40+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -2008,12 +2008,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "2b6605f904add16c34807bf6a9b1640defa5ab9a"
+                "reference": "d9184f507a69413752b913268aea3f6582d05ce5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/2b6605f904add16c34807bf6a9b1640defa5ab9a",
-                "reference": "2b6605f904add16c34807bf6a9b1640defa5ab9a",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/d9184f507a69413752b913268aea3f6582d05ce5",
+                "reference": "d9184f507a69413752b913268aea3f6582d05ce5",
                 "shasum": ""
             },
             "require": {
@@ -2083,7 +2083,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2023-01-26T08:04:47+00:00"
+            "time": "2023-01-26T09:30:48+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-checklist",
@@ -2098,6 +2098,9 @@
                 "url": "https://api.github.com/repos/helsingborg-stad/modularity-checklist/zipball/e73c3933194c29c6a4a3bd1a75a70d5827a188b3",
                 "reference": "e73c3933194c29c6a4a3bd1a75a70d5827a188b3",
                 "shasum": ""
+            },
+            "require": {
+                "helsingborg-stad/modularity-checklist": ">=0.0.1"
             },
             "type": "wordpress-plugin",
             "notification-url": "https://packagist.org/downloads/",
@@ -2130,6 +2133,9 @@
                 "reference": "80473ed50004f63f79a1ee5bc7fad5e67beb5574",
                 "shasum": ""
             },
+            "require": {
+                "helsingborg-stad/modularity-comments": ">=0.0.1"
+            },
             "type": "wordpress-plugin",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -2153,12 +2159,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-contact-banner.git",
-                "reference": "4b02e4449fe029e28472baa2a6f5b861a78b35eb"
+                "reference": "da54aa03da7a4f091b7d12ca3768132734b05848"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-contact-banner/zipball/4b02e4449fe029e28472baa2a6f5b861a78b35eb",
-                "reference": "4b02e4449fe029e28472baa2a6f5b861a78b35eb",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-contact-banner/zipball/da54aa03da7a4f091b7d12ca3768132734b05848",
+                "reference": "da54aa03da7a4f091b7d12ca3768132734b05848",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -2177,7 +2183,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-contact-banner/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-contact-banner/tree/3.0/develop"
             },
-            "time": "2022-10-17T08:29:07+00:00"
+            "time": "2023-01-25T08:33:31+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-dictionary",
@@ -2588,12 +2594,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "02ccbb8260955a948779cbb3e497d8fcbac47212"
+                "reference": "4ca5db18d96193f75749c01d42853ee4722e3a67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/02ccbb8260955a948779cbb3e497d8fcbac47212",
-                "reference": "02ccbb8260955a948779cbb3e497d8fcbac47212",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/4ca5db18d96193f75749c01d42853ee4722e3a67",
+                "reference": "4ca5db18d96193f75749c01d42853ee4722e3a67",
                 "shasum": ""
             },
             "require": {
@@ -2651,7 +2657,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2023-01-26T08:24:14+00:00"
+            "time": "2023-01-26T10:46:18+00:00"
         },
         {
             "name": "helsingborg-stad/municipio-innovation-theme",
@@ -5232,16 +5238,16 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v5.4.17",
+            "version": "v5.4.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "ad74890513d07060255df2575703daf971de92c7"
+                "reference": "2944bbc23f5f8da2b962fbcbf7c4a6109b2f4b7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/ad74890513d07060255df2575703daf971de92c7",
-                "reference": "ad74890513d07060255df2575703daf971de92c7",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/2944bbc23f5f8da2b962fbcbf7c4a6109b2f4b7b",
+                "reference": "2944bbc23f5f8da2b962fbcbf7c4a6109b2f4b7b",
                 "shasum": ""
             },
             "require": {
@@ -5301,7 +5307,7 @@
                 "dump"
             ],
             "support": {
-                "source": "https://github.com/symfony/var-dumper/tree/v5.4.17"
+                "source": "https://github.com/symfony/var-dumper/tree/v5.4.19"
             },
             "funding": [
                 {
@@ -5317,7 +5323,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-12-22T10:31:03+00:00"
+            "time": "2023-01-16T10:52:33+00:00"
         },
         {
             "name": "tgmpa/tgm-plugin-activation",
@@ -5563,15 +5569,15 @@
         },
         {
             "name": "wpackagist-plugin/redirection",
-            "version": "5.3.8",
+            "version": "5.3.9",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redirection/",
-                "reference": "tags/5.3.8"
+                "reference": "tags/5.3.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redirection.5.3.8.zip"
+                "url": "https://downloads.wordpress.org/plugin/redirection.5.3.9.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5653,15 +5659,15 @@
         },
         {
             "name": "wpackagist-plugin/translatepress-multilingual",
-            "version": "2.4.5",
+            "version": "2.4.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/translatepress-multilingual/",
-                "reference": "tags/2.4.5"
+                "reference": "tags/2.4.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/translatepress-multilingual.2.4.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/translatepress-multilingual.2.4.6.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5893,5 +5899,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.1.0"
 }
