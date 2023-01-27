@@ -1333,12 +1333,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-project-manager-integration.git",
-                "reference": "b3fa67e3e889c465955ee378a0d49675a1644ca4"
+                "reference": "47d034e522e97be41421b1bcb323ce3136dca1c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-integration/zipball/b3fa67e3e889c465955ee378a0d49675a1644ca4",
-                "reference": "b3fa67e3e889c465955ee378a0d49675a1644ca4",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-integration/zipball/47d034e522e97be41421b1bcb323ce3136dca1c7",
+                "reference": "47d034e522e97be41421b1bcb323ce3136dca1c7",
                 "shasum": ""
             },
             "require": {
@@ -1380,7 +1380,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-project-manager-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-project-manager-integration/tree/3.0/develop"
             },
-            "time": "2023-01-26T11:30:46+00:00"
+            "time": "2023-01-27T14:01:28+00:00"
         },
         {
             "name": "helsingborg-stad/attachment-revisions",
@@ -2594,12 +2594,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "8e07b4791b292d8639b2592f210378f3e7e7a2b7"
+                "reference": "c25d7b971a3c2a57b0a81c6121a59bdb9cfd0a54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/8e07b4791b292d8639b2592f210378f3e7e7a2b7",
-                "reference": "8e07b4791b292d8639b2592f210378f3e7e7a2b7",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/c25d7b971a3c2a57b0a81c6121a59bdb9cfd0a54",
+                "reference": "c25d7b971a3c2a57b0a81c6121a59bdb9cfd0a54",
                 "shasum": ""
             },
             "require": {
@@ -2657,7 +2657,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2023-01-26T12:09:48+00:00"
+            "time": "2023-01-27T07:34:23+00:00"
         },
         {
             "name": "helsingborg-stad/municipio-innovation-theme",
@@ -5899,5 +5899,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
