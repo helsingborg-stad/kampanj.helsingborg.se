@@ -692,16 +692,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.284.0",
+            "version": "v0.285.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "29d471cfaf0fc6f856f01dd82a89ac0fb7ac7fec"
+                "reference": "d8ffb976f4da1f83326d6d3f471162acd23ec5d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/29d471cfaf0fc6f856f01dd82a89ac0fb7ac7fec",
-                "reference": "29d471cfaf0fc6f856f01dd82a89ac0fb7ac7fec",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/d8ffb976f4da1f83326d6d3f471162acd23ec5d8",
+                "reference": "d8ffb976f4da1f83326d6d3f471162acd23ec5d8",
                 "shasum": ""
             },
             "require": {
@@ -730,22 +730,22 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.284.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.285.0"
             },
-            "time": "2023-01-22T01:08:15+00:00"
+            "time": "2023-01-29T01:28:14+00:00"
         },
         {
             "name": "google/auth",
-            "version": "v1.24.0",
+            "version": "v1.25.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-auth-library-php.git",
-                "reference": "1f8cff5aa324700d041efd2df1a0855112a2e7ae"
+                "reference": "0865c44ab50378f7b145827dfcbd1e7a238f7759"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/1f8cff5aa324700d041efd2df1a0855112a2e7ae",
-                "reference": "1f8cff5aa324700d041efd2df1a0855112a2e7ae",
+                "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/0865c44ab50378f7b145827dfcbd1e7a238f7759",
+                "reference": "0865c44ab50378f7b145827dfcbd1e7a238f7759",
                 "shasum": ""
             },
             "require": {
@@ -788,9 +788,9 @@
             "support": {
                 "docs": "https://googleapis.github.io/google-auth-library-php/main/",
                 "issues": "https://github.com/googleapis/google-auth-library-php/issues",
-                "source": "https://github.com/googleapis/google-auth-library-php/tree/v1.24.0"
+                "source": "https://github.com/googleapis/google-auth-library-php/tree/v1.25.0"
             },
-            "time": "2022-11-28T18:29:23+00:00"
+            "time": "2023-01-26T22:04:14+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -1295,12 +1295,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager-integration.git",
-                "reference": "913fcdeb6a3b8329a8c6c1ae6b6faf7be14215fa"
+                "reference": "c22e2b940ca4e72986e77cc564e487aaa8590c75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/913fcdeb6a3b8329a8c6c1ae6b6faf7be14215fa",
-                "reference": "913fcdeb6a3b8329a8c6c1ae6b6faf7be14215fa",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/c22e2b940ca4e72986e77cc564e487aaa8590c75",
+                "reference": "c22e2b940ca4e72986e77cc564e487aaa8590c75",
                 "shasum": ""
             },
             "require": {
@@ -1325,7 +1325,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-event-manager-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-event-manager-integration/tree/3.0/develop"
             },
-            "time": "2023-01-04T13:44:54+00:00"
+            "time": "2023-01-26T12:47:49+00:00"
         },
         {
             "name": "helsingborg-stad/api-project-manager-integration",
@@ -2594,12 +2594,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "c25d7b971a3c2a57b0a81c6121a59bdb9cfd0a54"
+                "reference": "814f6b41635cc81cbbeaaf094a9a9d3c73a5533d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/c25d7b971a3c2a57b0a81c6121a59bdb9cfd0a54",
-                "reference": "c25d7b971a3c2a57b0a81c6121a59bdb9cfd0a54",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/814f6b41635cc81cbbeaaf094a9a9d3c73a5533d",
+                "reference": "814f6b41635cc81cbbeaaf094a9a9d3c73a5533d",
                 "shasum": ""
             },
             "require": {
@@ -2657,7 +2657,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2023-01-27T07:34:23+00:00"
+            "time": "2023-01-31T09:24:21+00:00"
         },
         {
             "name": "helsingborg-stad/municipio-innovation-theme",
@@ -3858,16 +3858,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.65.0",
+            "version": "2.66.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "09acf64155c16dc6f580f36569ae89344e9734a3"
+                "reference": "496712849902241f04902033b0441b269effe001"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/09acf64155c16dc6f580f36569ae89344e9734a3",
-                "reference": "09acf64155c16dc6f580f36569ae89344e9734a3",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/496712849902241f04902033b0441b269effe001",
+                "reference": "496712849902241f04902033b0441b269effe001",
                 "shasum": ""
             },
             "require": {
@@ -3956,7 +3956,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-06T15:55:01+00:00"
+            "time": "2023-01-29T18:53:47+00:00"
         },
         {
             "name": "olssonm/identity-number",
@@ -5899,5 +5899,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.1.0"
 }
