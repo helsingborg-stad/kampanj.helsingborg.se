@@ -1178,16 +1178,16 @@
         },
         {
             "name": "helsingborg-stad/algolia-index",
-            "version": "1.8.9",
+            "version": "1.8.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/algolia-index.git",
-                "reference": "3e35c5dd0d65f2652002f08b223264dd379e242a"
+                "reference": "e8576d8bd02c6311dd563d2eb86cb179572778bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/algolia-index/zipball/3e35c5dd0d65f2652002f08b223264dd379e242a",
-                "reference": "3e35c5dd0d65f2652002f08b223264dd379e242a",
+                "url": "https://api.github.com/repos/helsingborg-stad/algolia-index/zipball/e8576d8bd02c6311dd563d2eb86cb179572778bd",
+                "reference": "e8576d8bd02c6311dd563d2eb86cb179572778bd",
                 "shasum": ""
             },
             "require": {
@@ -1221,9 +1221,9 @@
             "description": "Index wordpress site content to algolia.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/algolia-index/issues",
-                "source": "https://github.com/helsingborg-stad/algolia-index/tree/1.8.9"
+                "source": "https://github.com/helsingborg-stad/algolia-index/tree/1.8.10"
             },
-            "time": "2022-07-07T11:34:49+00:00"
+            "time": "2023-02-03T20:02:30+00:00"
         },
         {
             "name": "helsingborg-stad/algolia-index-js-searchpage-addon",
@@ -1582,12 +1582,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "568ecfa4b05d7ebb712e505c4111a8d97a195f1e"
+                "reference": "a2aadcfb184515e5fe9bce650ac9eb1ec9a94aef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/568ecfa4b05d7ebb712e505c4111a8d97a195f1e",
-                "reference": "568ecfa4b05d7ebb712e505c4111a8d97a195f1e",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/a2aadcfb184515e5fe9bce650ac9eb1ec9a94aef",
+                "reference": "a2aadcfb184515e5fe9bce650ac9eb1ec9a94aef",
                 "shasum": ""
             },
             "require": {
@@ -1606,7 +1606,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2023-02-02T15:16:07+00:00"
+            "time": "2023-02-09T14:05:00+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -1681,12 +1681,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Customer-feedback.git",
-                "reference": "be796376c9d6d9cbcdcee99364342005a67264b4"
+                "reference": "ee450b542ebf9319f367c73035f0dfadabae4732"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Customer-feedback/zipball/be796376c9d6d9cbcdcee99364342005a67264b4",
-                "reference": "be796376c9d6d9cbcdcee99364342005a67264b4",
+                "url": "https://api.github.com/repos/helsingborg-stad/Customer-feedback/zipball/ee450b542ebf9319f367c73035f0dfadabae4732",
+                "reference": "ee450b542ebf9319f367c73035f0dfadabae4732",
                 "shasum": ""
             },
             "require": {
@@ -1708,7 +1708,7 @@
                 "issues": "https://github.com/helsingborg-stad/Customer-feedback/issues",
                 "source": "https://github.com/helsingborg-stad/Customer-feedback/tree/3.0/develop"
             },
-            "time": "2023-01-19T08:19:19+00:00"
+            "time": "2023-02-08T09:09:13+00:00"
         },
         {
             "name": "helsingborg-stad/familjenhelsingborg",
@@ -2594,12 +2594,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "fdf2e880650f52a2722c2aa45ba80ad434fc48ac"
+                "reference": "ae93b28ce5981893b9f04f31d84fbce4e79a8f80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/fdf2e880650f52a2722c2aa45ba80ad434fc48ac",
-                "reference": "fdf2e880650f52a2722c2aa45ba80ad434fc48ac",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/ae93b28ce5981893b9f04f31d84fbce4e79a8f80",
+                "reference": "ae93b28ce5981893b9f04f31d84fbce4e79a8f80",
                 "shasum": ""
             },
             "require": {
@@ -2657,7 +2657,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2023-02-07T14:33:38+00:00"
+            "time": "2023-02-07T14:48:04+00:00"
         },
         {
             "name": "helsingborg-stad/municipio-innovation-theme",
@@ -5533,15 +5533,15 @@
         },
         {
             "name": "wpackagist-plugin/kirki",
-            "version": "4.0.24",
+            "version": "4.1.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/kirki/",
-                "reference": "tags/4.0.24"
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/kirki.4.0.24.zip"
+                "url": "https://downloads.wordpress.org/plugin/kirki.zip?timestamp=1675871409"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5659,15 +5659,15 @@
         },
         {
             "name": "wpackagist-plugin/translatepress-multilingual",
-            "version": "2.4.6",
+            "version": "2.4.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/translatepress-multilingual/",
-                "reference": "tags/2.4.6"
+                "reference": "tags/2.4.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/translatepress-multilingual.2.4.6.zip"
+                "url": "https://downloads.wordpress.org/plugin/translatepress-multilingual.2.4.7.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
