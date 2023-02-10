@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7ff475b499fc455574f2b2c695a95734",
+    "content-hash": "e5dffa3dca11d2e729a54ed8ef2d477e",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -2523,22 +2523,24 @@
         },
         {
             "name": "helsingborg-stad/modularity-timeline",
-            "version": "1.1.5",
+            "version": "dev-3.0/master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-timeline.git",
-                "reference": "45dcc9360110d1148f534b49a46543f205d46d0b"
+                "reference": "50364c9ff280a5e8284e772973a282b84d5b2b46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-timeline/zipball/45dcc9360110d1148f534b49a46543f205d46d0b",
-                "reference": "45dcc9360110d1148f534b49a46543f205d46d0b",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-timeline/zipball/50364c9ff280a5e8284e772973a282b84d5b2b46",
+                "reference": "50364c9ff280a5e8284e772973a282b84d5b2b46",
                 "shasum": ""
             },
-            "require": {
-                "helsingborg-stad/acf-export-manager": ">=1.0.0"
-            },
             "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "ModularityTimeline\\": "source/php/"
+                }
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -2552,9 +2554,9 @@
             "description": "A module to display a timeline.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/modularity-timeline/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-timeline/tree/1.1.5"
+                "source": "https://github.com/helsingborg-stad/modularity-timeline/tree/3.0/master"
             },
-            "time": "2019-08-15T11:44:38+00:00"
+            "time": "2022-06-30T08:07:14+00:00"
         },
         {
             "name": "helsingborg-stad/multisite-role-propagation",
@@ -2594,12 +2596,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "ae93b28ce5981893b9f04f31d84fbce4e79a8f80"
+                "reference": "8ab4f1760173e0e7f59c2cba3a28f312e579d5ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/ae93b28ce5981893b9f04f31d84fbce4e79a8f80",
-                "reference": "ae93b28ce5981893b9f04f31d84fbce4e79a8f80",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/8ab4f1760173e0e7f59c2cba3a28f312e579d5ee",
+                "reference": "8ab4f1760173e0e7f59c2cba3a28f312e579d5ee",
                 "shasum": ""
             },
             "require": {
@@ -2657,7 +2659,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2023-02-07T14:48:04+00:00"
+            "time": "2023-02-10T08:52:19+00:00"
         },
         {
             "name": "helsingborg-stad/municipio-innovation-theme",
@@ -5884,6 +5886,7 @@
         "helsingborg-stad/broken-link-detector": 20,
         "helsingborg-stad/customer-feedback": 20,
         "helsingborg-stad/api-event-manager-integration": 20,
+        "helsingborg-stad/modularity-timeline": 20,
         "helsingborg-stad/modularity-form-builder": 20,
         "helsingborg-stad/modularity-sections": 20,
         "helsingborg-stad/modularity-json-render": 20,
