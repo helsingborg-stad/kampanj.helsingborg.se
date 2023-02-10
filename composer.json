@@ -98,7 +98,8 @@
 		"wpackagist-plugin/cookies-and-content-security-policy": "^2.09",
 		"helsingborg-stad/mce-table-buttons": "~3.3.1",
         "wpackagist-plugin/translatepress-multilingual": "^2.3.9",
-        "municipio/content-insights-for-editors": "dev-master"
+        "municipio/content-insights-for-editors": "dev-master",
+        "helsingborg-stad/modularity-local-events": "^1.0"
     },
     "extra": {
         "path": "/",

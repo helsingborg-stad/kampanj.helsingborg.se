@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e5dffa3dca11d2e729a54ed8ef2d477e",
+    "content-hash": "0790467b42be64ab902d5a2f3af4e5b1",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -2363,6 +2363,38 @@
                 "source": "https://github.com/helsingborg-stad/modularity-json-render/tree/3.0/develop"
             },
             "time": "2022-11-01T10:15:26+00:00"
+        },
+        {
+            "name": "helsingborg-stad/modularity-local-events",
+            "version": "v1.0.17",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/modularity-local-events.git",
+                "reference": "4c29ed1bdec9322b5ba4c6b769b8c0f47107d49e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-local-events/zipball/4c29ed1bdec9322b5ba4c6b769b8c0f47107d49e",
+                "reference": "4c29ed1bdec9322b5ba4c6b769b8c0f47107d49e",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Eric Rosenborg",
+                    "email": "eric.rosenborg@helsingborg.se"
+                }
+            ],
+            "description": "Local events",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/modularity-local-events/issues",
+                "source": "https://github.com/helsingborg-stad/modularity-local-events/tree/v1.0.17"
+            },
+            "time": "2022-11-09T13:29:56+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-login-form",
