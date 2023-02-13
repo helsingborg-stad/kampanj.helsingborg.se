@@ -1178,16 +1178,16 @@
         },
         {
             "name": "helsingborg-stad/algolia-index",
-            "version": "1.8.10",
+            "version": "1.8.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/algolia-index.git",
-                "reference": "e8576d8bd02c6311dd563d2eb86cb179572778bd"
+                "reference": "12baab27f33b41aed38e6d247709c13fd6dc91a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/algolia-index/zipball/e8576d8bd02c6311dd563d2eb86cb179572778bd",
-                "reference": "e8576d8bd02c6311dd563d2eb86cb179572778bd",
+                "url": "https://api.github.com/repos/helsingborg-stad/algolia-index/zipball/12baab27f33b41aed38e6d247709c13fd6dc91a1",
+                "reference": "12baab27f33b41aed38e6d247709c13fd6dc91a1",
                 "shasum": ""
             },
             "require": {
@@ -1221,9 +1221,9 @@
             "description": "Index wordpress site content to algolia.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/algolia-index/issues",
-                "source": "https://github.com/helsingborg-stad/algolia-index/tree/1.8.10"
+                "source": "https://github.com/helsingborg-stad/algolia-index/tree/1.8.11"
             },
-            "time": "2023-02-03T20:02:30+00:00"
+            "time": "2023-02-13T12:45:51+00:00"
         },
         {
             "name": "helsingborg-stad/algolia-index-js-searchpage-addon",
