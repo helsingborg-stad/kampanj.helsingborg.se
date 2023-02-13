@@ -692,16 +692,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.286.0",
+            "version": "v0.287.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "4a00eb9803e01f97d96e49fd82dbb03802610def"
+                "reference": "ed58596d34272a5cd0dc2c0595d9a678b9834880"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/4a00eb9803e01f97d96e49fd82dbb03802610def",
-                "reference": "4a00eb9803e01f97d96e49fd82dbb03802610def",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/ed58596d34272a5cd0dc2c0595d9a678b9834880",
+                "reference": "ed58596d34272a5cd0dc2c0595d9a678b9834880",
                 "shasum": ""
             },
             "require": {
@@ -730,9 +730,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.286.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.287.0"
             },
-            "time": "2023-02-05T01:20:11+00:00"
+            "time": "2023-02-12T01:08:11+00:00"
         },
         {
             "name": "google/auth",
@@ -1582,12 +1582,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "a2aadcfb184515e5fe9bce650ac9eb1ec9a94aef"
+                "reference": "632353a6eba91ea8a844bf768e98504dc28933b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/a2aadcfb184515e5fe9bce650ac9eb1ec9a94aef",
-                "reference": "a2aadcfb184515e5fe9bce650ac9eb1ec9a94aef",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/632353a6eba91ea8a844bf768e98504dc28933b7",
+                "reference": "632353a6eba91ea8a844bf768e98504dc28933b7",
                 "shasum": ""
             },
             "require": {
@@ -1606,7 +1606,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2023-02-09T14:05:00+00:00"
+            "time": "2023-02-13T07:54:38+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
