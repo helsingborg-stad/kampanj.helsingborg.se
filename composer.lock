@@ -2636,12 +2636,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "5219de1dbfd8ecad222e4166f8251e6dc04ae64d"
+                "reference": "6e53aa8c82b05aaabe7feb37fe7637eb0a98ee4d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/5219de1dbfd8ecad222e4166f8251e6dc04ae64d",
-                "reference": "5219de1dbfd8ecad222e4166f8251e6dc04ae64d",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/6e53aa8c82b05aaabe7feb37fe7637eb0a98ee4d",
+                "reference": "6e53aa8c82b05aaabe7feb37fe7637eb0a98ee4d",
                 "shasum": ""
             },
             "require": {
@@ -2704,7 +2704,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2023-03-14T12:05:10+00:00"
+            "time": "2023-03-14T12:54:41+00:00"
         },
         {
             "name": "helsingborg-stad/municipio-innovation-theme",
