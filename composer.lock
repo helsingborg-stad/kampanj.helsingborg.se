@@ -2636,12 +2636,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "b3c2b72aae7852917736ab3c0d307fe7df06cd96"
+                "reference": "70dabc42b4a3dd86f9c23eb7862d15e555fed8b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/b3c2b72aae7852917736ab3c0d307fe7df06cd96",
-                "reference": "b3c2b72aae7852917736ab3c0d307fe7df06cd96",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/70dabc42b4a3dd86f9c23eb7862d15e555fed8b0",
+                "reference": "70dabc42b4a3dd86f9c23eb7862d15e555fed8b0",
                 "shasum": ""
             },
             "require": {
@@ -2674,7 +2674,7 @@
             "require-dev": {
                 "phpunit/phpunit": "9.6.x-dev",
                 "spatie/phpunit-watcher": "*",
-                "yoast/phpunit-polyfills": "1.x-dev"
+                "yoast/phpunit-polyfills": "^1.0.4"
             },
             "default-branch": true,
             "type": "wordpress-theme",
@@ -2704,7 +2704,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2023-03-15T13:26:14+00:00"
+            "time": "2023-03-15T17:17:52+00:00"
         },
         {
             "name": "helsingborg-stad/municipio-innovation-theme",
