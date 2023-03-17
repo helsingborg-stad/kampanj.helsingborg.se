@@ -100,7 +100,8 @@
         "wpackagist-plugin/translatepress-multilingual": "^2.3.9",
         "municipio/content-insights-for-editors": "dev-master",
         "helsingborg-stad/modularity-local-events": "^1.0",
-        "helsingborg-stad/wp-page-for-term": "^1.0"
+        "helsingborg-stad/wp-page-for-term": "^1.0",
+        "helsingborg-stad/modularity-testimonials": "^1.2"
     },
     "extra": {
         "path": "/",

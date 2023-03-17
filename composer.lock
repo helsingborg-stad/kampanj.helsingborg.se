@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e56ae5935dc94e73dad0545bea3b02fa",
+    "content-hash": "69ff6ed90314946e4579b05f8bd3f48c",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -476,12 +476,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/darylldoyle/svg-sanitizer.git",
-                "reference": "2321a914efa926f9cb93150864b00f4528d65d16"
+                "reference": "fcb10764b1424aaa05bc9d86fc954c415b1ce8c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/darylldoyle/svg-sanitizer/zipball/2321a914efa926f9cb93150864b00f4528d65d16",
-                "reference": "2321a914efa926f9cb93150864b00f4528d65d16",
+                "url": "https://api.github.com/repos/darylldoyle/svg-sanitizer/zipball/fcb10764b1424aaa05bc9d86fc954c415b1ce8c2",
+                "reference": "fcb10764b1424aaa05bc9d86fc954c415b1ce8c2",
                 "shasum": ""
             },
             "require": {
@@ -514,7 +514,7 @@
                 "issues": "https://github.com/darylldoyle/svg-sanitizer/issues",
                 "source": "https://github.com/darylldoyle/svg-sanitizer/tree/master"
             },
-            "time": "2022-11-21T09:30:09+00:00"
+            "time": "2023-03-17T10:30:33+00:00"
         },
         {
             "name": "firebase/php-jwt",
@@ -1245,12 +1245,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager-integration.git",
-                "reference": "91f2e742ac275a6a33b9ee0788b02f6626053b09"
+                "reference": "1c5e1377ae5697c5b1c867a882a4b28e8e9b46d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/91f2e742ac275a6a33b9ee0788b02f6626053b09",
-                "reference": "91f2e742ac275a6a33b9ee0788b02f6626053b09",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/1c5e1377ae5697c5b1c867a882a4b28e8e9b46d7",
+                "reference": "1c5e1377ae5697c5b1c867a882a4b28e8e9b46d7",
                 "shasum": ""
             },
             "require": {
@@ -1276,7 +1276,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-event-manager-integration/issues",
                 "source": "https://github.com/helsingborg-stad/api-event-manager-integration/tree/3.0/develop"
             },
-            "time": "2023-02-13T14:55:30+00:00"
+            "time": "2023-03-16T12:06:53+00:00"
         },
         {
             "name": "helsingborg-stad/api-project-manager-integration",
@@ -1584,12 +1584,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "6356e493546af8cf11468d284a5d81f6750f8bdb"
+                "reference": "5309462675683a8e5a94eb2f3a3a114e5567bf79"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/6356e493546af8cf11468d284a5d81f6750f8bdb",
-                "reference": "6356e493546af8cf11468d284a5d81f6750f8bdb",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/5309462675683a8e5a94eb2f3a3a114e5567bf79",
+                "reference": "5309462675683a8e5a94eb2f3a3a114e5567bf79",
                 "shasum": ""
             },
             "require": {
@@ -1608,7 +1608,7 @@
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
                 "source": "https://github.com/helsingborg-stad/component-library/tree/master"
             },
-            "time": "2023-03-15T12:46:58+00:00"
+            "time": "2023-03-16T12:31:46+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -2011,12 +2011,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "94cce4e13f305607f25a15256a2105d9914f3921"
+                "reference": "7a0f97e281f7f90407a0796ffa6454ebd68d9f43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/94cce4e13f305607f25a15256a2105d9914f3921",
-                "reference": "94cce4e13f305607f25a15256a2105d9914f3921",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/7a0f97e281f7f90407a0796ffa6454ebd68d9f43",
+                "reference": "7a0f97e281f7f90407a0796ffa6454ebd68d9f43",
                 "shasum": ""
             },
             "require": {
@@ -2086,7 +2086,7 @@
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
             },
-            "time": "2023-03-15T09:52:45+00:00"
+            "time": "2023-03-16T13:59:49+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-checklist",
@@ -2527,12 +2527,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-sections.git",
-                "reference": "4356715065e4660b38e24b623f88e7b1780156ea"
+                "reference": "efc3f903f75636a8636b8e4b1d3e77e6eae37cbb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-sections/zipball/4356715065e4660b38e24b623f88e7b1780156ea",
-                "reference": "4356715065e4660b38e24b623f88e7b1780156ea",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-sections/zipball/efc3f903f75636a8636b8e4b1d3e77e6eae37cbb",
+                "reference": "efc3f903f75636a8636b8e4b1d3e77e6eae37cbb",
                 "shasum": ""
             },
             "require": {
@@ -2558,7 +2558,41 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-sections/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-sections/tree/3.0/develop"
             },
-            "time": "2023-03-02T10:45:42+00:00"
+            "time": "2023-03-16T12:07:54+00:00"
+        },
+        {
+            "name": "helsingborg-stad/modularity-testimonials",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/modularity-testimonials.git",
+                "reference": "73f0244c376d4867d7f67e9372013ebe8faa0d6d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-testimonials/zipball/73f0244c376d4867d7f67e9372013ebe8faa0d6d",
+                "reference": "73f0244c376d4867d7f67e9372013ebe8faa0d6d",
+                "shasum": ""
+            },
+            "require": {
+                "helsingborg-stad/modularity-testimonials": ">=0.0.1"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nikolas Ramstedt",
+                    "email": "nikolas.ramstedt@helsingborg.se"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/modularity-testimonials/issues",
+                "source": "https://github.com/helsingborg-stad/modularity-testimonials/tree/1.2.0"
+            },
+            "time": "2017-12-01T10:13:10+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-timeline",
@@ -2636,12 +2670,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "70dabc42b4a3dd86f9c23eb7862d15e555fed8b0"
+                "reference": "1a9f56bb9c7fb1894744d31a4fd3da1a5da59f2b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/70dabc42b4a3dd86f9c23eb7862d15e555fed8b0",
-                "reference": "70dabc42b4a3dd86f9c23eb7862d15e555fed8b0",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/1a9f56bb9c7fb1894744d31a4fd3da1a5da59f2b",
+                "reference": "1a9f56bb9c7fb1894744d31a4fd3da1a5da59f2b",
                 "shasum": ""
             },
             "require": {
@@ -2704,7 +2738,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2023-03-15T17:17:52+00:00"
+            "time": "2023-03-16T12:23:42+00:00"
         },
         {
             "name": "helsingborg-stad/municipio-innovation-theme",
