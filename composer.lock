@@ -1133,16 +1133,16 @@
         },
         {
             "name": "helsingborg-stad/acf-export-manager",
-            "version": "1.0.11",
+            "version": "1.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/acf-export-manager.git",
-                "reference": "27e904a24eb013cac5c8f3d3c30e88b5b9b7859b"
+                "reference": "9e1b282460cebf68ec4d83cd3c11d8fe7e3612fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/acf-export-manager/zipball/27e904a24eb013cac5c8f3d3c30e88b5b9b7859b",
-                "reference": "27e904a24eb013cac5c8f3d3c30e88b5b9b7859b",
+                "url": "https://api.github.com/repos/helsingborg-stad/acf-export-manager/zipball/9e1b282460cebf68ec4d83cd3c11d8fe7e3612fd",
+                "reference": "9e1b282460cebf68ec4d83cd3c11d8fe7e3612fd",
                 "shasum": ""
             },
             "type": "library",
@@ -1164,9 +1164,9 @@
             "description": "ACF Export Manager is a extension that let's you automatically export specified your ACF fields on save.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/acf-export-manager/issues",
-                "source": "https://github.com/helsingborg-stad/acf-export-manager/tree/master"
+                "source": "https://github.com/helsingborg-stad/acf-export-manager/tree/1.0.12"
             },
-            "time": "2018-05-29T07:52:24+00:00"
+            "time": "2023-05-25T07:56:58+00:00"
         },
         {
             "name": "helsingborg-stad/acf-ux-collapse",
@@ -2835,12 +2835,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "6ed455a2f1635ca345de70f1bb67e0e237614403"
+                "reference": "373923b63ae84c929772a86d12b5d7026e13e953"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/6ed455a2f1635ca345de70f1bb67e0e237614403",
-                "reference": "6ed455a2f1635ca345de70f1bb67e0e237614403",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/373923b63ae84c929772a86d12b5d7026e13e953",
+                "reference": "373923b63ae84c929772a86d12b5d7026e13e953",
                 "shasum": ""
             },
             "require": {
@@ -2905,7 +2905,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2023-05-22T08:07:47+00:00"
+            "time": "2023-05-22T09:23:18+00:00"
         },
         {
             "name": "helsingborg-stad/municipio-innovation-theme",
